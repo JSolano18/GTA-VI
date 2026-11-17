@@ -27,7 +27,7 @@ El juego aún no ha salido mientras se preparan estos videos, así que ninguno i
 ## Notas
 
 - El mapa del video 06 es un esquema propio y simplificado, no el mapa oficial. Las posiciones son aproximadas.
-- Los personajes salen como siluetas genéricas: no se usa arte de Rockstar.
+- Video 07: Jason y Lucia salen con arte oficial de Rockstar (web oficial de GTA VI, con crédito "Imagen: Rockstar Games" en pantalla). Es práctica habitual en canales de noticias, pero Rockstar/Take-Two podría reclamarlo; en ese caso YouTube suele avisar o bloquear el video, no el canal. El resto de videos usa solo arte original.
 - La voz es sintética (Kokoro TTS, licencia Apache 2.0). Márcalo como contenido sintético al subir.
 - La música es original, generada por código: no hay riesgo de Content ID.
 - Fuentes tipográficas: Anton, Bebas Neue y Montserrat (SIL Open Font License).

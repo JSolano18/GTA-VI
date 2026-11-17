@@ -173,8 +173,22 @@ def L_map(s, dur):
 
 def L_chars(s, dur):
     els = []
-    sil = V.silhouette(760, PINK if "LUCIA" in s["name"] else CYAN)
-    els.append(E(sil, 120, 1080 - 760 - 120, 0.0, "up", d=0.6))
+    acc = PINK if "LUCIA" in s["name"] else CYAN
+    if s.get("img"):  # arte oficial de Rockstar en un marco de neón
+        f_, (cx, cy), ch = s["img"]
+        src = Image.open(os.path.join(V.ROOT, "assets", "oficial", f_ + ".jpg")).convert("RGB")
+        cw = int(ch * 600 / 720)
+        y0 = max(0, cy - ch // 2)
+        pic = src.crop((cx - cw // 2, y0, cx + cw // 2, y0 + ch)).resize((600, 720), Image.LANCZOS)
+        card = panel(640, 760, accent=acc, alpha=255)
+        m = Image.new("L", (600, 720), 0); ImageDraw.Draw(m).rounded_rectangle([0, 0, 599, 719], 18, fill=255)
+        card.paste(pic, (20, 20), m)
+        cr = text_img("Imagen: Rockstar Games", font("semi", 20), stroke=2, pad=6)
+        card.alpha_composite(cr, (640 - cr.size[0] - 30, 760 - cr.size[1] - 28))
+        els.append(E(card, 110, 140, 0.0, "up", d=0.6))
+    else:
+        sil = V.silhouette(760, acc)
+        els.append(E(sil, 120, 1080 - 760 - 120, 0.0, "up", d=0.6))
     r = badge(s["role"].upper(), font("black", 42), bg=PINK)
     els.append(E(r, 820, 190, 0.2, "left", sfx="pop"))
     y = 260
