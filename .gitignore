@@ -2,3 +2,4 @@ output/*/_work/
 output/log-*.txt
 output/render_all.log
 __pycache__/
+output/shorts/*/_work/
