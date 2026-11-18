@@ -81,6 +81,102 @@ SHORTS = [
  ]},
 ]
 
+# ================================================================== tanda 2: primeras impresiones (18/11)
+FUENTES = ("Fuentes: reseñas de Kotaku, Forbes, GamesRadar, Vice, TheSixthAxis, Wccftech y Cultured Vultures; "
+           "NZ Herald y Newsweek sobre los primeros jugadores en Nueva Zelanda.")
+SHORTS += [
+{"slug": "s4-ya-salio", "seed": 31,
+ "title": "GTA 6 YA SALIÓ: esto dicen los primeros que lo juegan 🔥 #gta6 #shorts",
+ "desc": "GTA 6 ya se está jugando en Nueva Zelanda. Esto dicen los primeros jugadores y las primeras reseñas.\n\n" + FUENTES,
+ "tags": ["gta 6", "gta 6 ya salio", "gta 6 nueva zelanda", "gta 6 metacritic", "gta 6 primeras impresiones", "shorts"],
+ "scenes": [
+  {"img": "Vice_City_27", "fx": 0.5, "head": "GTA 6 YA SE ESTÁ JUGANDO",
+   "say": "GTA 6 ya salió en Nueva Zelanda, y los primeros jugadores ya están en Leonida. Esto es lo que dicen."},
+  {"img": "Jason_and_Lucia_16", "fx": 0.45, "head": "UN FESTÍN VISUAL",
+   "say": "Lo primero que comentan son los gráficos. Un streamer neozelandés lo llamó un festín para los ojos."},
+  {"img": "Jason_Duval_19", "fx": 0.84, "head": "CONDUCIR SE SIENTE BRUTAL",
+   "say": "Lo segundo, la conducción. Dicen que los coches se sienten muy suaves, tanto en la carretera como en la arena de la playa."},
+  {"img": "Vice_City_15", "fx": 0.5, "head": "LA CRÍTICA, RENDIDA", "big": "99", "label": "METACRITIC",
+   "say": "Y la crítica está de acuerdo. En sus primeras horas, GTA 6 llegó a noventa y nueve en Metacritic, empatando el récord histórico de Zelda Ocarina of Time."},
+  {"img": "Jason_and_Lucia_20", "fx": 0.45, "head": "OJO CON EL TRUCO", "chip": "CAMBIAR LA REGIÓN A NUEVA ZELANDA",
+   "say": "Ojo: mucha gente está jugando antes cambiando su región a Nueva Zelanda. Las condiciones de PlayStation no lo permiten, y te arriesgas a una sanción."},
+  {"img": "Jason_and_Lucia_18", "fx": 0.62, "head": "¿LO JUEGAS ESTA NOCHE?",
+   "say": "En América se desbloquea esta noche, a tu medianoche. ¿Lo vas a jugar en cuanto salga? Sígueme para más."},
+ ]},
+{"slug": "s5-como-se-juega", "seed": 32,
+ "title": "¿Cómo se SIENTE jugar GTA 6? Conducción y disparos 🎮 #gta6 #shorts",
+ "desc": "Cómo se conduce y cómo se dispara en GTA 6, según las primeras reseñas y los que ya lo están jugando.\n\n" + FUENTES,
+ "tags": ["gta 6", "gta 6 gameplay", "gta 6 conduccion", "gta 6 disparos", "como se juega gta 6", "shorts"],
+ "scenes": [
+  {"img": "Jason_Duval_17", "fx": 0.45, "head": "¿CÓMO SE JUEGA GTA 6?",
+   "say": "¿Cómo se siente jugar GTA 6? Junté lo que dicen las primeras reseñas y los que ya lo están jugando."},
+  {"img": "Jason_Duval_19", "fx": 0.84, "head": "CONDUCCIÓN", "chip": "ENTRE GTA IV Y GTA V",
+   "say": "La conducción está entre GTA cuatro y GTA cinco. Los coches tienen más peso, más física y más daños, pero son menos difíciles que en GTA cuatro."},
+  {"img": "Vice_City_24", "fx": 0.33, "head": "UNA APP PARA ROBAR COCHES",
+   "say": "Y en el teléfono hay una app que escanea los coches, para saber cuáles son más fáciles de robar."},
+  {"img": "Jason_Duval_16", "fx": 0.5, "head": "DISPAROS", "chip": "HAY QUE APUNTAR DE VERDAD",
+   "say": "En los tiroteos, se acabó cubrirte y acertar casi sin apuntar. Aquí tienes que apuntar de verdad, y cada arma se siente distinta."},
+  {"img": "Lucia_Caminos_13", "fx": 0.45, "head": "LO QUE CUESTA",
+   "say": "Eso sí, varias reseñas dicen que las automáticas son más difíciles de controlar, y que el cuerpo a cuerpo se siente algo rígido."},
+  {"img": "Jason_and_Lucia_17", "fx": 0.5, "head": "MÁS REALISTA QUE GTA 5",
+   "say": "En resumen: más realista y con más peso que GTA cinco. Al principio cuesta un poco, pero luego engancha. Sígueme para más."},
+ ]},
+{"slug": "s6-policia", "seed": 33,
+ "title": "La POLICÍA de GTA 6 es otro nivel 🚨 #gta6 #shorts",
+ "desc": "Así funciona la policía en GTA 6: testigos, cámaras, tu descripción y hasta 6 estrellas. Y cómo evitar que te reconozcan.\n\n" + FUENTES,
+ "tags": ["gta 6", "gta 6 policia", "gta 6 estrellas", "gta 6 wanted", "gta 6 trucos", "shorts"],
+ "scenes": [
+  {"img": "Jason_Duval_18", "fx": 0.55, "head": "LA POLICÍA YA NO ES TONTA",
+   "say": "La policía de GTA 6 no funciona como en GTA cinco. Si no sabes esto, te van a atrapar enseguida."},
+  {"img": "Lucia_Caminos_14", "fx": 0.55, "head": "NECESITAN TESTIGOS",
+   "say": "Para empezar, un crimen solo se denuncia si alguien lo ve, si salta una alarma o si te graba una cámara de seguridad."},
+  {"img": "Vice_City_22", "fx": 0.5, "head": "LLEGAN CON TU DESCRIPCIÓN", "chip": "CARA · ROPA · COCHE",
+   "say": "Y los policías llegan con tu descripción: tu cara, tu ropa, tu coche, e incluso el aspecto de tu pareja."},
+  {"img": "Jason_and_Lucia_15", "fx": 0.45, "head": "EL TRUCO: TÁPATE",
+   "say": "El truco: tapa tu cara con máscaras, gorras o bandanas, y cambia de ropa y de coche. Y no lleves el arma a la vista, porque eso también levanta sospechas."},
+  {"img": "Jason_Duval_11", "fx": 0.5, "head": "VUELVEN LAS", "big": "6", "label": "ESTRELLAS DE BÚSQUEDA",
+   "say": "Y vuelven las seis estrellas. Algunas reseñas dicen que la presión policial puede llegar a agobiar."},
+  {"img": "Vice_City_17", "fx": 0.5, "head": "¿YA TE ESCAPASTE?",
+   "say": "¿Ya te escapaste de la policía en Leonida? Cuéntame cómo en los comentarios."},
+ ]},
+{"slug": "s7-novedades", "seed": 34,
+ "title": "5 cosas NUEVAS de GTA 6 que no había en GTA 5 🆕 #gta6 #shorts",
+ "desc": "Cinco novedades de GTA 6 confirmadas por las primeras reseñas: pareja, perfil criminal, robos, redes sociales y reintentos.\n\n" + FUENTES,
+ "tags": ["gta 6", "gta 6 novedades", "gta 6 vs gta 5", "gta 6 perfil criminal", "gta 6 nuevo", "shorts"],
+ "scenes": [
+  {"img": "Jason_and_Lucia_16", "fx": 0.45, "head": "5 COSAS NUEVAS DE GTA 6",
+   "say": "Cinco cosas nuevas de GTA 6 que no existían en GTA cinco."},
+  {"img": "Jason_and_Lucia_20", "fx": 0.4, "head": "1. TU PAREJA",
+   "say": "Una: tu pareja. Con el gatillo izquierdo ya no solo apuntas, también puedes tomarla de la mano. Y por el teléfono le puedes escribir y llamar."},
+  {"img": "Jason_Duval_12", "fx": 0.55, "head": "2. PERFIL CRIMINAL",
+   "say": "Dos: el perfil criminal. El juego registra si eres compasivo y dejas a la gente inconsciente, o si eres un asesino a sangre fría."},
+  {"img": "Jason_and_Lucia_15", "fx": 0.45, "head": "3. ROBOS CON PLAN",
+   "say": "Tres: robar una tienda es mucho más elaborado, y puedes hacer reconocimiento antes de entrar."},
+  {"img": "Lucia_Caminos_11", "fx": 0.6, "head": "4. RED SOCIAL",
+   "say": "Cuatro: en el teléfono hay una red social al estilo Instagram."},
+  {"img": "Jason_Duval_13", "fx": 0.5, "head": "5. REINTENTAR", "chip": "DESDE EL ÚLTIMO PUNTO DE CONTROL",
+   "say": "Y cinco: ahora puedes reiniciar una misión tú mismo desde el último punto de control. ¿Cuál te gusta más? Sígueme para más."},
+ ]},
+{"slug": "s8-lo-malo", "seed": 35,
+ "title": "Lo MALO de GTA 6 (según las reseñas) 😬 #gta6 #shorts",
+ "desc": "GTA 6 tiene un 99 en Metacritic, pero no es perfecto: 30 fps, un arranque lento, mucho realismo y un cuerpo a cuerpo rígido.\n\n" + FUENTES,
+ "tags": ["gta 6", "gta 6 review", "gta 6 30 fps", "gta 6 malo", "gta 6 criticas", "shorts"],
+ "scenes": [
+  {"img": "Jason_Duval_14", "fx": 0.55, "head": "LO MALO DE GTA 6",
+   "say": "GTA 6 tiene un noventa y nueve en Metacritic, pero no es perfecto. Esto es lo que critican las reseñas."},
+  {"img": "Jason_Duval_11", "fx": 0.5, "head": "1. RENDIMIENTO", "big": "30 FPS", "label": "INCLUSO EN PS5 PRO",
+   "say": "Uno: va a treinta cuadros por segundo, incluso en PS5 Pro, y no hay modo de sesenta. En la PS5 normal, algunas reseñas notan bajones en las persecuciones."},
+  {"img": "Grassrivers_08", "fx": 0.5, "head": "2. EMPIEZA LENTO",
+   "say": "Dos: el ritmo. Las primeras horas son lentas, y la historia se toma su tiempo para arrancar."},
+  {"img": "Jason_Duval_15", "fx": 0.5, "head": "3. MUY REALISTA", "chip": "COCHES FRÁGILES · FACTURAS · RUTINAS",
+   "say": "Tres: el realismo. Coches más frágiles, facturas de reparación y tareas diarias. Si vienes directo de GTA cinco, cuesta acostumbrarse."},
+  {"img": "Jason_Duval_12", "fx": 0.55, "head": "4. CUERPO A CUERPO",
+   "say": "Y cuatro: algunas reseñas dicen que las peleas cuerpo a cuerpo se sienten rígidas."},
+  {"img": "Jason_and_Lucia_17", "fx": 0.5, "head": "¿IMPORTA?",
+   "say": "¿Importa? Para la mayoría, no: aun así, es uno de los juegos mejor valorados de la historia. ¿A ti qué te molesta más? Te leo."},
+ ]},
+]
+
 def ease(p):
     p = max(0.0, min(1.0, p)); return 1 - (1 - p) ** 3
 
@@ -164,7 +260,7 @@ def scene_layers(s):
 def build(slug):
     sh = next(x for x in SHORTS if x["slug"] == slug)
     od = os.path.join(OUT, slug); wk = os.path.join(od, "_work"); os.makedirs(wk, exist_ok=True)
-    A.SPEED = 1.14
+    A.SPEED = 1.06
     tl, t = [], 0.0
     for i, s in enumerate(sh["scenes"]):
         wav = os.path.join(wk, f"vo_{i:02}.wav")
@@ -192,7 +288,8 @@ def build(slug):
     for e in tl[1:]:
         a = int(max(0, e["start"] - 0.18) * A.SR); sfx[a:a + len(wh)] += wh[: n - a]
     mix = np.clip(voice + mus + sfx * 0.8, -1, 1)
-    mw = os.path.join(wk, "mix.wav"); sf.write(mw, mix, A.SR)
+    raw = os.path.join(wk, "mix_raw.wav"); sf.write(raw, mix, A.SR)
+    mw = os.path.join(wk, "mix.wav"); A.master(raw, mw)
     # imagen
     for e in tl:
         e["bg"] = load_bg(e["s"]["img"]); e["L"] = scene_layers(e["s"])
@@ -202,7 +299,7 @@ def build(slug):
     out = os.path.join(od, slug + ".mp4")
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
            "-i", mw, "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
-           "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart",
+           "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart",
            "-shortest", out]
     ff = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     N = int(math.ceil(total * FPS)); si = 0; ci = 0

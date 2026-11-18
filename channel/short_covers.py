@@ -11,6 +11,11 @@ COVERS = {
     "s1-hora-por-pais": ("Lucia_Caminos_02", 0.46, ["¿A QUÉ HORA", "SALE?"], "EN TU PAÍS", "GTA 6"),
     "s2-bonus-reserva": ("VINTAGE_VICE_CITY_PACK_01", 0.45, ["GRATIS", "POR RESERVAR"], "COCHE + GARAJE + LOOKS", "GTA 6"),
     "s3-ultimate-edition": ("ULTIMATE_EDITION_01", 0.55, ["¿VALE LA", "PENA?"], "ULTIMATE EDITION", "GTA 6"),
+    "s4-ya-salio": ("Vice_City_27", 0.5, ["GTA 6", "YA SALIÓ"], "ASÍ SE VE Y SE JUEGA", "PRIMERAS IMPRESIONES"),
+    "s5-como-se-juega": ("Jason_Duval_17", 0.45, ["¿CÓMO SE", "JUEGA?"], "CONDUCCIÓN Y DISPAROS", "GTA 6"),
+    "s6-policia": ("Jason_Duval_18", 0.55, ["LA POLICÍA", "OTRO NIVEL"], "TE RECONOCEN", "GTA 6"),
+    "s7-novedades": ("Jason_and_Lucia_16", 0.45, ["5 COSAS", "NUEVAS"], "QUE NO HABÍA EN GTA 5", "GTA 6"),
+    "s8-lo-malo": ("Jason_Duval_14", 0.55, ["LO MALO", "DE GTA 6"], "SEGÚN LAS RESEÑAS", "99 EN METACRITIC"),
 }
 
 def cover(slug):
@@ -42,4 +47,4 @@ def cover(slug):
     return out
 
 if __name__ == "__main__":
-    for k in COVERS: print(cover(k))
+    for k in (sys.argv[1:] or COVERS): print(cover(k))

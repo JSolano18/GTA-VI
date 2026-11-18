@@ -13,3 +13,21 @@
 Por cada Short: sube el `.mp4` (vertical 1080×1920, menos de 60 s) desde la app o desde YouTube Studio. Copia `titulo.txt` (ya lleva #shorts), `descripcion.txt` y `tags.txt`. Marca **contenido sintético: sí**, porque la voz es generada por IA.
 
 Las imágenes son oficiales de Rockstar (web de GTA VI) y llevan crédito en pantalla. Los datos salen de la web oficial: el contenido del Vintage Vice City Pack, la Ultimate Edition y la precarga del 10 de noviembre. Las horas por país se calculan a partir de la medianoche de Nueva Zelanda (UTC+13). El precio (+20 USD) es el de las tiendas de EE.UU.
+
+---
+
+# Tanda 2: primeras impresiones (el juego ya salió en Nueva Zelanda)
+
+Basados en las primeras reseñas (Kotaku, Forbes, GamesRadar, Vice, TheSixthAxis, Wccftech, Cultured Vultures) y en lo que cuentan los primeros jugadores (NZ Herald, Newsweek). Las imágenes son de la Launch Gallery oficial de Rockstar. La voz es más natural: se genera frase por frase, con pausas y sin saltos.
+
+| Orden | Hora sugerida | Short | Duración |
+|---|---|---|---|
+| 1 | Ya (miércoles 18) | GTA 6 YA SALIÓ: esto dicen los primeros que lo juegan | 0:46 |
+| 2 | +1 h | ¿Cómo se SIENTE jugar GTA 6? Conducción y disparos | 0:45 |
+| 3 | +2 h | La POLICÍA de GTA 6 es otro nivel | 0:41 |
+| 4 | +3 h | 5 cosas NUEVAS de GTA 6 que no había en GTA 5 | 0:41 |
+| 5 | +4 h | Lo MALO de GTA 6 (según las reseñas) | 0:48 |
+
+Cada carpeta (`s4-…` a `s8-…`) trae `.mp4`, `-cover.jpg`, `titulo.txt`, `descripcion.txt` (con fuentes) y `tags.txt`.
+
+Ojo: el dato de "99 en Metacritic" es de las primeras horas y puede moverse un punto. Si cambia antes de subir el Short, avísame.

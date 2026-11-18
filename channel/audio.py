@@ -7,7 +7,7 @@ import soundfile as sf
 SR = 24000
 KOKORO_DIR = os.environ.get("KOKORO_DIR", "/tmp/claude-0/kokoro")
 VOICE = os.environ.get("VOICE", "em_alex")
-SPEED = float(os.environ.get("VOICE_SPEED", "1.08"))
+SPEED = float(os.environ.get("VOICE_SPEED", "1.02"))
 
 # Pronunciación: el TTS lee en español, así que adaptamos nombres en inglés.
 PRON = [
@@ -23,6 +23,8 @@ PRON = [
     (r"\bDre Quan Priest\b", "Dre Kuán Prist"), (r"\bReal Dimez\b", "Rial Dáims"), (r"\bTommy Vercetti\b", "Tómi Verchéti"),
     (r"\bC J\b", "Si Yéi"), (r"\bDMA Design\b", "de eme a Disáin"), (r"\bHDR\b", "hache de erre"),
     (r"\bSSD\b", "ese ese de"), (r"\bUSB\b", "u ese be"), (r"\bAPK\b", "a pe ka"), (r"\bGPS\b", "ge pe ese"),
+    (r"\bMetacritic\b", "Métacritic"), (r"\bOcarina of Time\b", "Ocarina of Táim"), (r"\bstreamer\b", "estrímer"),
+    (r"\bapp\b", "ap"), (r"\bInstagram\b", "Ínstagram"), (r"\bSony\b", "Sóni"),
     (r"\bonline\b", "onláin"), (r"\bspoilers?\b", "espóiler"), (r"\bPro\b", "Pro"), (r"\bOceanía\b", "Oceanía"),
 ]
 
@@ -32,20 +34,92 @@ def pron(text):
     return text
 
 _k = None
-def tts(text, out_wav):
+def _kokoro():
     global _k
     if _k is None:
         from kokoro_onnx import Kokoro
         _k = Kokoro(f"{KOKORO_DIR}/kokoro-v1.0.onnx", f"{KOKORO_DIR}/voices-v1.0.bin")
-    samples, sr = _k.create(pron(text), voice=VOICE, speed=SPEED, lang="es")
-    assert sr == SR
-    samples = np.asarray(samples, dtype=np.float32)
-    # recorta silencios de los extremos
-    nz = np.where(np.abs(samples) > 0.01)[0]
-    if len(nz):
-        samples = samples[max(0, nz[0] - 600): nz[-1] + 1200]
+    return _k
+
+def _trim(x, thr=0.008):
+    nz = np.where(np.abs(x) > thr)[0]
+    if not len(nz): return x
+    return x[max(0, nz[0] - 480): nz[-1] + 960]
+
+def _fade(x, ms=12):
+    n = min(len(x) // 2, int(SR * ms / 1000))
+    if n > 0:
+        x = x.copy(); x[:n] *= np.linspace(0, 1, n); x[-n:] *= np.linspace(1, 0, n)
+    return x
+
+def _sentences(text):
+    parts = re.split(r'(?<=[.!?;:])\s+', text.strip())
+    out = []
+    for p in parts:  # frases muy largas: se parten en comas para que el modelo no las corte por dentro
+        if len(p) > 170 and "," in p:
+            bits = p.split(","); cur = ""
+            for b in bits:
+                if len(cur) + len(b) > 120 and cur:
+                    out.append(cur.strip() + ","); cur = b
+                else:
+                    cur = (cur + "," + b) if cur else b
+            if cur.strip(): out.append(cur.strip())
+        elif p:
+            out.append(p)
+    return out
+
+def _polish(x):
+    """Ecualización suave + compresión ligera para una voz más limpia y estable."""
+    import subprocess, tempfile
+    with tempfile.TemporaryDirectory() as d:
+        a, b = f"{d}/a.wav", f"{d}/b.wav"
+        sf.write(a, x, SR)
+        subprocess.run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-i", a, "-af",
+                        "highpass=f=75,equalizer=f=250:t=q:w=1:g=-1.5,equalizer=f=3200:t=q:w=1.2:g=1.5,"
+                        "deesser=i=0.35,acompressor=threshold=-20dB:ratio=2.2:attack=10:release=160:makeup=1.5",
+                        "-ar", str(SR), b], check=True)
+        y, _ = sf.read(b, dtype="float32")
+    return y
+
+def tts(text, out_wav, speed=None):
+    k = _kokoro()
+    spd = speed or SPEED
+    pieces, pieces_end = [], [""]
+    for i, sent in enumerate(_sentences(text)):
+        samples, sr = k.create(pron(sent), voice=VOICE, speed=spd, lang="es")
+        seg = _fade(_trim(np.asarray(samples, dtype=np.float32)))
+        if pieces:
+            gap = 0.16 if pieces_end[-1] == "," else 0.26
+            pieces.append(np.zeros(int(SR * gap), np.float32))
+        pieces.append(seg); pieces_end = [sent[-1]]
+    samples = np.concatenate(pieces) if pieces else np.zeros(1, np.float32)
+    samples = _polish(samples)
+    samples = samples / (np.abs(samples).max() + 1e-6) * 0.89
     sf.write(out_wav, samples, SR)
     return samples
+
+def master(in_wav, out_wav, target=-14.0, ceiling=0.84):
+    """Sonoridad -14 LUFS con ganancia fija (medida con loudnorm) + limitador suave: sin bombeo."""
+    import subprocess, json as _j
+    r = subprocess.run(["ffmpeg", "-nostdin", "-hide_banner", "-i", in_wav, "-af", f"loudnorm=I={target}:print_format=json",
+                        "-f", "null", "-"], capture_output=True, text=True, stdin=subprocess.DEVNULL, timeout=300)
+    m = _j.loads(r.stderr[r.stderr.rindex("{"):r.stderr.rindex("}") + 1])
+    x, sr = sf.read(in_wav, dtype="float32")
+    x = x * (10 ** ((target - float(m["input_i"])) / 20))
+    # limitador con anticipación de 5 ms y liberación de 80 ms
+    from scipy.ndimage import maximum_filter1d
+    from scipy.signal import lfilter
+    peak = maximum_filter1d(np.abs(x), size=int(sr * 0.010))
+    g = np.minimum(1.0, ceiling / np.maximum(peak, 1e-9))
+    a = np.exp(-1.0 / (sr * 0.08))
+    g = np.minimum(g, lfilter([1 - a], [1, -a], g))
+    look = int(sr * 0.005)
+    y = np.concatenate([x[look:], np.zeros(look, np.float32)]) * g
+    y = np.clip(y, -0.98, 0.98).astype(np.float32)
+    sf.write(out_wav + ".24k.wav", y, sr)
+    subprocess.run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-i", out_wav + ".24k.wav", "-af",
+                    "aresample=48000:resampler=soxr", out_wav], check=True, stdin=subprocess.DEVNULL, timeout=300)
+    os.remove(out_wav + ".24k.wav")
 
 # ---------------------------------------------------------------- música
 def _note(n):  # midi -> Hz
