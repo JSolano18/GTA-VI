@@ -18,7 +18,7 @@ Las imágenes son oficiales de Rockstar (web de GTA VI) y llevan crédito en pan
 
 # Tanda 2: primeras impresiones (el juego ya salió en Nueva Zelanda)
 
-Basados en las primeras reseñas (Kotaku, Forbes, GamesRadar, Vice, TheSixthAxis, Wccftech, Cultured Vultures) y en lo que cuentan los primeros jugadores (NZ Herald, Newsweek). Las imágenes son de la Launch Gallery oficial de Rockstar. La voz es más natural: se genera frase por frase, con pausas y sin saltos.
+Basados en las primeras reseñas (Kotaku, Forbes, GamesRadar, Vice, TheSixthAxis, Wccftech, Cultured Vultures) y en lo que cuentan los primeros jugadores (NZ Herald, Newsweek). El fondo es **gameplay real** de *Grand Theft Auto VI: An Extended Look*, el video oficial que Rockstar ofrece para descargar en su web (sección Media & Artwork), recortado a vertical. Las portadas usan imágenes de la Launch Gallery oficial. La voz es más natural: se genera frase por frase, con pausas y sin saltos.
 
 | Orden | Hora sugerida | Short | Duración |
 |---|---|---|---|
@@ -29,5 +29,7 @@ Basados en las primeras reseñas (Kotaku, Forbes, GamesRadar, Vice, TheSixthAxis
 | 5 | +4 h | Lo MALO de GTA 6 (según las reseñas) | 0:48 |
 
 Cada carpeta (`s4-…` a `s8-…`) trae `.mp4`, `-cover.jpg`, `titulo.txt`, `descripcion.txt` (con fuentes) y `tags.txt`.
+
+**Riesgo de Content ID:** al usar gameplay oficial, es posible que YouTube marque estos Shorts como contenido de Rockstar. Lo normal es que los ingresos vayan a Rockstar o, como mucho, que se bloquee ese Short en algún país. No afecta al canal: no es un strike. El audio del juego está quitado, solo suenan la voz y la música propia.
 
 Ojo: el dato de "99 en Metacritic" es de las primeras horas y puede moverse un punto. Si cambia antes de subir el Short, avísame.

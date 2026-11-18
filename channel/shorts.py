@@ -257,6 +257,39 @@ def scene_layers(s):
             L.append((p, 60, ry + i * 132, 0.5 + i * 0.9, "left"))
     return L
 
+EXTENDED_LOOK = "https://media-rockstargames-com.akamaized.net/VI/downloads/videos/GTAVI_An_Extended_Look/GTAVI_An_Extended_Look.mp4"
+GAMEPLAY = {  # slug -> [(segundo de inicio en "An Extended Look", foco horizontal 0..1)] una por escena
+    "s4-ya-salio": [(745, .5), (460, .55), (765, .5), (1045, .45), (805, .6), (1265, .5)],
+    "s5-como-se-juega": [(925, .45), (505, .5), (1090, .5), (285, .55), (865, .35), (1065, .5)],
+    "s6-policia": [(945, .45), (731, .5), (1105, .5), (245, .5), (930, .45), (1225, .5)],
+    "s7-novedades": [(685, .5), (825, .5), (565, .4), (705, .5), (222, .55), (1325, .5)],
+    "s8-lo-malo": [(705, .5), (1225, .5), (165, .5), (545, .4), (565, .45), (1045, .5)],
+}
+
+def extract_clip(t0, fx, dur, out):
+    """Recorta un tramo del gameplay oficial (4K) a vertical 1080x1920, 30 fps, sin audio."""
+    if os.path.exists(out) and os.path.getsize(out) > 10000: return
+    px = os.environ.get("HTTPS_PROXY", "")
+    vf = (f"crop=ih*9/16:ih:max(0\\,min(iw-ih*9/16\\,iw*{fx}-ih*9/32)):0,scale={W}:{H}:flags=lanczos,fps={FPS},"
+          "eq=saturation=1.08:contrast=1.03")
+    cmd = ["ffmpeg", "-nostdin", "-y", "-loglevel", "error"] + (["-http_proxy", px, "-ca_file", "/root/.ccr/ca-bundle.crt"] if px else []) + \
+          ["-ss", str(t0), "-i", EXTENDED_LOOK, "-t", f"{dur + 0.3:.2f}", "-an", "-vf", vf, "-c:v", "libx264", "-crf", "16", "-preset", "fast", out]
+    subprocess.run(cmd, check=True, stdin=subprocess.DEVNULL, timeout=900)
+
+class ClipReader:
+    def __init__(self, path):
+        self.p = subprocess.Popen(["ffmpeg", "-nostdin", "-loglevel", "error", "-i", path, "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
+                                  stdout=subprocess.PIPE, stdin=subprocess.DEVNULL)
+        self.last = None
+    def next(self):
+        buf = self.p.stdout.read(W * H * 3)
+        if len(buf) == W * H * 3:
+            self.last = Image.frombytes("RGB", (W, H), buf)
+        return self.last
+    def close(self):
+        try: self.p.kill()
+        except Exception: pass
+
 def build(slug):
     sh = next(x for x in SHORTS if x["slug"] == slug)
     od = os.path.join(OUT, slug); wk = os.path.join(od, "_work"); os.makedirs(wk, exist_ok=True)
@@ -291,10 +324,17 @@ def build(slug):
     raw = os.path.join(wk, "mix_raw.wav"); sf.write(raw, mix, A.SR)
     mw = os.path.join(wk, "mix.wav"); A.master(raw, mw)
     # imagen
-    for e in tl:
-        e["bg"] = load_bg(e["s"]["img"]); e["L"] = scene_layers(e["s"])
+    clips = GAMEPLAY.get(slug)
+    for i, e in enumerate(tl):
+        e["L"] = scene_layers(e["s"])
+        if clips:
+            cp = os.path.join(wk, f"clip_{i:02}.mp4")
+            extract_clip(clips[i][0], clips[i][1], e["dur"], cp)
+            e["clip"] = cp; e["reader"] = None
+        else:
+            e["bg"] = load_bg(e["s"]["img"])
     ov = overlay()
-    cred = text_img(CREDIT, font("semi", 26), stroke=3, pad=8)
+    cred = text_img("Gameplay: Rockstar Games" if clips else CREDIT, font("semi", 26), stroke=3, pad=8)
     handle = text_img("@LeonidaDiario", font("black", 34), fill=WHITE, stroke=4, pad=8)
     out = os.path.join(od, slug + ".mp4")
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
@@ -307,12 +347,18 @@ def build(slug):
         t = fi / FPS
         while si + 1 < len(tl) and t >= tl[si + 1]["start"]: si += 1
         e = tl[si]; lt = t - e["start"]; sp = lt / e["dur"]
-        bg = e["bg"]; bw, bh = bg.size
-        z = 1.0 + 0.07 * sp                      # zoom lento
-        cw, chh = W / z, H / z
-        cx = min(max(cw / 2, e["s"]["fx"] * bw + (sp - 0.5) * 60 * (1 if si % 2 else -1)), bw - cw / 2)
-        cy = bh / 2
-        frame = bg.transform((W, H), Image.AFFINE, (1 / z, 0, cx - cw / 2, 0, 1 / z, cy - chh / 2), resample=Image.BILINEAR).convert("RGBA")
+        if "clip" in e:
+            if e["reader"] is None:
+                if si > 0 and tl[si - 1].get("reader"): tl[si - 1]["reader"].close()
+                e["reader"] = ClipReader(e["clip"])
+            frame = e["reader"].next().convert("RGBA")
+        else:
+            bg = e["bg"]; bw, bh = bg.size
+            z = 1.0 + 0.07 * sp                      # zoom lento
+            cw, chh = W / z, H / z
+            cx = min(max(cw / 2, e["s"]["fx"] * bw + (sp - 0.5) * 60 * (1 if si % 2 else -1)), bw - cw / 2)
+            cy = bh / 2
+            frame = bg.transform((W, H), Image.AFFINE, (1 / z, 0, cx - cw / 2, 0, 1 / z, cy - chh / 2), resample=Image.BILINEAR).convert("RGBA")
         frame.alpha_composite(ov)
         for (img, x, y, t0, anim) in e["L"]:
             paste(frame, img, x, y, lt, t0, anim)
@@ -325,9 +371,13 @@ def build(slug):
         frame.alpha_composite(cred, (30, 120))
         ff.stdin.write(frame.convert("RGB").tobytes())
     ff.stdin.close(); ff.wait()
+    for e in tl:
+        if e.get("reader"): e["reader"].close()
     with open(os.path.join(od, "titulo.txt"), "w") as f: f.write(sh["title"])
     with open(os.path.join(od, "descripcion.txt"), "w") as f:
-        f.write(sh["desc"] + "\n\n" + "Imágenes: Rockstar Games (web oficial de GTA VI). Canal de fans no oficial, sin afiliación con "
+        src = ("Gameplay: \"Grand Theft Auto VI: An Extended Look\" (Rockstar Games, descarga oficial)." if clips
+               else "Imágenes: Rockstar Games (web oficial de GTA VI).")
+        f.write(sh["desc"] + "\n\n" + src + " Canal de fans no oficial, sin afiliación con "
                 "Rockstar Games ni Take-Two. Voz sintética.\n\n#GTA6 #GTAVI #Shorts")
     with open(os.path.join(od, "tags.txt"), "w") as f: f.write(", ".join(sh["tags"]))
     print(f"{slug}: {total:.1f}s -> {out}")
