@@ -27,6 +27,7 @@ PRON = [
     (r"\bapp\b", "ap"), (r"\bInstagram\b", "Ínstagram"), (r"\bSony\b", "Sóni"),
     (r"\bBigfoot\b", "Bigfut"), (r"\bGullet Marsh\b", "Gálet Marsh"), (r"\bWashington\b", "Uáshington"),
     (r"\bPipework\b", "Páipguork"), (r"\bMandy\b", "Mándi"), (r"\bSensor Tower\b", "Sénsor Táuer"), (r"\bTake-Two\b", "Teik Tu"),
+    (r"\bPapa Audacity\b", "Papa Odásiti"),
     (r"\bonline\b", "onláin"), (r"\bspoilers?\b", "espóiler"), (r"\bPro\b", "Pro"), (r"\bOceanía\b", "Oceanía"),
 ]
 

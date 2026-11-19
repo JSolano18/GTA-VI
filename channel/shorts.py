@@ -274,6 +274,33 @@ SHORTS += [
  ]},
 ]
 
+# ================================================================== tanda 4
+FUENTES4 = ("Fuentes: primeras guías post-lanzamiento (PowerPyx, AlcastHQ, Output Lag) sobre Strangers & Freaks y actividades; "
+            "Digital Foundry vía VGTimes sobre el clima dinámico.")
+SHORTS += [
+{"slug": "s14-misiones-secundarias", "seed": 51,
+ "title": "Lo que NADIE te cuenta de GTA 6: misiones secretas 👀 #gta6 #shorts",
+ "desc": "Vuelven los Extraños y Locos (Strangers & Freaks), misiones que solo salen de noche, actividades por todo Leonida y un clima que avanza barrio por barrio.\n\n" + FUENTES4,
+ "tags": ["gta 6", "gta 6 misiones secundarias", "gta 6 strangers and freaks", "gta 6 actividades", "gta 6 secretos", "gta 6 clima", "gtavi", "shorts"],
+ "scenes": [
+  {"img": "Jason_and_Lucia_16", "fx": 0.45, "head": "NO TODO ES LA HISTORIA",
+   "say": "GTA 6 no es solo la historia. Esto es lo que puedes hacer en Leonida cuando dejas las misiones principales."},
+  {"img": "Vice_City_16", "fx": 0.5, "head": "EXTRAÑOS Y LOCOS", "chip": "VUELVEN",
+   "say": "Vuelven los Extraños y Locos: personajes rarísimos que te dan misiones secundarias por todo el mapa."},
+  {"img": "Jason_Duval_11", "fx": 0.5, "head": "PAPA AUDACITY",
+   "say": "Uno de los que más da que hablar es Papa Audacity, un especialista que mete a Jason y a Lucía en sus acrobacias promocionales."},
+  {"img": "Vice_City_27", "fx": 0.5, "head": "ALGUNAS, SOLO DE NOCHE",
+   "say": "Ojo: algunas misiones solo aparecen de noche, otras son de un solo personaje, y hay carreras contrarreloj."},
+  {"img": "Leonida_Keys_07", "fx": 0.5, "head": "Y ADEMÁS...",
+   "rows": [["CAZA Y PESCA", "1"], ["CARRERAS Y QUEDADAS", "2"], ["ARCADES Y MEDITACIÓN", "3"]],
+   "say": "Y además: caza, pesca, carreras callejeras, quedadas de coches, arcades, y hasta puntos de meditación."},
+  {"img": "Lucia_Caminos_11", "fx": 0.6, "head": "EL CLIMA SE MUEVE",
+   "say": "Y el mundo está vivo: las tormentas avanzan barrio por barrio, y puedes ver cómo la lluvia se acerca por la ciudad."},
+  {"img": "Jason_and_Lucia_18", "fx": 0.62, "head": "¿CUÁL ENCONTRASTE?",
+   "say": "¿Cuál es la misión secundaria más rara que has encontrado? Te leo en los comentarios."},
+ ]},
+]
+
 def ease(p):
     p = max(0.0, min(1.0, p)); return 1 - (1 - p) ** 3
 
