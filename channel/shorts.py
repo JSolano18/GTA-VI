@@ -362,11 +362,6 @@ GAMEPLAY = {  # slug -> [(segundo de inicio en "An Extended Look", foco horizont
     "s7-novedades": [(685, .5), (825, .5), (565, .4), (705, .5), (222, .55), (1325, .5)],
     "s8-lo-malo": [(705, .5), (1225, .5), (165, .5), (545, .4), (565, .45), (1045, .5)],
     # None = esa escena usa la imagen fija de "img"
-    "s9-mandy": [None, None, (325, .5), (145, .5), None, (805, .55)],
-    "s10-ventas": [(745, .5), (1265, .5), (1105, .5), None, (685, .5), (1045, .45)],
-    "s11-secretos": [(745, .5), None, (460, .55), (1045, .45), (505, .5), (1345, .5)],
-    "s12-cosas-raras": [(925, .45), None, (545, .4), (765, .5), (565, .4), (1265, .5)],
-    "s13-consejos": [(945, .45), (245, .5), (865, .35), (1090, .5), (1505, .5), (765, .5)],
 }
 
 def extract_clip(t0, fx, dur, out):
