@@ -25,6 +25,8 @@ PRON = [
     (r"\bSSD\b", "ese ese de"), (r"\bUSB\b", "u ese be"), (r"\bAPK\b", "a pe ka"), (r"\bGPS\b", "ge pe ese"),
     (r"\bMetacritic\b", "Métacritic"), (r"\bOcarina of Time\b", "Ocarina of Táim"), (r"\bstreamer\b", "estrímer"),
     (r"\bapp\b", "ap"), (r"\bInstagram\b", "Ínstagram"), (r"\bSony\b", "Sóni"),
+    (r"\bBigfoot\b", "Bigfut"), (r"\bGullet Marsh\b", "Gálet Marsh"), (r"\bWashington\b", "Uáshington"),
+    (r"\bPipework\b", "Páipguork"), (r"\bMandy\b", "Mándi"), (r"\bSensor Tower\b", "Sénsor Táuer"), (r"\bTake-Two\b", "Teik Tu"),
     (r"\bonline\b", "onláin"), (r"\bspoilers?\b", "espóiler"), (r"\bPro\b", "Pro"), (r"\bOceanía\b", "Oceanía"),
 ]
 

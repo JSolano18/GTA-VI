@@ -16,6 +16,11 @@ COVERS = {
     "s6-policia": ("Jason_Duval_18", 0.55, ["LA POLICÍA", "OTRO NIVEL"], "TE RECONOCEN", "GTA 6"),
     "s7-novedades": ("Jason_and_Lucia_16", 0.45, ["5 COSAS", "NUEVAS"], "QUE NO HABÍA EN GTA 5", "GTA 6"),
     "s8-lo-malo": ("Jason_Duval_14", 0.55, ["LO MALO", "DE GTA 6"], "SEGÚN LAS RESEÑAS", "99 EN METACRITIC"),
+    "s9-mandy": ("Leonida_Keys_03", 0.5, ["¿MANDY ES", "ASESINA?"], "LA MISIÓN VIRAL", "GTA 6"),
+    "s10-ventas": ("Vice_City_27", 0.5, ["RÉCORD", "HISTÓRICO"], "EL DOBLE QUE GTA 5", "GTA 6"),
+    "s11-secretos": ("Grassrivers_08", 0.5, ["5 SECRETOS", "OCULTOS"], "BIGFOOT · DEXTER · Y MÁS", "GTA 6"),
+    "s12-cosas-raras": ("Jason_Duval_17", 0.45, ["COSAS", "RARAS"], "QUE DESCUBRIERON HOY", "GTA 6"),
+    "s13-consejos": ("Jason_and_Lucia_20", 0.45, ["TU PRIMER", "DÍA"], "5 CONSEJOS", "GTA 6"),
 }
 
 def cover(slug):

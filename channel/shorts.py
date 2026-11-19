@@ -177,6 +177,103 @@ SHORTS += [
  ]},
 ]
 
+# ================================================================== tanda 3: lanzamiento mundial (19/11)
+FUENTES3 = ("Fuentes: Insider Gaming, Game Rant, Beebom (misión Pipework); Sensor Tower vía Game Rant y Yahoo Finance (ventas, "
+            "estimaciones no oficiales); GameSpot, Engadget y Kotaku (secretos y curiosidades del día de lanzamiento).")
+SHORTS += [
+{"slug": "s9-mandy", "seed": 41,
+ "title": "¿MANDY es una ASESINA? La misión viral de GTA 6 🔪 #gta6 #shorts",
+ "desc": "Pipework, la misión de Jason y Mandy que se hizo viral el día de lanzamiento de GTA 6, y la teoría que tiene a todos hablando. Contiene spoilers del capítulo 1.\n\n" + FUENTES3,
+ "tags": ["gta 6", "gta 6 mandy", "mandy gta 6", "pipework gta 6", "gta 6 teoria", "gta 6 jason", "gta 6 mision", "gtavi", "shorts"],
+ "scenes": [
+  {"img": "Leonida_Keys_03", "fx": 0.5, "head": "¿MANDY ES UNA ASESINA?", "chip": "SPOILER · CAPÍTULO 1",
+   "say": "La misión de GTA 6 de la que todo el mundo habla se llama Pipework. Y la protagonista no es Jason: es Mandy."},
+  {"img": "Brian_Heder_03", "fx": 0.55, "head": "BRIAN TE MANDA A COBRAR",
+   "say": "Brian manda a Jason a cobrarle el alquiler a Mandy, una de sus inquilinas en los Cayos. Pero ella no paga hasta que alguien le arregle el fregadero."},
+  {"img": "Leonida_Keys_04", "fx": 0.5, "head": "JASON DESTAPA EL FREGADERO",
+   "say": "Así que Jason se pone a destaparlo. Y dentro de la tubería aparece algo."},
+  {"img": "Leonida_Keys_05", "fx": 0.5, "head": "¿UN DEDO HUMANO?",
+   "say": "Mandy se lo quita de las manos y lo esconde sin dar explicaciones. Muchos jugadores juran que era un dedo humano."},
+  {"img": "Vice_City_22", "fx": 0.5, "head": "Y SU COCHE...", "chip": "CUCHILLO · LEJÍA · CINTA",
+   "say": "Y en su coche hay un cuchillo de carnicero, lejía y cinta americana. Demasiada casualidad, ¿no?"},
+  {"img": "Leonida_Keys_02", "fx": 0.6, "head": "¿TEORÍA O VERDAD?",
+   "say": "Ojo: Rockstar no lo ha confirmado, y la historia no lo aclara. ¿Tú qué crees? ¿Mandy es una asesina? Te leo."},
+ ]},
+{"slug": "s10-ventas", "seed": 42,
+ "title": "GTA 6 ROMPIÓ el récord: el DOBLE que GTA 5 💰 #gta6 #shorts",
+ "desc": "Las primeras estimaciones de ventas de GTA 6 en su día de lanzamiento, comparadas con GTA V. Cifras de Sensor Tower, todavía no oficiales.\n\n" + FUENTES3,
+ "tags": ["gta 6", "gta 6 ventas", "gta 6 record", "gta 6 vs gta 5", "rockstar", "take two", "gtavi", "shorts"],
+ "scenes": [
+  {"img": "Vice_City_27", "fx": 0.5, "head": "GTA 6 ROMPIÓ EL RÉCORD",
+   "say": "GTA 6 acaba de salir y ya es historia. Mira estos números."},
+  {"img": "Vice_City_13", "fx": 0.5, "head": "SU PRIMER DÍA", "big": "$1.650 M", "label": "ESTIMACIÓN DE SENSOR TOWER",
+   "say": "Según la firma Sensor Tower, GTA 6 generó unos mil seiscientos cincuenta millones de dólares en su día de lanzamiento."},
+  {"img": "Vice_City_15", "fx": 0.5, "head": "EN UN SOLO DÍA", "big": "17 M", "label": "COPIAS (ESTIMACIÓN)",
+   "say": "Eso serían más de diecisiete millones de copias en un solo día."},
+  {"img": "Vice_City_24", "fx": 0.4, "head": "EL DOBLE QUE GTA V",
+   "rows": [["GTA V · 2013", "$815 M"], ["GTA 6 · 2026", "$1.650 M"]],
+   "say": "Para comparar: GTA cinco hizo ochocientos quince millones en su primer día, en dos mil trece. GTA 6 casi lo duplica."},
+  {"img": "Vice_City_26", "fx": 0.5, "head": "LA BOLSA, DE FIESTA",
+   "say": "Y las acciones de Take-Two, la empresa dueña de Rockstar, subieron con el lanzamiento."},
+  {"img": "Jason_and_Lucia_16", "fx": 0.45, "head": "FALTA EL DATO OFICIAL",
+   "say": "Ojo: son estimaciones. Take-Two todavía no ha dado cifras oficiales. Sígueme y te aviso en cuanto salgan."},
+ ]},
+{"slug": "s11-secretos", "seed": 43,
+ "title": "5 SECRETOS que ya encontraron en GTA 6 🥚 #gta6 #shorts",
+ "desc": "Los primeros easter eggs y secretos que los jugadores encontraron en GTA 6 el día de su lanzamiento.\n\n" + FUENTES3,
+ "tags": ["gta 6", "gta 6 secretos", "gta 6 easter eggs", "gta 6 bigfoot", "gta 6 curiosidades", "gtavi", "shorts"],
+ "scenes": [
+  {"img": "Vice_City_27", "fx": 0.5, "head": "5 SECRETOS DE GTA 6",
+   "say": "GTA 6 lleva solo unas horas a la venta y los jugadores ya encontraron estos secretos."},
+  {"img": "Vice_City_15", "fx": 0.5, "head": "1. EL HUEVO DE PASCUA",
+   "say": "Uno: sube a la torre más alta de Vice City, unos siete minutos escalando, y en un nido hay un huevo de Pascua pintado. Lo puedes lanzar a la gente de abajo."},
+  {"img": "Grassrivers_08", "fx": 0.5, "head": "2. BIGFOOT EXISTE",
+   "say": "Dos: Bigfoot existe, y tiene hasta una misión. Lo encuentras en Gullet Marsh."},
+  {"img": "Leonida_Keys_07", "fx": 0.5, "head": "3. EL PERRO EN MOTO DE AGUA",
+   "say": "Tres: si nadas demasiado lejos mar adentro, aparece un perro en moto acuática."},
+  {"img": "Vice_City_26", "fx": 0.5, "head": "4. EL PISO DE DEXTER",
+   "say": "Cuatro: en Washington Island hay un guiño al apartamento de Dexter Morgan, el asesino de la serie Dexter."},
+  {"img": "Vice_City_22", "fx": 0.5, "head": "5. LA CASA CONSPIRANOICA",
+   "say": "Y cinco: en Belville hay una casa llena de notas de un conspiranoico, con guiños a San Andreas. ¿Cuál vas a buscar primero?"},
+ ]},
+{"slug": "s12-cosas-raras", "seed": 44,
+ "title": "Cosas RARAS que descubrieron en GTA 6 🤨 #gta6 #shorts",
+ "desc": "Detalles curiosos que los jugadores están descubriendo en GTA 6: trucos, calcetines, el móvil al volante y más.\n\n" + FUENTES3,
+ "tags": ["gta 6", "gta 6 trucos", "gta 6 curiosidades", "gta 6 detalles", "gta 6 cheats", "gtavi", "shorts"],
+ "scenes": [
+  {"img": "Jason_Duval_19", "fx": 0.84, "head": "COSAS RARAS DE GTA 6",
+   "say": "Cosas raras de GTA 6 que la gente está descubriendo hoy."},
+  {"img": "Jason_Duval_15", "fx": 0.5, "head": "1. NO HAY TRUCOS... AÚN", "chip": "HASTA TERMINAR LA HISTORIA",
+   "say": "Una: no puedes usar trucos hasta terminar la historia. Nada de vida infinita en tu primera partida."},
+  {"img": "Jason_Duval_17", "fx": 0.45, "head": "2. CALCETINES CON CHANCLAS", "chip": "PROHIBIDO",
+   "say": "Dos: Jason no puede ponerse calcetines con chanclas. Rockstar tiene sus límites."},
+  {"img": "Lucia_Caminos_12", "fx": 0.45, "head": "3. EL MÓVIL TE DISTRAE",
+   "say": "Tres: si usas el teléfono mientras conduces, el coche se vuelve más difícil de controlar."},
+  {"img": "Jason_Duval_14", "fx": 0.55, "head": "4. FACTURAS DEL TALLER",
+   "say": "Y cuatro: los coches son más frágiles, y repararlos cuesta dinero de verdad."},
+  {"img": "Jason_and_Lucia_17", "fx": 0.5, "head": "¿Y TÚ QUÉ ENCONTRASTE?",
+   "say": "¿Qué otra cosa rara encontraste tú? Cuéntamelo en los comentarios."},
+ ]},
+{"slug": "s13-consejos", "seed": 45,
+ "title": "5 consejos para tu PRIMER DÍA en GTA 6 ✅ #gta6 #shorts",
+ "desc": "Cinco consejos para empezar GTA 6 sin que te atrape la policía ni pierdas el progreso.\n\n" + FUENTES + "\n" + FUENTES3,
+ "tags": ["gta 6", "gta 6 consejos", "gta 6 tips", "gta 6 principiantes", "gta 6 guia", "gtavi", "shorts"],
+ "scenes": [
+  {"img": "Jason_and_Lucia_20", "fx": 0.45, "head": "TU PRIMER DÍA EN GTA 6",
+   "say": "¿Vas a empezar GTA 6 hoy? Cinco consejos que te van a ahorrar disgustos."},
+  {"img": "Jason_and_Lucia_15", "fx": 0.45, "head": "1. TÁPATE LA CARA",
+   "say": "Uno: antes de un delito, ponte máscara, gorra o bandana. La policía busca tu cara, tu ropa y tu coche."},
+  {"img": "Jason_Duval_18", "fx": 0.55, "head": "2. ARMA GUARDADA",
+   "say": "Dos: no lleves el arma a la vista por la calle, porque levanta sospechas."},
+  {"img": "Vice_City_24", "fx": 0.33, "head": "3. ESCANEA LOS COCHES",
+   "say": "Tres: usa la app del teléfono que escanea coches, para saber cuáles son fáciles de robar."},
+  {"img": "Jason_Duval_13", "fx": 0.5, "head": "4. REINTENTA LA MISIÓN",
+   "say": "Cuatro: si una misión sale mal, puedes reiniciarla tú mismo desde el último punto de control."},
+  {"img": "Jason_Duval_19", "fx": 0.84, "head": "5. SUELTA EL MÓVIL",
+   "say": "Y cinco: no uses el móvil mientras conduces. Y recuerda: los trucos llegan al terminar la historia. Sígueme para más."},
+ ]},
+]
+
 def ease(p):
     p = max(0.0, min(1.0, p)); return 1 - (1 - p) ** 3
 
@@ -264,6 +361,12 @@ GAMEPLAY = {  # slug -> [(segundo de inicio en "An Extended Look", foco horizont
     "s6-policia": [(945, .45), (731, .5), (1105, .5), (245, .5), (930, .45), (1225, .5)],
     "s7-novedades": [(685, .5), (825, .5), (565, .4), (705, .5), (222, .55), (1325, .5)],
     "s8-lo-malo": [(705, .5), (1225, .5), (165, .5), (545, .4), (565, .45), (1045, .5)],
+    # None = esa escena usa la imagen fija de "img"
+    "s9-mandy": [None, None, (325, .5), (145, .5), None, (805, .55)],
+    "s10-ventas": [(745, .5), (1265, .5), (1105, .5), None, (685, .5), (1045, .45)],
+    "s11-secretos": [(745, .5), None, (460, .55), (1045, .45), (505, .5), (1345, .5)],
+    "s12-cosas-raras": [(925, .45), None, (545, .4), (765, .5), (565, .4), (1265, .5)],
+    "s13-consejos": [(945, .45), (245, .5), (865, .35), (1090, .5), (1505, .5), (765, .5)],
 }
 
 def extract_clip(t0, fx, dur, out):
@@ -327,14 +430,14 @@ def build(slug):
     clips = GAMEPLAY.get(slug)
     for i, e in enumerate(tl):
         e["L"] = scene_layers(e["s"])
-        if clips:
+        if clips and clips[i]:
             cp = os.path.join(wk, f"clip_{i:02}.mp4")
             extract_clip(clips[i][0], clips[i][1], e["dur"], cp)
             e["clip"] = cp; e["reader"] = None
         else:
             e["bg"] = load_bg(e["s"]["img"])
     ov = overlay()
-    cred = text_img("Gameplay: Rockstar Games" if clips else CREDIT, font("semi", 26), stroke=3, pad=8)
+    cred = text_img("Gameplay e imágenes: Rockstar Games" if clips else CREDIT, font("semi", 26), stroke=3, pad=8)
     handle = text_img("@LeonidaDiario", font("black", 34), fill=WHITE, stroke=4, pad=8)
     out = os.path.join(od, slug + ".mp4")
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
