@@ -181,7 +181,7 @@ SHORTS += [
 FUENTES3 = ("Fuentes: Insider Gaming, Game Rant, Beebom (misión Pipework); Sensor Tower vía Game Rant y Yahoo Finance (ventas, "
             "estimaciones no oficiales); GameSpot, Engadget y Kotaku (secretos y curiosidades del día de lanzamiento).")
 SHORTS += [
-{"slug": "s9-mandy", "seed": 41,
+{"slug": "s9-mandy", "seed": 41, "credit": "Imágenes: Rockstar Games · Clip: @GTAmemesSOL (X)",
  "title": "¿MANDY es una ASESINA? La misión viral de GTA 6 🔪 #gta6 #shorts",
  "desc": "Pipework, la misión de Jason y Mandy que se hizo viral el día de lanzamiento de GTA 6, y la teoría que tiene a todos hablando. Contiene spoilers del capítulo 1.\n\n" + FUENTES3,
  "tags": ["gta 6", "gta 6 mandy", "mandy gta 6", "pipework gta 6", "gta 6 teoria", "gta 6 jason", "gta 6 mision", "gtavi", "shorts"],
@@ -361,7 +361,9 @@ GAMEPLAY = {  # slug -> [(segundo de inicio en "An Extended Look", foco horizont
     "s6-policia": [(945, .45), (731, .5), (1105, .5), (245, .5), (930, .45), (1225, .5)],
     "s7-novedades": [(685, .5), (825, .5), (565, .4), (705, .5), (222, .55), (1325, .5)],
     "s8-lo-malo": [(705, .5), (1225, .5), (165, .5), (545, .4), (565, .45), (1045, .5)],
-    # None = esa escena usa la imagen fija de "img"
+    # None = esa escena usa la imagen fija de "img"; ("ruta", segundo) = clip local
+    "s9-mandy": [None, None, ("assets/clips/mandy_pipework.mp4", 0), ("assets/clips/mandy_pipework.mp4", 6),
+                 None, ("assets/clips/mandy_pipework.mp4", 14)],
 }
 
 def extract_clip(t0, fx, dur, out):
@@ -373,6 +375,15 @@ def extract_clip(t0, fx, dur, out):
     cmd = ["ffmpeg", "-nostdin", "-y", "-loglevel", "error"] + (["-http_proxy", px, "-ca_file", "/root/.ccr/ca-bundle.crt"] if px else []) + \
           ["-ss", str(t0), "-i", EXTENDED_LOOK, "-t", f"{dur + 0.3:.2f}", "-an", "-vf", vf, "-c:v", "libx264", "-crf", "16", "-preset", "fast", out]
     subprocess.run(cmd, check=True, stdin=subprocess.DEVNULL, timeout=900)
+
+def extract_local(path, t0, dur, out):
+    """Clip 16:9 local centrado sobre un fondo desenfocado del mismo clip (formato vertical)."""
+    if os.path.exists(out) and os.path.getsize(out) > 10000: return
+    fc = (f"[0:v]fps={FPS},split[a][b];[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},"
+          f"boxblur=24:2,eq=brightness=-0.12[bg];[b]scale={W}:-2:flags=lanczos[fg];[bg][fg]overlay=0:(H-h)/2-40")
+    subprocess.run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-ss", str(t0), "-i", path, "-t", f"{dur + 0.3:.2f}",
+                    "-an", "-filter_complex", fc, "-c:v", "libx264", "-crf", "16", "-preset", "fast", out],
+                   check=True, stdin=subprocess.DEVNULL, timeout=600)
 
 class ClipReader:
     def __init__(self, path):
@@ -427,12 +438,15 @@ def build(slug):
         e["L"] = scene_layers(e["s"])
         if clips and clips[i]:
             cp = os.path.join(wk, f"clip_{i:02}.mp4")
-            extract_clip(clips[i][0], clips[i][1], e["dur"], cp)
+            if isinstance(clips[i][0], str):
+                extract_local(os.path.join(V.ROOT, clips[i][0]), clips[i][1], e["dur"], cp)
+            else:
+                extract_clip(clips[i][0], clips[i][1], e["dur"], cp)
             e["clip"] = cp; e["reader"] = None
         else:
             e["bg"] = load_bg(e["s"]["img"])
     ov = overlay()
-    cred = text_img("Gameplay e imágenes: Rockstar Games" if clips else CREDIT, font("semi", 26), stroke=3, pad=8)
+    cred = text_img(sh.get("credit") or ("Gameplay e imágenes: Rockstar Games" if clips else CREDIT), font("semi", 26), stroke=3, pad=8)
     handle = text_img("@LeonidaDiario", font("black", 34), fill=WHITE, stroke=4, pad=8)
     out = os.path.join(od, slug + ".mp4")
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
@@ -473,7 +487,8 @@ def build(slug):
         if e.get("reader"): e["reader"].close()
     with open(os.path.join(od, "titulo.txt"), "w") as f: f.write(sh["title"])
     with open(os.path.join(od, "descripcion.txt"), "w") as f:
-        src = ("Gameplay: \"Grand Theft Auto VI: An Extended Look\" (Rockstar Games, descarga oficial)." if clips
+        src = (sh["credit"] + "." if sh.get("credit") else
+               "Gameplay: \"Grand Theft Auto VI: An Extended Look\" (Rockstar Games, descarga oficial)." if clips
                else "Imágenes: Rockstar Games (web oficial de GTA VI).")
         f.write(sh["desc"] + "\n\n" + src + " Canal de fans no oficial, sin afiliación con "
                 "Rockstar Games ni Take-Two. Voz sintética.\n\n#GTA6 #GTAVI #Shorts")
