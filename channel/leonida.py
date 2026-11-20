@@ -31,13 +31,16 @@ W, H, FPS = 1080, 1920, 30
 ROOT = V.ROOT
 OUT = os.path.join(ROOT, "LeonidaDiario")
 KOKORO = "/tmp/claude-0/kokoro"
-VOSK = "/tmp/claude-0/vosk/vosk-model-en-us-0.22-lgraph"
-VOICE, SPEED = "am_puck", 1.04
+LANG = "es"   # the channel's narration language (Spanish); English settings kept for reference
+VOSK = {"es": "/tmp/claude-0/vosk/vosk-model-small-es-0.42", "en": "/tmp/claude-0/vosk/vosk-model-en-us-0.22-lgraph"}[LANG]
+VOICE, SPEED = {"es": ("em_alex", 1.0), "en": ("am_puck", 1.04)}[LANG]
+KLANG = {"es": "es", "en": "en-us"}[LANG]
+MIN_MATCH = {"es": 0.80, "en": 0.88}[LANG]   # Spanish ASR model is small and misses English names/acronyms
 LEAD, TAIL = 0.08, 0.30
 MANDY = "assets/clips/mandy_pipework.mp4"
 
 # --------------------------------------------------------------------------------------------- specs
-SHORTS = [
+SHORTS_EN = [
 {"id": "short_01", "slug": "en-relationship-meter", "topic": "relationship_meter", "seed": 71,
  "title": "Ignore Lucia in GTA 6 and THIS happens 💔 #gta6 #shorts",
  "description": "Jason and Lucia have a relationship meter in GTA 6. Here's what raises it, what breaks it, and why ignoring her calls is a bad idea.",
@@ -147,6 +150,117 @@ SHORTS = [
  ]},
 ]
 
+SHORTS_ES = [
+{"id": "short_01", "slug": "es-medidor-relacion", "topic": "relationship_meter", "seed": 71,
+ "title": "Si IGNORAS a Lucía en GTA 6 pasa ESTO 💔 #gta6 #shorts",
+ "description": "Jason y Lucía tienen un medidor de relación en GTA 6. Qué lo sube, qué lo rompe y por qué ignorar sus llamadas es mala idea.",
+ "hashtags": ["#gta6", "#gtavi", "#jasonylucia", "#gta6lucia", "#rockstargames", "#gaming", "#shorts"],
+ "tags": ["gta 6", "gta 6 relacion", "jason y lucia", "gta 6 romance", "gta 6 lucia", "gta 6 consejos", "gtavi"],
+ "pinned": "Sé sincero: ¿cuántas llamadas de Lucía has ignorado ya? 📱",
+ "cover": ("Lucia_Caminos_10", .47, .36, 1.4, ["NO IGNORES", "A LUCÍA"], "MEDIDOR DE RELACIÓN"),
+ "scenes": [
+  {"asset": "Lucia_Caminos_10", "move": "zin", "head": "NO IGNORES SUS LLAMADAS",
+   "say": "Si sigues ignorando las llamadas de Lucía en GTA 6, vas a perder mucho más que una conversación."},
+  {"asset": "Jason_and_Lucia_03", "move": "pan_r", "head": "EL MEDIDOR DE RELACIÓN", "chip": "4 NIVELES",
+   "say": "Jason y Lucía tienen un medidor de relación con cuatro niveles. Las guías los nombran desde Running on Empty hasta Hot Together."},
+  {"asset": "Jason_and_Lucia_01", "move": "zout", "head": "LO QUE LO SUBE",
+   "rows": [["IR DE LA MANO", "+"], ["SALUDARSE Y HABLAR", "+"], ["DORMIR A LA MISMA HORA", "+"]],
+   "say": "Ir de la mano, saludarse, empezar conversaciones, incluso irse a dormir a la misma hora. Y los dos tienen que poner de su parte."},
+  {"asset": "Jason_and_Lucia_06", "move": "pan_l", "head": "LO QUE LO ROMPE",
+   "say": "Si la descuidas, desaparecen los besos y el ir de la mano hasta que reconstruyas el vínculo. Ignorar llamadas y mensajes es de lo que más lo daña."},
+  {"asset": "Jason_and_Lucia_05", "move": "zin", "head": "PUEDE CAMBIAR LA HISTORIA",
+   "say": "Algunas guías incluso dicen que una relación rota puede cambiar diálogos, opciones de misión y escenas."},
+  {"asset": "Jason_and_Lucia_13", "move": "zout", "head": "PERO SIN CELOS", "sticker": "sticker_flamingo",
+   "say": "La buena noticia: no hay sistema de celos. Ir a un strip club no va a provocar una pelea. Entonces, ¿eres buena pareja en Leonida?"},
+ ]},
+{"id": "short_02", "slug": "es-sistema-cuerpo", "topic": "body_system", "seed": 72,
+ "title": "Puedes poner GORDO a Jason en GTA 6 🍔 (pero no TANTO) #gta6 #shorts",
+ "description": "GTA 6 controla lo que comen Jason y Lucía, cuánto entrenan y cuánto duermen. Los jugadores ya probaron el 'True Fat Jason'. Y además: el sistema de olores.",
+ "hashtags": ["#gta6", "#gtavi", "#gta6jason", "#gta6gym", "#rockstargames", "#gaming", "#shorts"],
+ "tags": ["gta 6", "gta 6 peso", "gta 6 gimnasio", "jason gordo", "gta 6 cuerpo", "gta 6 olores", "gtavi"],
+ "pinned": "¿Build de gimnasio o build de tacos? 🌮💪 ¿Cómo va tu Jason?",
+ "cover": ("Lucia_Caminos_09", .36, .16, 1.45, ["EN FORMA", "O GORDO"], "SISTEMA DE CUERPO"),
+ "scenes": [
+  {"asset": "Lucia_Caminos_09", "move": "zin", "head": "GTA 6 TE VIGILA LA DIETA",
+   "say": "GTA 6 está pendiente de lo que comes. Y sí, puedes poner gordo a Jason."},
+  {"asset": "Jason_Duval_06", "move": "pan_r", "head": "CONFIRMADO POR ROCKSTAR",
+   "say": "Rockstar se lo confirmó a la revista Dazed: el cuerpo de Jason y Lucía cambia según lo que comen y cuánto entrenan. Si comes de más, engordas. Si vas al gym, ganas músculo."},
+  {"asset": "Jason_Duval_01", "move": "zout", "head": "HAY UNA APP DE SALUD",
+   "say": "Hay hasta una app de salud que registra el sueño, la dieta y el peso. Y si dejas de entrenar, pierdes lo ganado."},
+  {"asset": "Vice_City_26", "move": "pan_l", "head": "\"TRUE FAT JASON\"", "chip": "HAMBURGUESAS + TACOS",
+   "say": "Un jugador alimentó a Jason a base de hamburguesas y tacos para crear al True Fat Jason. ¿El resultado? Barriga y papada, pero según los jugadores nunca llega a estar tan gordo como Arthur Morgan."},
+  {"asset": "Grassrivers_05", "move": "zin", "head": "Y TAMBIÉN HUELE", "chip": "SISTEMA DE OLORES",
+   "say": "Y además hay un sistema de olores. Aaron Garbut, de Rockstar, le contó a la revista Edge que Jason y Lucía ponen cara de asco ante los malos olores del mapa."},
+  {"asset": "Jason_and_Lucia_12", "move": "zout", "head": "¿GYM O TACOS?", "sticker": "sticker_gator",
+   "say": "Entonces, ¿tu Jason va a base de gym, o a base de tacos?"},
+ ]},
+{"id": "short_03", "slug": "es-japon-censura", "topic": "japan_censorship", "seed": 73,
+ "title": "En JAPÓN, GTA 6 es OTRO juego 🇯🇵 #gta6 #shorts",
+ "description": "La versión japonesa de GTA 6 tiene calificación CERO Z y viene editada: las escenas de ducha, el ajuste de violencia, el tamaño y los subtítulos. Algunos reportes todavía no coinciden.",
+ "hashtags": ["#gta6", "#gtavi", "#gta6japon", "#censura", "#rockstargames", "#gaming", "#shorts"],
+ "tags": ["gta 6", "gta 6 japon", "gta 6 censurado", "gta 6 version japonesa", "cero z", "gtavi"],
+ "pinned": "¿Jugarías un GTA 6 censurado o para ti eso es imperdonable? 🤔",
+ "cover": ("Jason_Duval_01", .77, .19, 1.45, ["JAPÓN LO", "CENSURÓ"], "GTA 6 VERSIÓN JAPONESA"),
+ "scenes": [
+  {"asset": "Jason_Duval_03", "move": "zin", "head": "OTRO GTA 6",
+   "say": "En un país, GTA 6 es otro juego. Literalmente, Jason se ducha en calzoncillos."},
+  {"asset": "Vice_City_10", "move": "pan_r", "head": "JAPÓN: SOLO ADULTOS", "chip": "CALIFICACIÓN CERO Z",
+   "say": "La versión de Japón tiene la calificación CERO Z, solo para adultos. Y viene editada."},
+  {"asset": "Jason_Duval_08", "move": "zout", "head": "LAS ESCENAS DE DUCHA",
+   "say": "Donde las demás versiones muestran desnudos en la ducha, la japonesa deja a Jason en calzoncillos. Y según los reportes, las escenas de Lucía también cambiaron."},
+  {"asset": "Jason_and_Lucia_04", "move": "pan_l", "head": "SIN AJUSTE DE GORE",
+   "say": "El ajuste de sangre y violencia desaparece por completo, y hay menos sangre. Y los reportes ni siquiera coinciden en si quitaron las decapitaciones."},
+  {"asset": "Vice_City_11", "move": "zin", "head": "PESA MENOS", "big": "-1,2 GB", "label": "SOLO SUBTÍTULOS EN JAPONÉS",
+   "say": "Además pesa uno coma dos gigas menos, y solo trae subtítulos en japonés."},
+  {"asset": "Jason_and_Lucia_09", "move": "zout", "head": "¿LO JUGARÍAS?", "sticker": "sticker_sun",
+   "say": "¿Tú jugarías un GTA 6 censurado, o eso para ti es imperdonable?"},
+ ]},
+{"id": "short_04", "slug": "es-decision-mandy", "topic": "mandy_choice", "seed": 74,
+ "title": "La DECISIÓN de MANDY que casi nadie pensó 🔧 #gta6 #shorts",
+ "description": "En la misión Pipework, GTA 6 te deja provocar a Mandy o calmar la situación. Esto dicen las guías que pasa, y la teoría sobre lo que salió de su tubería. Spoilers del capítulo 1.",
+ "hashtags": ["#gta6", "#gtavi", "#mandy", "#gta6mandy", "#pipework", "#rockstargames", "#shorts"],
+ "tags": ["gta 6", "gta 6 mandy", "mandy gta 6", "pipework", "gta 6 decision", "gta 6 jason", "gtavi"],
+ "pinned": "¿Provocar o calmar? ¿Qué elegiste tú con Mandy? 👀",
+ "credit": "Clip: @GTAmemesSOL (X) · Imágenes: Rockstar Games",
+ "cover": ("Mandy_frame", .48, .28, 1.7, ["¿PROVOCAR", "O CALMAR?"], "LA DECISIÓN DE MANDY"),
+ "scenes": [
+  {"clip": (MANDY, 20.5), "head": "¿TE LO SALTASTE?", "chip": "SPOILER · CAPÍTULO 1",
+   "say": "En la escena de Mandy hay una decisión que casi todos los jugadores pasaron sin pensar."},
+  {"asset": "Brian_Heder_01", "move": "pan_r", "head": "RESUMEN RÁPIDO",
+   "say": "Brian manda a Jason a cobrarle el alquiler a Mandy en los Cayos. Ella no paga hasta que le arregle el fregadero."},
+  {"clip": (MANDY, 0.0), "head": "ALGO EN LA TUBERÍA",
+   "say": "Mientras Jason lo destapa, sale algo de la tubería, y Mandy se lo quita antes de que pueda verlo bien."},
+  {"clip": (MANDY, 8.0), "head": "¿PROVOCAR O CALMAR?",
+   "say": "Entonces el juego te deja elegir: provocar a Mandy, o calmar la conversación."},
+  {"clip": (MANDY, 16.5), "head": "EL GIRO",
+   "say": "Y aquí viene el giro. Según las guías, los dos caminos acaban igual: Mandy se encierra en el baño y le pide a Jason que se vaya. Y no hay opción de romance con ella."},
+  {"asset": "Leonida_Keys_06", "move": "zin", "head": "¿QUÉ ERA?", "sticker": "sticker_crab",
+   "say": "Entonces, ¿qué había en esa tubería? Los fans juran que era un dedo. Rockstar no ha confirmado nada. ¿Tú qué crees que esconde?"},
+ ]},
+{"id": "short_05", "slug": "es-lucia-prision", "topic": "lucia_prison", "seed": 75,
+ "title": "¿Por qué LUCÍA estaba en la CÁRCEL? GTA 6 ⛓️ #gta6 #shorts",
+ "description": "GTA 6 empieza con Lucía en prisión. Esto es lo que dice de verdad la biografía oficial de Rockstar, y lo que no cuenta.",
+ "hashtags": ["#gta6", "#gtavi", "#lucia", "#gta6lucia", "#luciacaminos", "#rockstargames", "#shorts"],
+ "tags": ["gta 6", "lucia caminos", "gta 6 lucia", "por que lucia estaba en la carcel", "gta 6 historia", "gtavi"],
+ "pinned": "¿Qué crees que hizo Lucía de verdad? Deja tu teoría 👇",
+ "cover": ("Lucia_Caminos_05", .56, .22, 1.45, ["¿POR QUÉ", "ESTABA PRESA?"], "EL PASADO DE LUCÍA"),
+ "scenes": [
+  {"asset": "Lucia_Caminos_05", "move": "zin", "head": "LUCÍA EMPIEZA EN PRISIÓN",
+   "say": "Cuando conoces a Lucía en GTA 6, está entre rejas. Así mismo la presentó Rockstar en el primer tráiler. Pero, ¿por qué está ahí?"},
+  {"asset": "Lucia_Caminos_01", "move": "pan_r", "head": "CRIADA PARA PELEAR",
+   "say": "Según la biografía oficial de Rockstar, su padre le enseñó a pelear desde niña."},
+  {"asset": "Lucia_Caminos_03", "move": "zout", "head": "POR SU FAMILIA",
+   "say": "Y pelear por proteger a su familia es lo que la llevó a la Penitenciaría de Leonida. ¿El delito exacto? Rockstar todavía no lo ha dicho, y los fans no paran de discutirlo."},
+  {"asset": "Lucia_Caminos_07", "move": "pan_l", "head": "TUVO SUERTE", "chip": "\"PURA SUERTE\"",
+   "say": "Y tampoco salió por buen comportamiento. La biografía dice que salió por pura suerte."},
+  {"asset": "Jason_and_Lucia_11", "move": "zin", "head": "¿SU SALIDA?",
+   "say": "Y termina con una frase: una vida con Jason podría ser su salida."},
+  {"asset": "Jason_and_Lucia_08", "move": "zout", "head": "PODRÍA SER...", "sticker": "sticker_palm",
+   "say": "Podría ser. ¿Tú qué crees que hizo Lucía de verdad? Deja tu teoría."},
+ ]},
+]
+SHORTS = SHORTS_ES
+
 SOURCES = {  # claim-level source log per short (written to LeonidaDiario/sources/)
  "short_01": [("Four relationship levels, 'Running on Empty' to 'Hot Together'", "credible reporting (guides)", "https://www.gtabase.com/articles/gta-6/gta-6-jason-and-lucia-s-relationship-system-explained"),
               ("Holding hands, greeting, talking, same bedtime raise it; both must contribute", "credible reporting (guides)", "https://www.keengamer.com/articles/guides/gta-6-relationship-guide-how-to-raise-jason-and-lucias-bond/"),
@@ -192,14 +306,19 @@ def vosk_model():
         SetLogLevel(-1); _vm = Model(VOSK)
     return _vm
 
+def _deacc(s):
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn")
+
 def norm_tokens(word):
     """Spoken-form tokens for one display word (for alignment against the recognizer)."""
     from num2words import num2words
-    w = word.lower().strip(".,!?;:\"“”()…'’").replace("’", "'")
+    w = _deacc(word.lower().strip(".,!?;:\"“”()…'’¿¡").replace("’", "'"))
     if not w: return []
-    if w == "gta": return ["g", "t", "a"]
-    if re.fullmatch(r"-?\d+(\.\d+)?", w):
-        return re.sub(r"[-,]", " ", num2words(float(w) if "." in w else int(w))).split()
+    if w == "gta": return ["ge", "te", "a"] if LANG == "es" else ["g", "t", "a"]
+    if re.fullmatch(r"-?\d+([.,]\d+)?", w):
+        v = float(w.replace(",", ".")) if re.search(r"[.,]", w) else int(w)
+        return _deacc(re.sub(r"[-,]", " ", num2words(v, lang=LANG))).split()
     return [t for t in re.split(r"[-/]", w) if t]
 
 def transcribe(samples, sr):
@@ -215,7 +334,7 @@ def transcribe(samples, sr):
         if rec.AcceptWaveform(pcm[i:i + 8000]):
             words += json.loads(rec.Result()).get("result", [])
     words += json.loads(rec.FinalResult()).get("result", [])
-    return [(w["word"], w["start"], w["end"]) for w in words]
+    return [(_deacc(w["word"]), w["start"], w["end"]) for w in words]
 
 def align(display_words, rec_words):
     """Start time for each display word, from recognizer timestamps (interpolated where unmatched)."""
@@ -250,10 +369,10 @@ def gaps(x, sr, thr=0.004, min_gap=0.55):
 
 def tts(text):
     """One continuous generation for the whole scene; validated and retried if needed."""
-    tries = [(VOICE, SPEED), (VOICE, 1.0), (VOICE, 1.08), ("am_fenrir", 1.04)]
+    tries = [(VOICE, SPEED), (VOICE, 0.97), (VOICE, 1.04)] + ([("am_fenrir", 1.04)] if LANG == "en" else [])
     best = None
     for voice, spd in tries:
-        s, sr = kokoro().create(text, voice=voice, speed=spd, lang="en-us")
+        s, sr = kokoro().create(A.pron(text) if LANG == "es" else text, voice=voice, speed=spd, lang=KLANG)
         s = np.asarray(s, np.float32)
         nz = np.where(np.abs(s) > 0.006)[0]
         s = s[max(0, nz[0] - int(sr * 0.04)): nz[-1] + int(sr * 0.08)] if len(nz) else s
@@ -263,7 +382,7 @@ def tts(text):
         words = text.split()
         starts, ratio, _ = align(words, rec)
         g = gaps(s, sr)
-        ok = ratio >= 0.88 and not g
+        ok = ratio >= MIN_MATCH and not g
         rep = {"voice": voice, "speed": spd, "asr_match": round(ratio, 3), "long_gaps": g,
                "recognized": " ".join(w[0] for w in rec), "duration": round(len(s) / sr, 2)}
         rep["ok"] = ok
@@ -271,7 +390,7 @@ def tts(text):
             best = (s, sr, starts, rep)
         if ok: break
         # keep the channel's narrator: only fall back to another voice if the main one is clearly broken
-        if voice == VOICE and spd == tries[2][1] and best[3]["asr_match"] >= 0.80 and not best[3]["long_gaps"]:
+        if voice == VOICE and spd == tries[2][1] and best[3]["asr_match"] >= MIN_MATCH - 0.08 and not best[3]["long_gaps"]:
             best[3]["note"] = "main voice kept (ASR below 0.88 is recognizer error on uncommon words; manually checked text)"
             return best
         if voice != VOICE: best = (s, sr, starts, rep)
@@ -400,7 +519,7 @@ def build(spec, order):
         if e["s"].get("sticker"):
             e["stk"] = sticker_frames(e["s"]["sticker"]); assets_used.append(e["s"]["sticker"])
     ov = S.overlay()
-    cred = text_img(spec.get("credit", "Images: Rockstar Games"), font("semi", 26), stroke=3, pad=8)
+    cred = text_img(spec.get("credit", "Imágenes: Rockstar Games"), font("semi", 26), stroke=3, pad=8)
     out = os.path.join(d, f"{sid}.mp4")
     cmd = ["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
            "-i", mix, "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-pix_fmt", "yuv420p",
@@ -445,7 +564,7 @@ def build(spec, order):
     open(os.path.join(OUT, "scripts", f"{sid}.txt"), "w").write(f"{spec['title']}\n\n{script}\n")
     meta = {"id": sid, "slug": spec["slug"], "order": order, "date": str(datetime.date.today()), "title": spec["title"],
             "description": spec["description"] + "\n\n" + " ".join(spec["hashtags"]) + "\n\n" +
-                           spec.get("credit", "Images: Rockstar Games") + ". Unofficial fan channel, not affiliated with Rockstar Games or Take-Two. AI voice narration.",
+                           spec.get("credit", "Imágenes: Rockstar Games") + ". Canal de fans no oficial, sin afiliación con Rockstar Games ni Take-Two. Narración con voz generada por IA.",
             "hashtags": spec["hashtags"], "tags": spec["tags"], "pinned_comment": spec["pinned"], "duration": round(total, 2),
             "assets_used": assets_used, "files": {"video": f"shorts/{sid}/{sid}.mp4", "cover": f"shorts/{sid}/{sid}-cover.jpg", "srt": f"shorts/{sid}/{sid}.srt"}}
     json.dump(meta, open(os.path.join(OUT, "metadata", f"{sid}.json"), "w"), indent=1, ensure_ascii=False)
@@ -469,7 +588,7 @@ def cover(spec, d):
     import covers_v2 as C
     img, fx, fy, zoom, lines, seal = spec["cover"]
     return C.make((img, fx, fy, zoom, lines, seal, True), os.path.join(d, f"{spec['id']}-cover.jpg"),
-                  os.path.join(d, f"{spec['id']}.mp4"), credit=spec.get("credit", "Images: Rockstar Games"))
+                  os.path.join(d, f"{spec['id']}.mp4"), credit=spec.get("credit", "Imágenes: Rockstar Games"))
 
 # --------------------------------------------------------------------------------------------- QC
 def qc(mp4, spec, caps):
@@ -494,6 +613,7 @@ def qc(mp4, spec, caps):
     rec = transcribe(x, sr)
     script_words = " ".join(sc["say"] for sc in spec["scenes"]).split()
     _, ratio, _ = align(script_words, rec)
+    r["recognized_text"] = " ".join(w[0] for w in rec)
     r["asr_match_full_voice"] = round(ratio, 3)
     flat = [t for w in script_words for t in norm_tokens(w)]
     rec_t = [w[0] for w in rec]
@@ -506,7 +626,7 @@ def qc(mp4, spec, caps):
     if not r["has_audio"]: problems.append("no audio")
     if r["black_segments"]: problems.append("black frames")
     if r["silences_over_0.8s"]: problems.append("long silence")
-    if r["asr_match_full_voice"] < 0.88: problems.append("narration mismatch")
+    if r["asr_match_full_voice"] < MIN_MATCH: problems.append("narration mismatch")
     if r["clipping_samples"]: problems.append("clipping")
     if not r["subtitles_match_script"]: problems.append("subtitle text")
     if r["loudness_lufs"] is not None and not (-16.5 <= r["loudness_lufs"] <= -12.5): problems.append("loudness")

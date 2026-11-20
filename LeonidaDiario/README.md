@@ -1,123 +1,123 @@
-# LeonidaDiario — 5 English Shorts (2026-11-20)
+# LeonidaDiario — 5 Shorts en español (2026-11-20)
 
-Nothing has been uploaded. Every file below is ready for YouTube Shorts, TikTok and Instagram Reels (1080×1920, H.264/AAC, −14 LUFS).
+No se ha subido nada. Todo está listo para YouTube Shorts, TikTok e Instagram Reels (1080×1920, H.264/AAC, −15 LUFS aprox.). Narración en español (em_alex), validada escena por escena con reconocimiento de voz (Vosk es).
 
 | # | Title | Duration | QC | Voice check (ASR match) | Visuals | Video |
 |---|---|---|---|---|---|---|
-| 1 | Ignore Lucia in GTA 6 and THIS happens 💔 #gta6 #shorts | 44.37 s | PASS | 0.96 | 6 official stills, official animated sticker | `shorts/short_01/short_01.mp4` |
-| 2 | You can make Jason FAT in GTA 6 🍔 (but not THAT fat) #gta6 #shorts | 44.84 s | PASS | 0.952 | 6 official stills, official animated sticker | `shorts/short_02/short_02.mp4` |
-| 3 | In JAPAN, GTA 6 is a different game 🇯🇵 #gta6 #shorts | 37.56 s | PASS | 0.925 | 6 official stills, official animated sticker | `shorts/short_03/short_03.mp4` |
-| 4 | The MANDY choice most GTA 6 players rushed 🔧 #gta6 #shorts | 36.13 s | PASS | 0.961 | 2 official stills, third-party gameplay clip, official animated sticker | `shorts/short_04/short_04.mp4` |
-| 5 | Why was LUCIA in prison? GTA 6 explained ⛓️ #gta6 #shorts | 35.03 s | PASS | 0.951 | 6 official stills, official animated sticker | `shorts/short_05/short_05.mp4` |
+| 1 | Si IGNORAS a Lucía en GTA 6 pasa ESTO 💔 #gta6 #shorts | 44.61 s | PASS | 0.925 | 6 official stills, official animated sticker | `shorts/short_01/short_01.mp4` |
+| 2 | Puedes poner GORDO a Jason en GTA 6 🍔 (pero no TANTO) #gta6 #shorts | 47.31 s | PASS | 0.856 | 6 official stills, official animated sticker | `shorts/short_02/short_02.mp4` |
+| 3 | En JAPÓN, GTA 6 es OTRO juego 🇯🇵 #gta6 #shorts | 39.31 s | PASS | 0.887 | 6 official stills, official animated sticker | `shorts/short_03/short_03.mp4` |
+| 4 | La DECISIÓN de MANDY que casi nadie pensó 🔧 #gta6 #shorts | 41.0 s | PASS | 0.91 | 2 official stills, third-party gameplay clip, official animated sticker | `shorts/short_04/short_04.mp4` |
+| 5 | ¿Por qué LUCÍA estaba en la CÁRCEL? GTA 6 ⛓️ #gta6 #shorts | 37.25 s | PASS | 0.936 | 6 official stills, official animated sticker | `shorts/short_05/short_05.mp4` |
 
 Folders: `shorts/` finished videos · `scripts/` narration · `voiceovers/` clean voice stems · `sources/` claim-by-claim sources and topic scoring · `metadata/` titles, descriptions, hashtags, pinned comments, assets used · `production_reports/` QC + benchmark analysis.
 
-## short_01: Ignore Lucia in GTA 6 and THIS happens 💔 #gta6 #shorts
+## short_01: Si IGNORAS a Lucía en GTA 6 pasa ESTO 💔 #gta6 #shorts
 
 **Why this topic:** Fresh relationship guides from PC Gamer, GameSpot, GTABase, KeenGamer (Nov 19-20); Vice/Bloomberg interview on hand-holding; TikTok 'microcheating' debate (Yahoo). Character interaction = closest to the benchmark short.
 
 **Description:**
 ```
-Jason and Lucia have a relationship meter in GTA 6. Here's what raises it, what breaks it, and why ignoring her calls is a bad idea.
+Jason y Lucía tienen un medidor de relación en GTA 6. Qué lo sube, qué lo rompe y por qué ignorar sus llamadas es mala idea.
 
-#gta6 #gtavi #jasonandlucia #gta6lucia #rockstargames #gaming #shorts
+#gta6 #gtavi #jasonylucia #gta6lucia #rockstargames #gaming #shorts
 
-Images: Rockstar Games. Unofficial fan channel, not affiliated with Rockstar Games or Take-Two. AI voice narration.
+Imágenes: Rockstar Games. Canal de fans no oficial, sin afiliación con Rockstar Games ni Take-Two. Narración con voz generada por IA.
 ```
-**Pinned comment:** Be honest: how many of Lucia's calls have you ignored so far? 📱
+**Pinned comment:** Sé sincero: ¿cuántas llamadas de Lucía has ignorado ya? 📱
 
 **Files:** `shorts/short_01/` (mp4, cover jpg, srt, title/description/tags), script `scripts/short_01.txt`, voice `voiceovers/short_01_voice.wav`, sources `sources/short_01.md`, report `production_reports/short_01.json`.
 
 **Visual assets:** Jason_and_Lucia_01, Jason_and_Lucia_03, Jason_and_Lucia_05, Jason_and_Lucia_06, Jason_and_Lucia_13, Lucia_Caminos_10, sticker_flamingo
 
-**Narration per scene:** 1: am_puck ×1.04 match 0.905; 2: am_puck ×1.04 match 0.958; 3: am_puck ×1.04 match 1.0; 4: am_puck ×1.04 match 1.0; 5: am_puck ×1.04 match 1.0; 6: am_puck ×1.04 match 0.913
+**Narration per scene:** 1: em_alex ×1.0 match 0.919; 2: em_alex ×1.0 match 0.756; 3: em_alex ×1.0 match 1.0; 4: em_alex ×1.0 match 0.964; 5: em_alex ×1.0 match 1.0; 6: em_alex ×1.0 match 0.96
 
-**QC:** {"resolution": "1080x1920", "duration": 44.37, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.0, "true_peak_dbfs": -1.2, "asr_match_full_voice": 0.96, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
+**QC:** {"resolution": "1080x1920", "duration": 44.6, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.3, "true_peak_dbfs": -1.1, "recognized_text": "si sigues ignorando las llamadas de lucia en seis vas a perder mucho mas que una conversacion yeison y lucia tienen un medidor de relacion con cuatro niveles las guias los nombran desde ra ningun empty hasta octubre der ir de la mano saludarse empezar conversaciones incluso irse a dormir a la misma hora y los dos tienen que poner de su parte tila descuidas desaparecen los besos y el ir de la mano hasta que reconstruidas el vinculo ignorar llamadas y mensajes es de lo que mas lo dana algunas guias incluso dicen que una relacion rota puede cambiar dialogos opciones de mision y escenas la buena noticia no hay sistema de celos ir a un strip club no va a provocar una pelea entonces eres buena pareja en leonidas", "asr_match_full_voice": 0.925, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
 
-## short_02: You can make Jason FAT in GTA 6 🍔 (but not THAT fat) #gta6 #shorts
+## short_02: Puedes poner GORDO a Jason en GTA 6 🍔 (pero no TANTO) #gta6 #shorts
 
 **Why this topic:** Rockstar confirmed weight/muscle system to Dazed; 'True Fat Jason' player test covered by GamesRadar/Yahoo/Notebookcheck post-launch; smell system confirmed by Aaron Garbut (Edge) via Beebom.
 
 **Description:**
 ```
-GTA 6 tracks what Jason and Lucia eat, how they train and how they sleep. Players already tested 'True Fat Jason'. Plus: the smell system.
+GTA 6 controla lo que comen Jason y Lucía, cuánto entrenan y cuánto duermen. Los jugadores ya probaron el 'True Fat Jason'. Y además: el sistema de olores.
 
 #gta6 #gtavi #gta6jason #gta6gym #rockstargames #gaming #shorts
 
-Images: Rockstar Games. Unofficial fan channel, not affiliated with Rockstar Games or Take-Two. AI voice narration.
+Imágenes: Rockstar Games. Canal de fans no oficial, sin afiliación con Rockstar Games ni Take-Two. Narración con voz generada por IA.
 ```
-**Pinned comment:** Gym build or taco build? 🌮💪 What's your Jason running on right now?
+**Pinned comment:** ¿Build de gimnasio o build de tacos? 🌮💪 ¿Cómo va tu Jason?
 
 **Files:** `shorts/short_02/` (mp4, cover jpg, srt, title/description/tags), script `scripts/short_02.txt`, voice `voiceovers/short_02_voice.wav`, sources `sources/short_02.md`, report `production_reports/short_02.json`.
 
 **Visual assets:** Grassrivers_05, Jason_Duval_01, Jason_Duval_06, Jason_and_Lucia_12, Lucia_Caminos_09, Vice_City_26, sticker_gator
 
-**Narration per scene:** 1: am_puck ×1.04 match 1.0; 2: am_puck ×1.04 match 0.968; 3: am_puck ×1.04 match 1.0; 4: am_puck ×1.04 match 0.971; 5: am_puck ×1.04 match 0.917; 6: am_puck ×1.04 match 1.0
+**Narration per scene:** 1: em_alex ×1.0 match 0.812; 2: em_alex ×1.0 match 0.879; 3: em_alex ×1.0 match 1.0; 4: em_alex ×0.97 match 0.824; 5: em_alex ×1.0 match 0.871; 6: em_alex ×1.0 match 0.846
 
-**QC:** {"resolution": "1080x1920", "duration": 44.84, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.2, "true_peak_dbfs": -1.2, "asr_match_full_voice": 0.952, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
+**QC:** {"resolution": "1080x1920", "duration": 47.31, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.4, "true_peak_dbfs": -0.9, "recognized_text": "te seis esta pendiente de lo que comes y si puedes poner gordo yeison rockstar se lo confirmo a la revista de hist el cuerpo de yeison y lucia cambia segun lo que comen y cuanto entrenan si comes demas engordas si vas al gym ganas musculo ahi hasta una app de salud que registra el sueno la dieta y el peso y si deja de entrenar pierdes lo ganado un jugador alimento a yeison a base de hamburguesa si tacos para crear al trufa yeison el resultado barriga y papada pero segun los jugadores nunca llega estar tan gordo como arthur morgan y ademas hay un sistema de olores era un garbo de rockstar le conto a la revista edge yeison y usia ponen cara de asco ante los malos olores del mapa entonces tu yeison va a base de jim o a base de tacos", "asr_match_full_voice": 0.856, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
 
-## short_03: In JAPAN, GTA 6 is a different game 🇯🇵 #gta6 #shorts
+## short_03: En JAPÓN, GTA 6 es OTRO juego 🇯🇵 #gta6 #shorts
 
 **Why this topic:** VGC, Game Rant, Game*Spark, Cybernews report the Japanese version's changes (Nov 19). Suggestive-but-safe curiosity angle; partly conflicting on decapitations (we say so).
 
 **Description:**
 ```
-The Japanese version of GTA 6 is rated CERO Z and has been edited: shower scenes, the gore slider, file size and subtitles. Some reports still conflict.
+La versión japonesa de GTA 6 tiene calificación CERO Z y viene editada: las escenas de ducha, el ajuste de violencia, el tamaño y los subtítulos. Algunos reportes todavía no coinciden.
 
-#gta6 #gtavi #gta6japan #censorship #rockstargames #gaming #shorts
+#gta6 #gtavi #gta6japon #censura #rockstargames #gaming #shorts
 
-Images: Rockstar Games. Unofficial fan channel, not affiliated with Rockstar Games or Take-Two. AI voice narration.
+Imágenes: Rockstar Games. Canal de fans no oficial, sin afiliación con Rockstar Games ni Take-Two. Narración con voz generada por IA.
 ```
-**Pinned comment:** Would you play a censored GTA 6, or is that a deal breaker? 🤔
+**Pinned comment:** ¿Jugarías un GTA 6 censurado o para ti eso es imperdonable? 🤔
 
 **Files:** `shorts/short_03/` (mp4, cover jpg, srt, title/description/tags), script `scripts/short_03.txt`, voice `voiceovers/short_03_voice.wav`, sources `sources/short_03.md`, report `production_reports/short_03.json`.
 
 **Visual assets:** Jason_Duval_03, Jason_Duval_08, Jason_and_Lucia_04, Jason_and_Lucia_09, Vice_City_10, Vice_City_11, sticker_sun
 
-**Narration per scene:** 1: am_puck ×1.04 match 0.941; 2: am_puck ×1.04 match 0.933; 3: am_puck ×1.04 match 0.875; 4: am_puck ×1.04 match 0.952; 5: am_puck ×1.04 match 1.0; 6: am_puck ×1.04 match 0.933
+**Narration per scene:** 1: em_alex ×1.0 match 0.8; 2: em_alex ×1.0 match 0.933; 3: em_alex ×1.0 match 0.941; 4: em_alex ×1.0 match 0.939; 5: em_alex ×1.0 match 1.0; 6: em_alex ×1.04 match 0.769
 
-**QC:** {"resolution": "1080x1920", "duration": 37.55, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.2, "true_peak_dbfs": -1.1, "asr_match_full_voice": 0.925, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
+**QC:** {"resolution": "1080x1920", "duration": 39.31, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.5, "true_peak_dbfs": -1.5, "recognized_text": "en un pais jeta seis es otro juego literalmente yeison se ducha en calzoncillos la version de japon tiene la calificacion cero zeta solo para adultos y bien editada donde las demas versiones muestran desnudos en la ducha la japonesa deja yeison en calzoncillos y segun los reportes las escenas de lucia tamb cambiaron el ajuste de sangre y violencia desaparece por completo y hay menos sangre y los reportes ni siquiera coinciden en si quitaron las decapitacion es ademas pesa uno coma dos gigas menos y solo trae subtitulos en japones tu jugaria sujete a seis censurado o eso para ti es imperdonable", "asr_match_full_voice": 0.887, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
 
-## short_04: The MANDY choice most GTA 6 players rushed 🔧 #gta6 #shorts
+## short_04: La DECISIÓN de MANDY que casi nadie pensó 🔧 #gta6 #shorts
 
 **Why this topic:** Pipework/Mandy went viral on launch day (KeenGamer, Game Rant, Insider Gaming); our own Mandy short did ~4.5k views vs ~20 normal, 56% stayed. Choice mechanic documented in guides. Only real gameplay we hold is the owner-supplied Mandy clip.
 
 **Description:**
 ```
-In the Pipework mission, GTA 6 lets you provoke Mandy or defuse the conversation. Here's what guides say happens, and the theory about what came out of her pipe. Chapter 1 spoilers.
+En la misión Pipework, GTA 6 te deja provocar a Mandy o calmar la situación. Esto dicen las guías que pasa, y la teoría sobre lo que salió de su tubería. Spoilers del capítulo 1.
 
 #gta6 #gtavi #mandy #gta6mandy #pipework #rockstargames #shorts
 
-Clip: @GTAmemesSOL (X) · Images: Rockstar Games. Unofficial fan channel, not affiliated with Rockstar Games or Take-Two. AI voice narration.
+Clip: @GTAmemesSOL (X) · Imágenes: Rockstar Games. Canal de fans no oficial, sin afiliación con Rockstar Games ni Take-Two. Narración con voz generada por IA.
 ```
-**Pinned comment:** Provoke or defuse: which one did you pick with Mandy? 👀
+**Pinned comment:** ¿Provocar o calmar? ¿Qué elegiste tú con Mandy? 👀
 
 **Files:** `shorts/short_04/` (mp4, cover jpg, srt, title/description/tags), script `scripts/short_04.txt`, voice `voiceovers/short_04_voice.wav`, sources `sources/short_04.md`, report `production_reports/short_04.json`.
 
 **Visual assets:** Brian_Heder_01, Leonida_Keys_06, clip:mandy_pipework.mp4, sticker_crab
 
-**Narration per scene:** 1: am_puck ×1.04 match 0.923; 2: am_puck ×1.04 match 0.95; 3: am_puck ×1.04 match 1.0; 4: am_puck ×1.04 match 1.0; 5: am_puck ×1.04 match 0.929; 6: am_puck ×1.04 match 1.0
+**Narration per scene:** 1: em_alex ×1.0 match 1.0; 2: em_alex ×1.0 match 0.864; 3: em_alex ×1.0 match 0.872; 4: em_alex ×1.0 match 0.88; 5: em_alex ×1.0 match 0.971; 6: em_alex ×1.0 match 1.0
 
-**QC:** {"resolution": "1080x1920", "duration": 36.13, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.3, "true_peak_dbfs": -1.4, "asr_match_full_voice": 0.961, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
+**QC:** {"resolution": "1080x1920", "duration": 41.0, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.3, "true_peak_dbfs": -1.1, "recognized_text": "en la escena de mandy hay una decision que casi todos los jugadores pasaron sin pensar brayan manda yeison cobrarle el alquiler a mandy en los cayos ella no paga hasta que le arregle el fregadero mientras yeison lo destapa sale algo de la tuberia y mandy se loquita antes de que pueda verlo bien entonces el juego te de a elegir provocara mandy o calmar la conversacion y aqui viene el giro segun las guias los dos caminos acaban igual se encierra en el bano y le pide a yeison que se vaya y no hay opcion de romance con ella entonces que habia en esa tuberia los fans juran que era un dedo rockstar no ha confirmado nada tu que crees que es conde", "asr_match_full_voice": 0.91, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
 
-## short_05: Why was LUCIA in prison? GTA 6 explained ⛓️ #gta6 #shorts
+## short_05: ¿Por qué LUCÍA estaba en la CÁRCEL? GTA 6 ⛓️ #gta6 #shorts
 
 **Why this topic:** Evergreen character question; answer comes from Rockstar's official bio (quoted by wikis). Many unused official Lucia screenshots (prison, boxing, bar, police).
 
 **Description:**
 ```
-GTA 6 starts with Lucia behind bars. Here's what Rockstar's official bio actually says about why, and what it leaves out.
+GTA 6 empieza con Lucía en prisión. Esto es lo que dice de verdad la biografía oficial de Rockstar, y lo que no cuenta.
 
 #gta6 #gtavi #lucia #gta6lucia #luciacaminos #rockstargames #shorts
 
-Images: Rockstar Games. Unofficial fan channel, not affiliated with Rockstar Games or Take-Two. AI voice narration.
+Imágenes: Rockstar Games. Canal de fans no oficial, sin afiliación con Rockstar Games ni Take-Two. Narración con voz generada por IA.
 ```
-**Pinned comment:** What do you think Lucia actually did? Drop your theory 👇
+**Pinned comment:** ¿Qué crees que hizo Lucía de verdad? Deja tu teoría 👇
 
 **Files:** `shorts/short_05/` (mp4, cover jpg, srt, title/description/tags), script `scripts/short_05.txt`, voice `voiceovers/short_05_voice.wav`, sources `sources/short_05.md`, report `production_reports/short_05.json`.
 
 **Visual assets:** Jason_and_Lucia_08, Jason_and_Lucia_11, Lucia_Caminos_01, Lucia_Caminos_03, Lucia_Caminos_05, Lucia_Caminos_07, sticker_palm
 
-**Narration per scene:** 1: am_puck ×1.04 match 0.964; 2: am_puck ×1.04 match 0.889; 3: am_puck ×1.04 match 0.945; 4: am_puck ×1.04 match 0.938; 5: am_puck ×1.04 match 1.0; 6: am_puck ×1.04 match 1.0
+**Narration per scene:** 1: em_alex ×1.0 match 0.833; 2: em_alex ×1.0 match 1.0; 3: em_alex ×1.0 match 0.954; 4: em_alex ×1.0 match 1.0; 5: em_alex ×1.0 match 0.923; 6: em_alex ×1.0 match 1.0
 
-**QC:** {"resolution": "1080x1920", "duration": 35.03, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.3, "true_peak_dbfs": -1.4, "asr_match_full_voice": 0.951, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
+**QC:** {"resolution": "1080x1920", "duration": 37.24, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.2, "true_peak_dbfs": -0.8, "recognized_text": "cuando conoces a lucia en te seis esta entre rejas asimismo la presento rockstar en el primer trailer pero porque esta ahi segun la biografia oficial de rockstar su padre le enseno a pelear desde nina y pelear por proteger a su familia es lo que la llevo a la penitenciaria de leonidas el delito exacto rockstar todavia no dicho y los fans no paran de discutirlo y tampoco salio por buen comportamiento la biografia dice que salio por pura suerte y termina con una frase una vida con yeison podria ser su salida podria ser tu que crees que hizo lucia de verdad deja tu teoria", "asr_match_full_voice": 0.936, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}

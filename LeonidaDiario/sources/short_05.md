@@ -1,4 +1,4 @@
-# Sources — Why was LUCIA in prison? GTA 6 explained ⛓️ #gta6 #shorts
+# Sources — ¿Por qué LUCÍA estaba en la CÁRCEL? GTA 6 ⛓️ #gta6 #shorts
 
 | Claim | Status | Source |
 |---|---|---|

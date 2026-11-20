@@ -1,4 +1,4 @@
-# Sources — Ignore Lucia in GTA 6 and THIS happens 💔 #gta6 #shorts
+# Sources — Si IGNORAS a Lucía en GTA 6 pasa ESTO 💔 #gta6 #shorts
 
 | Claim | Status | Source |
 |---|---|---|

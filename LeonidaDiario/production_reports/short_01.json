@@ -1,64 +1,65 @@
 {
  "id": "short_01",
- "slug": "en-relationship-meter",
- "title": "Ignore Lucia in GTA 6 and THIS happens 💔 #gta6 #shorts",
+ "slug": "es-medidor-relacion",
+ "title": "Si IGNORAS a Lucía en GTA 6 pasa ESTO 💔 #gta6 #shorts",
  "scenes": [
   {
-   "voice": "am_puck",
-   "speed": 1.04,
-   "asr_match": 0.905,
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.919,
    "long_gaps": [],
-   "recognized": "if you keep ignoring lucius calls and g t a six you're going to lose a lot more than a conversation",
-   "duration": 5.88,
+   "recognized": "si sigues ignorando las llamadas de lucia en seis vas a perder mucho mas que una conversacion",
+   "duration": 5.95,
    "ok": true
   },
   {
-   "voice": "am_puck",
-   "speed": 1.04,
-   "asr_match": 0.958,
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.756,
    "long_gaps": [],
-   "recognized": "jason and lucia have a relationship meter with for levels guides list them from running on empty all the way up to hot together",
-   "duration": 7.54,
-   "ok": true
+   "recognized": "y ahi son y lucia tienen un medidor de relacion con cuatro niveles las guias los nombran desde ra ningun empty hasta octubre",
+   "duration": 7.34,
+   "ok": false,
+   "note": "main voice kept (ASR below 0.88 is recognizer error on uncommon words; manually checked text)"
   },
   {
-   "voice": "am_puck",
-   "speed": 1.04,
+   "voice": "em_alex",
+   "speed": 1.0,
    "asr_match": 1.0,
    "long_gaps": [],
-   "recognized": "holding hands greeting each other starting conversations even going to bed at the same time and both of them have to put in the effort",
+   "recognized": "ir de la mano saludarse empezar conversaciones incluso irse a dormir a la misma hora y los dos tienen que poner de su parte",
+   "duration": 7.47,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.964,
+   "long_gaps": [],
+   "recognized": "si la descuidas desaparecen los besos y el ir de la mano hasta que reconstruidas el vinculo ignorar llamadas y mensajes es de lo que mas lo dana",
+   "duration": 8.32,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "algunas guias incluso dicen que una relacion rota puede cambiar dialogos opciones de mision y escenas",
+   "duration": 5.89,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.96,
+   "long_gaps": [],
+   "recognized": "la buena noticia no hay sistema de celos ir a un strip club no va a provocar una pelea entonces eres buena pareja en leonidas",
    "duration": 7.36,
-   "ok": true
-  },
-  {
-   "voice": "am_puck",
-   "speed": 1.04,
-   "asr_match": 1.0,
-   "long_gaps": [],
-   "recognized": "neglect her and the hand holding and kissing disappear until you rebuild the bond ignored calls and texts are one of the fastest ways to hurt it",
-   "duration": 8.58,
-   "ok": true
-  },
-  {
-   "voice": "am_puck",
-   "speed": 1.04,
-   "asr_match": 1.0,
-   "long_gaps": [],
-   "recognized": "some guides even report that a broken relationship can change dialogue mission options and cutscenes",
-   "duration": 6.03,
-   "ok": true
-  },
-  {
-   "voice": "am_puck",
-   "speed": 1.04,
-   "asr_match": 0.913,
-   "long_gaps": [],
-   "recognized": "the good news there's no jealousy system a strip club visit won't start a fight so are you a good partner and leonardo",
-   "duration": 6.7,
    "ok": true
   }
  ],
- "duration": 44.37,
+ "duration": 44.61,
  "assets_used": [
   "Lucia_Caminos_10",
   "Jason_and_Lucia_03",
@@ -70,13 +71,14 @@
  ],
  "qc": {
   "resolution": "1080x1920",
-  "duration": 44.37,
+  "duration": 44.6,
   "has_audio": true,
   "black_segments": 0,
   "silences_over_0.8s": 0,
-  "loudness_lufs": -15.0,
-  "true_peak_dbfs": -1.2,
-  "asr_match_full_voice": 0.96,
+  "loudness_lufs": -15.3,
+  "true_peak_dbfs": -1.1,
+  "recognized_text": "si sigues ignorando las llamadas de lucia en seis vas a perder mucho mas que una conversacion yeison y lucia tienen un medidor de relacion con cuatro niveles las guias los nombran desde ra ningun empty hasta octubre der ir de la mano saludarse empezar conversaciones incluso irse a dormir a la misma hora y los dos tienen que poner de su parte tila descuidas desaparecen los besos y el ir de la mano hasta que reconstruidas el vinculo ignorar llamadas y mensajes es de lo que mas lo dana algunas guias incluso dicen que una relacion rota puede cambiar dialogos opciones de mision y escenas la buena noticia no hay sistema de celos ir a un strip club no va a provocar una pelea entonces eres buena pareja en leonidas",
+  "asr_match_full_voice": 0.925,
   "repeated_word_events": 0,
   "clipping_samples": 0,
   "subtitles_match_script": true,

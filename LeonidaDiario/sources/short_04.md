@@ -1,4 +1,4 @@
-# Sources — The MANDY choice most GTA 6 players rushed 🔧 #gta6 #shorts
+# Sources — La DECISIÓN de MANDY que casi nadie pensó 🔧 #gta6 #shorts
 
 | Claim | Status | Source |
 |---|---|---|

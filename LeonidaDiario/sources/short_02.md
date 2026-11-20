@@ -1,4 +1,4 @@
-# Sources — You can make Jason FAT in GTA 6 🍔 (but not THAT fat) #gta6 #shorts
+# Sources — Puedes poner GORDO a Jason en GTA 6 🍔 (pero no TANTO) #gta6 #shorts
 
 | Claim | Status | Source |
 |---|---|---|

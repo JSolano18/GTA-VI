@@ -7,8 +7,8 @@ import leonida as LD, topics as T
 
 OUT = os.path.join(ROOT, "LeonidaDiario")
 why = {c["id"]: c["evidence"] for c in T.CANDIDATES}
-L = ["# LeonidaDiario — 5 English Shorts (2026-11-20)", "",
-     "Nothing has been uploaded. Every file below is ready for YouTube Shorts, TikTok and Instagram Reels (1080×1920, H.264/AAC, −14 LUFS).", "",
+L = ["# LeonidaDiario — 5 Shorts en español (2026-11-20)", "",
+     "No se ha subido nada. Todo está listo para YouTube Shorts, TikTok e Instagram Reels (1080×1920, H.264/AAC, −15 LUFS aprox.). Narración en español (em_alex), validada escena por escena con reconocimiento de voz (Vosk es).", "",
      "| # | Title | Duration | QC | Voice check (ASR match) | Visuals | Video |", "|---|---|---|---|---|---|---|"]
 details = []
 for spec in LD.SHORTS:

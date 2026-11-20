@@ -31,6 +31,9 @@ PRON = [
     (r"\bWAiNK\b", "Uéink"), (r"\bBuck Me\b", "Bak Mi"), (r"\bThree Sheets\b", "Zri Shits"), (r"\bVice-Dale\b", "Váis Deil"),
     (r"\bMoses\b", "Móuses"), (r"\bKick\b", "Kik"), (r"\bTwitch\b", "Tuich"), (r"\bYouTube\b", "Yutub"),
     (r"\bLeague of Legends\b", "Lig of Léyends"), (r"\bFortnite\b", "Fórtnait"), (r"\bFlu\b", "Flu"),
+    (r"\bRunning on Empty\b", "Ráning on Émpti"), (r"\bHot Together\b", "Jot Tuguéder"), (r"\bDazed\b", "Déizd"),
+    (r"\bEdge\b", "Edch"), (r"\bAaron Garbut\b", "Éron Gárbut"), (r"\bArthur Morgan\b", "Ártur Mórgan"), (r"\bCERO Z\b", "Sero Zeta"),
+    (r"\bTrue Fat\b", "Tru Fat"), (r"\bBrian\b", "Bráian"), (r"\bstrip club\b", "estríp club"), (r"\bgym\b", "yim"),
     (r"\bonline\b", "onláin"), (r"\bspoilers?\b", "espóiler"), (r"\bPro\b", "Pro"), (r"\bOceanía\b", "Oceanía"),
 ]
 

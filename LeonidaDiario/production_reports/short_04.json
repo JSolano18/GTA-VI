@@ -1,66 +1,66 @@
 {
  "id": "short_04",
- "slug": "en-mandy-choice",
- "title": "The MANDY choice most GTA 6 players rushed 🔧 #gta6 #shorts",
+ "slug": "es-decision-mandy",
+ "title": "La DECISIÓN de MANDY que casi nadie pensó 🔧 #gta6 #shorts",
  "scenes": [
   {
-   "voice": "am_puck",
-   "speed": 1.04,
-   "asr_match": 0.923,
-   "long_gaps": [],
-   "recognized": "there's a choice in the mandy seen that most players rushed straight through",
-   "duration": 3.41,
-   "ok": true
-  },
-  {
-   "voice": "am_puck",
-   "speed": 1.04,
-   "asr_match": 0.95,
-   "long_gaps": [],
-   "recognized": "brian sens jason to collect rent from mandy in the keys she won't pay until he fixes her clogged sink",
-   "duration": 6.29,
-   "ok": true
-  },
-  {
-   "voice": "am_puck",
-   "speed": 1.04,
+   "voice": "em_alex",
+   "speed": 1.0,
    "asr_match": 1.0,
    "long_gaps": [],
-   "recognized": "while jason unclogs it something comes out of the pipe and mandy snatches it before he gets a good look",
-   "duration": 5.49,
+   "recognized": "en la escena de mandy hay una decision que casi todos los jugadores pasaron sin pensar",
+   "duration": 5.03,
    "ok": true
   },
   {
-   "voice": "am_puck",
-   "speed": 1.04,
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.864,
+   "long_gaps": [],
+   "recognized": "pero hayan manda yeison a cobrarle el alquiler a mandy en los cayos ella no paga hasta que le arregle el fregadero",
+   "duration": 6.51,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.872,
+   "long_gaps": [],
+   "recognized": "mientras yeison lo destapa sale algo de la tuberia y mandy se loquita antes de que pueda verlo bien",
+   "duration": 6.02,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.88,
+   "long_gaps": [],
+   "recognized": "entonces el juego te deja elegir provocara mandy o calmar la conversacion",
+   "duration": 4.71,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.971,
+   "long_gaps": [],
+   "recognized": "y aqui viene el giro segun las guias los dos caminos acaban igual mandy se encierra en el bano y le pide a yeison que se vaya y no hay opcion de romance con ella",
+   "duration": 9.54,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
    "asr_match": 1.0,
    "long_gaps": [],
-   "recognized": "then the game lets you choose provoke mandy or defuse the conversation",
-   "duration": 3.96,
-   "ok": true
-  },
-  {
-   "voice": "am_puck",
-   "speed": 1.04,
-   "asr_match": 0.929,
-   "long_gaps": [],
-   "recognized": "here's the twist guide say both paths and the same way mandy retreats to her bathroom and asks jason to leave and there's no romance route with her",
-   "duration": 8.56,
-   "ok": true
-  },
-  {
-   "voice": "am_puck",
-   "speed": 1.04,
-   "asr_match": 1.0,
-   "long_gaps": [],
-   "recognized": "so what was in that pipe fans swear it was a finger rockstar hasn't confirmed anything what do you think she's hiding",
-   "duration": 6.15,
+   "recognized": "entonces que habia en esa tuberia los fans juran que era un dedo rockstar no ha confirmado nada tu que crees que esconde",
+   "duration": 6.91,
    "ok": true
   }
  ],
- "duration": 36.13,
+ "duration": 41.0,
  "assets_used": [
-  "clip:mandy_pipework.mp4@22.0",
+  "clip:mandy_pipework.mp4@20.5",
   "Brian_Heder_01",
   "clip:mandy_pipework.mp4@0.0",
   "clip:mandy_pipework.mp4@8.0",
@@ -70,13 +70,14 @@
  ],
  "qc": {
   "resolution": "1080x1920",
-  "duration": 36.13,
+  "duration": 41.0,
   "has_audio": true,
   "black_segments": 0,
   "silences_over_0.8s": 0,
   "loudness_lufs": -15.3,
-  "true_peak_dbfs": -1.4,
-  "asr_match_full_voice": 0.961,
+  "true_peak_dbfs": -1.1,
+  "recognized_text": "en la escena de mandy hay una decision que casi todos los jugadores pasaron sin pensar brayan manda yeison cobrarle el alquiler a mandy en los cayos ella no paga hasta que le arregle el fregadero mientras yeison lo destapa sale algo de la tuberia y mandy se loquita antes de que pueda verlo bien entonces el juego te de a elegir provocara mandy o calmar la conversacion y aqui viene el giro segun las guias los dos caminos acaban igual se encierra en el bano y le pide a yeison que se vaya y no hay opcion de romance con ella entonces que habia en esa tuberia los fans juran que era un dedo rockstar no ha confirmado nada tu que crees que es conde",
+  "asr_match_full_voice": 0.91,
   "repeated_word_events": 0,
   "clipping_samples": 0,
   "subtitles_match_script": true,

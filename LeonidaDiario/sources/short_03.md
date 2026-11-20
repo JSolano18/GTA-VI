@@ -1,4 +1,4 @@
-# Sources — In JAPAN, GTA 6 is a different game 🇯🇵 #gta6 #shorts
+# Sources — En JAPÓN, GTA 6 es OTRO juego 🇯🇵 #gta6 #shorts
 
 | Claim | Status | Source |
 |---|---|---|

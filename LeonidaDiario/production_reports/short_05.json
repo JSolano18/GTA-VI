@@ -1,64 +1,64 @@
 {
  "id": "short_05",
- "slug": "en-lucia-prison",
- "title": "Why was LUCIA in prison? GTA 6 explained ⛓️ #gta6 #shorts",
+ "slug": "es-lucia-prision",
+ "title": "¿Por qué LUCÍA estaba en la CÁRCEL? GTA 6 ⛓️ #gta6 #shorts",
  "scenes": [
   {
-   "voice": "am_puck",
-   "speed": 1.04,
-   "asr_match": 0.964,
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.833,
    "long_gaps": [],
-   "recognized": "when you meet lucia and g t a six she's behind bars that's exactly how rockstar introduced her in the very first trailer but why is she there",
-   "duration": 8.4,
+   "recognized": "cuando conoces a lucia en the seis esta entre rejas asimismo la presento rockstar en el primer trailer pero por esta ahi",
+   "duration": 7.49,
    "ok": true
   },
   {
-   "voice": "am_puck",
-   "speed": 1.04,
-   "asr_match": 0.889,
-   "long_gaps": [],
-   "recognized": "according to rock stars official bio her father taught her to fight from childhood",
-   "duration": 4.43,
-   "ok": true
-  },
-  {
-   "voice": "am_puck",
-   "speed": 1.04,
-   "asr_match": 0.945,
-   "long_gaps": [],
-   "recognized": "and fighting to protect her family is what landed her in leonid a penitentiary the exact crime rockstar still hasn't said and that's what fans keep arguing about",
-   "duration": 9.48,
-   "ok": true
-  },
-  {
-   "voice": "am_puck",
-   "speed": 1.04,
-   "asr_match": 0.938,
-   "long_gaps": [],
-   "recognized": "she didn't have her way out either the bio says she got out through sheer luck",
-   "duration": 3.83,
-   "ok": true
-  },
-  {
-   "voice": "am_puck",
-   "speed": 1.04,
+   "voice": "em_alex",
+   "speed": 1.0,
    "asr_match": 1.0,
    "long_gaps": [],
-   "recognized": "and it ends with one line a life with jason could be her way out",
-   "duration": 3.45,
+   "recognized": "segun la biografia oficial de rockstar su padre le enseno a pelear desde nina",
+   "duration": 4.59,
    "ok": true
   },
   {
-   "voice": "am_puck",
-   "speed": 1.04,
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.954,
+   "long_gaps": [],
+   "recognized": "pelear por proteger a su familia es lo que la llevo a la penitenciaria de leonidas el delito exacto rockstar todavia no lo ha dicho y los fans no paran de discutirlo",
+   "duration": 9.73,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
    "asr_match": 1.0,
    "long_gaps": [],
-   "recognized": "could be what do you think lucia actually did drop your theory",
-   "duration": 3.15,
+   "recognized": "y tampoco salio por buen comportamiento la biografia dice que salio por pura suerte",
+   "duration": 5.14,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.923,
+   "long_gaps": [],
+   "recognized": "y termina con una frase una vida con yeison podria ser su salida",
+   "duration": 4.16,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "podria ser tu que crees que hizo lucia de verdad deja tu teoria",
+   "duration": 3.86,
    "ok": true
   }
  ],
- "duration": 35.03,
+ "duration": 37.25,
  "assets_used": [
   "Lucia_Caminos_05",
   "Lucia_Caminos_01",
@@ -70,13 +70,14 @@
  ],
  "qc": {
   "resolution": "1080x1920",
-  "duration": 35.03,
+  "duration": 37.24,
   "has_audio": true,
   "black_segments": 0,
   "silences_over_0.8s": 0,
-  "loudness_lufs": -15.3,
-  "true_peak_dbfs": -1.4,
-  "asr_match_full_voice": 0.951,
+  "loudness_lufs": -15.2,
+  "true_peak_dbfs": -0.8,
+  "recognized_text": "cuando conoces a lucia en te seis esta entre rejas asimismo la presento rockstar en el primer trailer pero porque esta ahi segun la biografia oficial de rockstar su padre le enseno a pelear desde nina y pelear por proteger a su familia es lo que la llevo a la penitenciaria de leonidas el delito exacto rockstar todavia no dicho y los fans no paran de discutirlo y tampoco salio por buen comportamiento la biografia dice que salio por pura suerte y termina con una frase una vida con yeison podria ser su salida podria ser tu que crees que hizo lucia de verdad deja tu teoria",
+  "asr_match_full_voice": 0.936,
   "repeated_word_events": 0,
   "clipping_samples": 0,
   "subtitles_match_script": true,
