@@ -28,6 +28,9 @@ PRON = [
     (r"\bBigfoot\b", "Bigfut"), (r"\bGullet Marsh\b", "Gálet Marsh"), (r"\bWashington\b", "Uáshington"),
     (r"\bPipework\b", "Páipguork"), (r"\bMandy\b", "Mándi"), (r"\bSensor Tower\b", "Sénsor Táuer"), (r"\bTake-Two\b", "Teik Tu"),
     (r"\bPapa Audacity\b", "Papa Odásiti"),
+    (r"\bWAiNK\b", "Uéink"), (r"\bBuck Me\b", "Bak Mi"), (r"\bThree Sheets\b", "Zri Shits"), (r"\bVice-Dale\b", "Váis Deil"),
+    (r"\bMoses\b", "Móuses"), (r"\bKick\b", "Kik"), (r"\bTwitch\b", "Tuich"), (r"\bYouTube\b", "Yutub"),
+    (r"\bLeague of Legends\b", "Lig of Léyends"), (r"\bFortnite\b", "Fórtnait"), (r"\bFlu\b", "Flu"),
     (r"\bonline\b", "onláin"), (r"\bspoilers?\b", "espóiler"), (r"\bPro\b", "Pro"), (r"\bOceanía\b", "Oceanía"),
 ]
 

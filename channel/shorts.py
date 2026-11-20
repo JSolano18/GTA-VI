@@ -301,6 +301,63 @@ SHORTS += [
  ]},
 ]
 
+# ================================================================== tanda 5 (20/11)
+FUENTES5 = ("Fuentes: guías de Red Bull, VGC, Games.gg, Beebom y LibertyCity (dinero y coches); "
+            "CNN y NBC News (audiencia en streams y 'GTA Flu').")
+SHORTS += [
+{"slug": "s15-dinero", "seed": 61,
+ "title": "Si mueres en GTA 6 PIERDES tu dinero 💸 (haz esto) #gta6 #shorts",
+ "desc": "Dónde guardar tu dinero en GTA 6 para no perderlo al morir o al ser arrestado, cuándo se desbloquea el banco y dónde sacar dinero al principio.\n\n" + FUENTES5,
+ "tags": ["gta 6", "gta 6 dinero", "gta 6 dinero facil", "gta 6 banco", "gta 6 consejos", "gta 6 guia", "gtavi", "shorts"],
+ "scenes": [
+  {"img": "Jason_and_Lucia_17", "fx": 0.55, "head": "VAS A PERDER TU DINERO",
+   "say": "Si mueres o te arrestan en GTA 6, pierdes todo el dinero que llevas encima. Así que haz esto."},
+  {"img": "Jason_Duval_15", "fx": 0.5, "head": "1. BAJO EL SUELO", "chip": "HABITACIÓN DE JASON",
+   "say": "Uno: en la habitación de Jason hay tablas sueltas en el suelo. Ahí puedes esconder el dinero al principio."},
+  {"img": "Vice_City_15", "fx": 0.5, "head": "2. EL BANCO LLEGA PRONTO", "chip": "MISIÓN BUCK ME",
+   "say": "Dos: el banco se desbloquea con la misión Buck Me, más o menos entre la primera y la segunda hora de juego. A partir de ahí, deposita a menudo."},
+  {"img": "Vice_City_22", "fx": 0.5, "head": "3. DINERO RÁPIDO",
+   "rows": [["THREE SHEETS LIQUOR", "$"], ["ALMACÉN DE HAMLET", "$$"]],
+   "say": "Tres: según las primeras guías, la licorería Three Sheets da dinero rápido, y un almacén cerca de Hamlet, en South Vice-Dale, da un botín más grande."},
+  {"img": "Jason_Duval_18", "fx": 0.55, "head": "Y NO TE DEJES ATRAPAR",
+   "say": "Y recuerda: tápate la cara antes de robar, o la policía te va a reconocer. ¿Ya perdiste dinero alguna vez? Te leo."},
+ ]},
+{"slug": "s16-robar-coches", "seed": 62,
+ "title": "Así se ROBAN los coches de LUJO en GTA 6 🚗🔑 #gta6 #shorts",
+ "desc": "Por qué no puedes robar los coches caros al principio de GTA 6, la app WAiNK para escanearlos y a quién no venderle un coche con rastreador.\n\n" + FUENTES5,
+ "tags": ["gta 6", "gta 6 coches", "gta 6 robar coches", "gta 6 autos de lujo", "gta 6 wainK", "gta 6 trucos", "gtavi", "shorts"],
+ "scenes": [
+  {"img": "Vice_City_24", "fx": 0.4, "head": "¿NO PUEDES ROBAR ESE COCHE?",
+   "say": "¿Intentaste robar un coche de lujo en GTA 6 y no pudiste? No es un bug. Te explico."},
+  {"img": "Jason_Duval_19", "fx": 0.84, "head": "CASI TODOS SE PUENTEAN",
+   "say": "La mayoría de los coches se pueden robar haciendo un puente, como siempre."},
+  {"img": "Jason_and_Lucia_20", "fx": 0.45, "head": "LOS CAROS, NO", "chip": "NECESITAS UN CLONADOR DE LLAVES",
+   "say": "Pero los coches caros sin llave necesitan un clonador de llaves. Por eso al principio no puedes llevarte los mejores."},
+  {"img": "Lucia_Caminos_12", "fx": 0.45, "head": "ESCANÉALO PRIMERO", "chip": "APP WAiNK",
+   "say": "El truco: escanea el coche con la app WAiNK del teléfono. Te dice cuánto vale y qué seguridad tiene, antes de arriesgarte."},
+  {"img": "Vice_City_19", "fx": 0.5, "head": "OJO CON EL RASTREADOR",
+   "say": "Y ojo: Moses no te compra coches que tengan rastreador. Revisa antes de llevárselo."},
+  {"img": "Jason_and_Lucia_17", "fx": 0.55, "head": "¿CUÁL ES TU FAVORITO?",
+   "say": "¿Cuál es el mejor coche que has robado hasta ahora? Déjalo en los comentarios."},
+ ]},
+{"slug": "s17-rompio-twitch", "seed": 63,
+ "title": "GTA 6 ROMPIÓ Twitch: 132 MILLONES de horas 📺 #gta6 #shorts",
+ "desc": "GTA 6 se convirtió en la categoría de videojuegos más vista de la historia de Twitch, y la gente hasta falta al trabajo: la 'GTA Flu'.\n\n" + FUENTES5,
+ "tags": ["gta 6", "gta 6 twitch", "gta 6 record", "gta 6 streams", "gta flu", "kai cenat gta 6", "gtavi", "shorts"],
+ "scenes": [
+  {"img": "Vice_City_13", "fx": 0.5, "head": "GTA 6 ROMPIÓ TWITCH",
+   "say": "GTA 6 no solo rompió récords de ventas. También rompió internet."},
+  {"img": "Vice_City_27", "fx": 0.5, "head": "EN STREAMS", "big": "132 M", "label": "HORAS VISTAS",
+   "say": "Según CNN, la gente ha pasado más de ciento treinta y dos millones de horas viendo streams de GTA 6, entre Twitch, YouTube y Kick."},
+  {"img": "Vice_City_25", "fx": 0.5, "head": "RÉCORD EN TWITCH", "chip": "MÁS QUE LOL Y FORTNITE",
+   "say": "Ya es la categoría de videojuegos más vista en la historia de Twitch, por encima de League of Legends y de Fortnite."},
+  {"img": "Jason_Duval_15", "fx": 0.5, "head": "LA \"GTA FLU\"",
+   "say": "Y en Estados Unidos ya hablan de la GTA Flu: gente que falta al trabajo o a clase para jugar."},
+  {"img": "Jason_and_Lucia_16", "fx": 0.45, "head": "¿TÚ TAMBIÉN?",
+   "say": "¿Tú también te pusiste malito para jugar GTA 6? Confiesa en los comentarios."},
+ ]},
+]
+
 def ease(p):
     p = max(0.0, min(1.0, p)); return 1 - (1 - p) ** 3
 

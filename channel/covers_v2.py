@@ -21,6 +21,9 @@ C = {
     "s11-secretos":    ("Grassrivers_07", .5, .3, 1.4, ["BIGFOOT", "EXISTE"], "5 SECRETOS", True),
     "s12-cosas-raras": ("Jason_Duval_15", .44, .19, 1.45, ["ESTO ES", "RARO..."], "GTA 6", True),
     "s13-consejos":    ("Jason_and_Lucia_15", .31, .22, 1.45, ["NO HAGAS", "ESTO"], "PRIMER DÍA", True),
+    "s15-dinero":      ("Jason_and_Lucia_17", .58, .2, 1.45, ["LO VAS A", "PERDER"], "TU DINERO · GTA 6", True),
+    "s16-robar-coches": ("Lucia_Caminos_02", .46, .37, 1.35, ["ROBA", "ESTO"], "COCHES DE LUJO", True),
+    "s17-rompio-twitch": ("Jason_Duval_02", .29, .3, 1.4, ["ROMPIÓ", "TWITCH"], "132 M DE HORAS", True),
     "s14-misiones-secundarias": ("Vice_City_16", .53, .36, 1.35, ["NADIE TE", "LO CUENTA"], "MISIONES SECRETAS", True),
 }
 
