@@ -1,0 +1,86 @@
+{
+ "id": "short_02",
+ "slug": "en-body-system",
+ "title": "You can make Jason FAT in GTA 6 🍔 (but not THAT fat) #gta6 #shorts",
+ "scenes": [
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "g t a six is watching what you eat and yes you can actually make jason fat",
+   "duration": 5.0,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 0.968,
+   "long_gaps": [],
+   "recognized": "rockstar confirmed it to dazed jason and lucius bodies change with what they eat and how hard they train overeat and you gain weight hit the gym and you build muscle",
+   "duration": 10.1,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "there's even a health app tracking sleep diet and weight and if you stop training those gains fade",
+   "duration": 5.53,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 0.971,
+   "long_gaps": [],
+   "recognized": "one player fed jason burgers and tacos to build true fat jason the result a belly and a double chin but player say he never gets as big as arthur morgan at his heaviest",
+   "duration": 10.48,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 0.917,
+   "long_gaps": [],
+   "recognized": "and there's a smell system to rockstar's aaron garbutt told edge that jason and lucia react with disgust to bad smells across the map",
+   "duration": 8.22,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "so what's your jason running on right now gym or tacos",
+   "duration": 3.23,
+   "ok": true
+  }
+ ],
+ "duration": 44.84,
+ "assets_used": [
+  "Lucia_Caminos_09",
+  "Jason_Duval_06",
+  "Jason_Duval_01",
+  "Vice_City_26",
+  "Grassrivers_05",
+  "Jason_and_Lucia_12",
+  "sticker_gator"
+ ],
+ "qc": {
+  "resolution": "1080x1920",
+  "duration": 44.84,
+  "has_audio": true,
+  "black_segments": 0,
+  "silences_over_0.8s": 0,
+  "loudness_lufs": -15.2,
+  "true_peak_dbfs": -1.2,
+  "asr_match_full_voice": 0.952,
+  "repeated_word_events": 0,
+  "clipping_samples": 0,
+  "subtitles_match_script": true,
+  "problems": [],
+  "verdict": "PASS"
+ }
+}

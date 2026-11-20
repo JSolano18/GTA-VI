@@ -38,7 +38,11 @@ def arrow(length=330, width=70):
     return out
 
 def cover(slug):
-    img, fx, fy, zoom, lines, seal, arr = C[slug]
+    out = os.path.join(OUT, slug, slug + "-cover.jpg")
+    return make(C[slug], out, os.path.join(OUT, slug, slug + ".mp4"))
+
+def make(params, out, mp4=None, credit="Imágenes: Rockstar Games"):
+    img, fx, fy, zoom, lines, seal, arr = params
     pth = os.path.join(IMG, img + ".jpg")
     src = Image.open(pth if os.path.exists(pth) else os.path.join(IMG, img + ".png")).convert("RGB")
     s = H * zoom / src.size[1]; src = src.resize((int(src.size[0] * s), int(src.size[1] * s)), Image.LANCZOS)
@@ -65,10 +69,9 @@ def cover(slug):
         im.alpha_composite(ar, (W // 2 + 150, 620))
     # marco fino de color para destacar en el feed
     d = ImageDraw.Draw(im); d.rectangle([0, 0, W - 1, H - 1], outline=YEL, width=14)
-    cr = text_img("Imágenes: Rockstar Games", font("semi", 24), stroke=3, pad=8); im.alpha_composite(cr, (30, H - 70))
-    out = os.path.join(OUT, slug, slug + "-cover.jpg"); im.convert("RGB").save(out, quality=94)
-    mp4 = os.path.join(OUT, slug, slug + ".mp4")
-    if os.path.exists(mp4):
+    cr = text_img(credit, font("semi", 24), stroke=3, pad=8); im.alpha_composite(cr, (30, H - 70))
+    im.convert("RGB").save(out, quality=94)
+    if mp4 and os.path.exists(mp4):
         tmp = mp4 + ".tmp.mp4"
         subprocess.run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-i", mp4, "-i", out, "-map", "0:v:0", "-map", "0:a", "-map", "1",
                         "-c", "copy", "-disposition:v:1", "attached_pic", "-movflags", "+faststart", tmp], check=True, stdin=subprocess.DEVNULL)

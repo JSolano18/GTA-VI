@@ -1,0 +1,86 @@
+{
+ "id": "short_04",
+ "slug": "en-mandy-choice",
+ "title": "The MANDY choice most GTA 6 players rushed 🔧 #gta6 #shorts",
+ "scenes": [
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 0.923,
+   "long_gaps": [],
+   "recognized": "there's a choice in the mandy seen that most players rushed straight through",
+   "duration": 3.41,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 0.95,
+   "long_gaps": [],
+   "recognized": "brian sens jason to collect rent from mandy in the keys she won't pay until he fixes her clogged sink",
+   "duration": 6.29,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "while jason unclogs it something comes out of the pipe and mandy snatches it before he gets a good look",
+   "duration": 5.49,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "then the game lets you choose provoke mandy or defuse the conversation",
+   "duration": 3.96,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 0.929,
+   "long_gaps": [],
+   "recognized": "here's the twist guide say both paths and the same way mandy retreats to her bathroom and asks jason to leave and there's no romance route with her",
+   "duration": 8.56,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "so what was in that pipe fans swear it was a finger rockstar hasn't confirmed anything what do you think she's hiding",
+   "duration": 6.15,
+   "ok": true
+  }
+ ],
+ "duration": 36.13,
+ "assets_used": [
+  "clip:mandy_pipework.mp4@22.0",
+  "Brian_Heder_01",
+  "clip:mandy_pipework.mp4@0.0",
+  "clip:mandy_pipework.mp4@8.0",
+  "clip:mandy_pipework.mp4@16.5",
+  "Leonida_Keys_06",
+  "sticker_crab"
+ ],
+ "qc": {
+  "resolution": "1080x1920",
+  "duration": 36.13,
+  "has_audio": true,
+  "black_segments": 0,
+  "silences_over_0.8s": 0,
+  "loudness_lufs": -15.3,
+  "true_peak_dbfs": -1.4,
+  "asr_match_full_voice": 0.961,
+  "repeated_word_events": 0,
+  "clipping_samples": 0,
+  "subtitles_match_script": true,
+  "problems": [],
+  "verdict": "PASS"
+ }
+}

@@ -124,7 +124,7 @@ def master(in_wav, out_wav, target=-14.0, ceiling=0.84):
     y = np.clip(y, -0.98, 0.98).astype(np.float32)
     sf.write(out_wav + ".24k.wav", y, sr)
     subprocess.run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-i", out_wav + ".24k.wav", "-af",
-                    "aresample=48000:resampler=soxr", out_wav], check=True, stdin=subprocess.DEVNULL, timeout=300)
+                    "aresample=48000:resampler=soxr,alimiter=limit=0.82:attack=5:release=60:level=false", out_wav], check=True, stdin=subprocess.DEVNULL, timeout=300)
     os.remove(out_wav + ".24k.wav")
 
 # ---------------------------------------------------------------- música

@@ -1,0 +1,86 @@
+{
+ "id": "short_01",
+ "slug": "en-relationship-meter",
+ "title": "Ignore Lucia in GTA 6 and THIS happens 💔 #gta6 #shorts",
+ "scenes": [
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 0.905,
+   "long_gaps": [],
+   "recognized": "if you keep ignoring lucius calls and g t a six you're going to lose a lot more than a conversation",
+   "duration": 5.88,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 0.958,
+   "long_gaps": [],
+   "recognized": "jason and lucia have a relationship meter with for levels guides list them from running on empty all the way up to hot together",
+   "duration": 7.54,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "holding hands greeting each other starting conversations even going to bed at the same time and both of them have to put in the effort",
+   "duration": 7.36,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "neglect her and the hand holding and kissing disappear until you rebuild the bond ignored calls and texts are one of the fastest ways to hurt it",
+   "duration": 8.58,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "some guides even report that a broken relationship can change dialogue mission options and cutscenes",
+   "duration": 6.03,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 0.913,
+   "long_gaps": [],
+   "recognized": "the good news there's no jealousy system a strip club visit won't start a fight so are you a good partner and leonardo",
+   "duration": 6.7,
+   "ok": true
+  }
+ ],
+ "duration": 44.37,
+ "assets_used": [
+  "Lucia_Caminos_10",
+  "Jason_and_Lucia_03",
+  "Jason_and_Lucia_01",
+  "Jason_and_Lucia_06",
+  "Jason_and_Lucia_05",
+  "Jason_and_Lucia_13",
+  "sticker_flamingo"
+ ],
+ "qc": {
+  "resolution": "1080x1920",
+  "duration": 44.37,
+  "has_audio": true,
+  "black_segments": 0,
+  "silences_over_0.8s": 0,
+  "loudness_lufs": -15.0,
+  "true_peak_dbfs": -1.2,
+  "asr_match_full_voice": 0.96,
+  "repeated_word_events": 0,
+  "clipping_samples": 0,
+  "subtitles_match_script": true,
+  "problems": [],
+  "verdict": "PASS"
+ }
+}

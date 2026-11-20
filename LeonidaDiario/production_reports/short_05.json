@@ -1,0 +1,86 @@
+{
+ "id": "short_05",
+ "slug": "en-lucia-prison",
+ "title": "Why was LUCIA in prison? GTA 6 explained ⛓️ #gta6 #shorts",
+ "scenes": [
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 0.964,
+   "long_gaps": [],
+   "recognized": "when you meet lucia and g t a six she's behind bars that's exactly how rockstar introduced her in the very first trailer but why is she there",
+   "duration": 8.4,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 0.889,
+   "long_gaps": [],
+   "recognized": "according to rock stars official bio her father taught her to fight from childhood",
+   "duration": 4.43,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 0.945,
+   "long_gaps": [],
+   "recognized": "and fighting to protect her family is what landed her in leonid a penitentiary the exact crime rockstar still hasn't said and that's what fans keep arguing about",
+   "duration": 9.48,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 0.938,
+   "long_gaps": [],
+   "recognized": "she didn't have her way out either the bio says she got out through sheer luck",
+   "duration": 3.83,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "and it ends with one line a life with jason could be her way out",
+   "duration": 3.45,
+   "ok": true
+  },
+  {
+   "voice": "am_puck",
+   "speed": 1.04,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "could be what do you think lucia actually did drop your theory",
+   "duration": 3.15,
+   "ok": true
+  }
+ ],
+ "duration": 35.03,
+ "assets_used": [
+  "Lucia_Caminos_05",
+  "Lucia_Caminos_01",
+  "Lucia_Caminos_03",
+  "Lucia_Caminos_07",
+  "Jason_and_Lucia_11",
+  "Jason_and_Lucia_08",
+  "sticker_palm"
+ ],
+ "qc": {
+  "resolution": "1080x1920",
+  "duration": 35.03,
+  "has_audio": true,
+  "black_segments": 0,
+  "silences_over_0.8s": 0,
+  "loudness_lufs": -15.3,
+  "true_peak_dbfs": -1.4,
+  "asr_match_full_voice": 0.951,
+  "repeated_word_events": 0,
+  "clipping_samples": 0,
+  "subtitles_match_script": true,
+  "problems": [],
+  "verdict": "PASS"
+ }
+}
