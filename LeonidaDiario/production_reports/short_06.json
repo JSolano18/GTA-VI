@@ -1,0 +1,108 @@
+{
+ "id": "short_06",
+ "slug": "es-primera-persona",
+ "title": "Cómo jugar GTA 6 en PRIMERA PERSONA 🎮 (4 trucos) #gta6 #shorts",
+ "scenes": [
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.919,
+   "long_gaps": [],
+   "recognized": "se puede jugar gente a seis en primera persona no del todo pero hay cuatro trucos para conseguirlo",
+   "duration": 5.72,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "no hay un modo completo ni una opcion en los ajustes de camara asi que vamos con los trucos",
+   "duration": 5.25,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.706,
+   "long_gaps": [],
+   "recognized": "uno quieto de pie mantenerle dos y pulsa re tres en equis box el ete y este derecho si sueltas o te mueves vuelve la camara normal",
+   "duration": 8.32,
+   "ok": false
+  },
+  {
+   "voice": "em_alex",
+   "speed": 0.97,
+   "asr_match": 0.788,
+   "long_gaps": [],
+   "recognized": "dos con un arma con mira apunta con el dos pulse tres y apuntas en primera persona",
+   "duration": 5.48,
+   "ok": false,
+   "note": "main voice kept (ASR below 0.88 is recognizer error on uncommon words; manually checked text)"
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.923,
+   "long_gaps": [],
+   "recognized": "tres conduciendo saca el movil con la cruz eta arriba segun las guias la camara pasa al asiento del conductor",
+   "duration": 6.42,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.884,
+   "long_gaps": [],
+   "recognized": "cuatro el truco viral en ajustes mando cambia el boton del panel tactil o vista en equis box de mapa camara",
+   "duration": 6.59,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "abre el movil y justo al cerrarlo pulsa rapido ese boton si te sale te quedas en primera persona",
+   "duration": 6.06,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "ojo es un fallo para volver carga la partida y rockstar lo puede quitar en cualquier parche",
+   "duration": 5.38,
+   "ok": true
+  }
+ ],
+ "duration": 52.26,
+ "assets_used": [
+  "Jason_Duval_16",
+  "Jason_and_Lucia_11",
+  "Vice_City_10",
+  "Jason_Duval_05",
+  "Jason_Duval_19",
+  "Vice_City_11",
+  "Lucia_Caminos_08",
+  "Jason_and_Lucia_03",
+  "sticker_manatee"
+ ],
+ "qc": {
+  "resolution": "1080x1920",
+  "duration": 52.26,
+  "has_audio": true,
+  "black_segments": 0,
+  "silences_over_0.8s": 0,
+  "loudness_lufs": -15.4,
+  "true_peak_dbfs": -1.0,
+  "recognized_text": "se puede jugar seis en primera persona no del todo pero hay cuatro trucos para conseguirlo no hay un modo completo ni una opcion en los ajustes de camara asi que vamos con los trucos uno quieto de pie mantenerle dos y pulsar tres en equis box el y stick derecho si sueltas o te mueves vuelve la camara normal dos con un arma con mira apunta con ele dos pulse re tres y apuntas en primera persona tres conduciendo saca el movil con la cruz eta arriba segun las guias la camara pasa al asiento del conductor y cuatro el truco viral en ajustes mando cambia el boton del panel tactil o vista en equis box de mapa camara av el movil y justo al cerrarlo pulsa rapido ese boton si te sale te quedas en primera persona ojo es un fallo para volver carga la partida y rockstar lo puede quitar en cualquier parche",
+  "asr_match_full_voice": 0.894,
+  "repeated_word_events": 0,
+  "clipping_samples": 0,
+  "subtitles_match_script": true,
+  "problems": [],
+  "verdict": "PASS"
+ }
+}

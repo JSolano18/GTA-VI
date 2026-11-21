@@ -554,9 +554,12 @@
   "tags": [
    "jason"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-primera-persona"
+  ],
+  "times_used": 1,
+  "last_used": "es-primera-persona",
+  "last_order": 1006
  },
  "Jason_Duval_06": {
   "id": "Jason_Duval_06",
@@ -739,9 +742,12 @@
   "tags": [
    "jason"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-primera-persona"
+  ],
+  "times_used": 1,
+  "last_used": "es-primera-persona",
+  "last_order": 1006
  },
  "Jason_Duval_17": {
   "id": "Jason_Duval_17",
@@ -794,11 +800,12 @@
   "used_in": [
    "s12-cosas-raras",
    "s13-consejos",
-   "s16-robar-coches"
+   "s16-robar-coches",
+   "es-primera-persona"
   ],
-  "times_used": 3,
-  "last_used": "s16-robar-coches",
-  "last_order": 15
+  "times_used": 4,
+  "last_used": "es-primera-persona",
+  "last_order": 1006
  },
  "Jason_and_Lucia_01": {
   "id": "Jason_and_Lucia_01",
@@ -848,11 +855,12 @@
    "lucia"
   ],
   "used_in": [
-   "es-medidor-relacion"
+   "es-medidor-relacion",
+   "es-primera-persona"
   ],
-  "times_used": 1,
-  "last_used": "es-medidor-relacion",
-  "last_order": 1001
+  "times_used": 2,
+  "last_used": "es-primera-persona",
+  "last_order": 1006
  },
  "Jason_and_Lucia_04": {
   "id": "Jason_and_Lucia_04",
@@ -994,11 +1002,12 @@
    "lucia"
   ],
   "used_in": [
-   "es-lucia-prision"
+   "es-lucia-prision",
+   "es-primera-persona"
   ],
-  "times_used": 1,
-  "last_used": "es-lucia-prision",
-  "last_order": 1005
+  "times_used": 2,
+  "last_used": "es-primera-persona",
+  "last_order": 1006
  },
  "Jason_and_Lucia_12": {
   "id": "Jason_and_Lucia_12",
@@ -1419,9 +1428,12 @@
   "tags": [
    "lucia"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-primera-persona"
+  ],
+  "times_used": 1,
+  "last_used": "es-primera-persona",
+  "last_order": 1006
  },
  "Lucia_Caminos_09": {
   "id": "Lucia_Caminos_09",
@@ -2815,11 +2827,12 @@
    "vice_city"
   ],
   "used_in": [
-   "es-japon-censura"
+   "es-japon-censura",
+   "es-primera-persona"
   ],
-  "times_used": 1,
-  "last_used": "es-japon-censura",
-  "last_order": 1003
+  "times_used": 2,
+  "last_used": "es-primera-persona",
+  "last_order": 1006
  },
  "Vice_City_11": {
   "id": "Vice_City_11",
@@ -2833,11 +2846,12 @@
    "vice_city"
   ],
   "used_in": [
-   "es-japon-censura"
+   "es-japon-censura",
+   "es-primera-persona"
   ],
-  "times_used": 1,
-  "last_used": "es-japon-censura",
-  "last_order": 1003
+  "times_used": 2,
+  "last_used": "es-primera-persona",
+  "last_order": 1006
  },
  "Vice_City_12": {
   "id": "Vice_City_12",
@@ -3118,6 +3132,19 @@
   "last_used": "s17-rompio-twitch",
   "last_order": 16
  },
+ "derived_fp_scope": {
+  "id": "derived_fp_scope",
+  "file": "assets/oficial/shorts/derived_fp_scope.jpg",
+  "kind": "image",
+  "origin": "official",
+  "source": "Rockstar Games official site / press screenshot pack (rockstargames.com/VI)",
+  "license": "Official promotional material offered for download and sharing; not a formal license. Credit 'Rockstar Games'.",
+  "description": "derived fp scope",
+  "tags": [],
+  "used_in": [],
+  "times_used": 0,
+  "last_used": null
+ },
  "onlyInLeonidaDesktop": {
   "id": "onlyInLeonidaDesktop",
   "file": "assets/oficial/shorts/onlyInLeonidaDesktop.jpg",
@@ -3299,9 +3326,12 @@
   "tags": [
    "sticker"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-primera-persona"
+  ],
+  "times_used": 1,
+  "last_used": "es-primera-persona",
+  "last_order": 1006
  },
  "sticker_crab": {
   "id": "sticker_crab",

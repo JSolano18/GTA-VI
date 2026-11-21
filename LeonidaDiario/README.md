@@ -9,6 +9,7 @@ No se ha subido nada. Todo está listo para YouTube Shorts, TikTok e Instagram R
 | 3 | En JAPÓN, GTA 6 es OTRO juego 🇯🇵 #gta6 #shorts | 39.31 s | PASS | 0.887 | 6 official stills, official animated sticker | `shorts/short_03/short_03.mp4` |
 | 4 | La DECISIÓN de MANDY que casi nadie pensó 🔧 #gta6 #shorts | 41.0 s | PASS | 0.91 | 2 official stills, third-party gameplay clip, official animated sticker | `shorts/short_04/short_04.mp4` |
 | 5 | ¿Por qué LUCÍA estaba en la CÁRCEL? GTA 6 ⛓️ #gta6 #shorts | 37.25 s | PASS | 0.936 | 6 official stills, official animated sticker | `shorts/short_05/short_05.mp4` |
+| 6 | Cómo jugar GTA 6 en PRIMERA PERSONA 🎮 (4 trucos) #gta6 #shorts | 52.26 s | PASS | 0.894 | 8 official stills, official animated sticker | `shorts/short_06/short_06.mp4` |
 
 Folders: `shorts/` finished videos · `scripts/` narration · `voiceovers/` clean voice stems · `sources/` claim-by-claim sources and topic scoring · `metadata/` titles, descriptions, hashtags, pinned comments, assets used · `production_reports/` QC + benchmark analysis.
 
@@ -121,3 +122,25 @@ Imágenes: Rockstar Games. Canal de fans no oficial, sin afiliación con Rocksta
 **Narration per scene:** 1: em_alex ×1.0 match 0.833; 2: em_alex ×1.0 match 1.0; 3: em_alex ×1.0 match 0.954; 4: em_alex ×1.0 match 1.0; 5: em_alex ×1.0 match 0.923; 6: em_alex ×1.0 match 1.0
 
 **QC:** {"resolution": "1080x1920", "duration": 37.24, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.2, "true_peak_dbfs": -0.8, "recognized_text": "cuando conoces a lucia en te seis esta entre rejas asimismo la presento rockstar en el primer trailer pero porque esta ahi segun la biografia oficial de rockstar su padre le enseno a pelear desde nina y pelear por proteger a su familia es lo que la llevo a la penitenciaria de leonidas el delito exacto rockstar todavia no dicho y los fans no paran de discutirlo y tampoco salio por buen comportamiento la biografia dice que salio por pura suerte y termina con una frase una vida con yeison podria ser su salida podria ser tu que crees que hizo lucia de verdad deja tu teoria", "asr_match_full_voice": 0.936, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
+
+## short_06: Cómo jugar GTA 6 en PRIMERA PERSONA 🎮 (4 trucos) #gta6 #shorts
+
+**Why this topic:** Petición directa del dueño del canal (tutorial de búsqueda frecuente: cómo poner primera persona).
+
+**Description:**
+```
+GTA 6 no tiene un modo en primera persona completo, pero hay 4 formas de conseguirlo: quieto, apuntando con mira, conduciendo con el móvil y el truco del botón de cámara. Animaciones de mando y menú: ilustraciones.
+
+#gta6 #gtavi #primerapersona #gta6trucos #gta6tips #rockstargames #shorts
+
+Imágenes: Rockstar Games · Animaciones: ilustración. Canal de fans no oficial, sin afiliación con Rockstar Games ni Take-Two. Narración con voz generada por IA.
+```
+**Pinned comment:** ¿Lo conseguiste? Dime qué método te funcionó 👇 Si Rockstar lo parchea, te aviso.
+
+**Files:** `shorts/short_06/` (mp4, cover jpg, srt, title/description/tags), script `scripts/short_06.txt`, voice `voiceovers/short_06_voice.wav`, sources `sources/short_06.md`, report `production_reports/short_06.json`.
+
+**Visual assets:** Jason_Duval_05, Jason_Duval_16, Jason_Duval_19, Jason_and_Lucia_03, Jason_and_Lucia_11, Lucia_Caminos_08, Vice_City_10, Vice_City_11, sticker_manatee
+
+**Narration per scene:** 1: em_alex ×1.0 match 0.919; 2: em_alex ×1.0 match 1.0; 3: em_alex ×1.0 match 0.706; 4: em_alex ×0.97 match 0.788; 5: em_alex ×1.0 match 0.923; 6: em_alex ×1.0 match 0.884; 7: em_alex ×1.0 match 1.0; 8: em_alex ×1.0 match 1.0
+
+**QC:** {"resolution": "1080x1920", "duration": 52.26, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.4, "true_peak_dbfs": -1.0, "recognized_text": "se puede jugar seis en primera persona no del todo pero hay cuatro trucos para conseguirlo no hay un modo completo ni una opcion en los ajustes de camara asi que vamos con los trucos uno quieto de pie mantenerle dos y pulsar tres en equis box el y stick derecho si sueltas o te mueves vuelve la camara normal dos con un arma con mira apunta con ele dos pulse re tres y apuntas en primera persona tres conduciendo saca el movil con la cruz eta arriba segun las guias la camara pasa al asiento del conductor y cuatro el truco viral en ajustes mando cambia el boton del panel tactil o vista en equis box de mapa camara av el movil y justo al cerrarlo pulsa rapido ese boton si te sale te quedas en primera persona ojo es un fallo para volver carga la partida y rockstar lo puede quitar en cualquier parche", "asr_match_full_voice": 0.894, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}

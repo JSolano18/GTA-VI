@@ -25,6 +25,7 @@ import audio as A
 import visuals as V
 import registry as R
 import shorts as S
+import motion as M
 from visuals import PINK, CYAN, YEL, WHITE, font, fit, text_img, badge
 
 W, H, FPS = 1080, 1920, 30
@@ -290,6 +291,45 @@ SOURCES = {  # claim-level source log per short (written to LeonidaDiario/source
               ("Trailer 1 (Dec 2023) introduced Lucia in prison", "official (Rockstar Trailer 1)", "https://www.rockstargames.com/VI")],
 }
 
+SHORTS.append(
+{"id": "short_06", "slug": "es-primera-persona", "topic": "first_person", "seed": 76,
+ "title": "Cómo jugar GTA 6 en PRIMERA PERSONA 🎮 (4 trucos) #gta6 #shorts",
+ "description": "GTA 6 no tiene un modo en primera persona completo, pero hay 4 formas de conseguirlo: quieto, apuntando con mira, conduciendo con el móvil y el truco del botón de cámara. Animaciones de mando y menú: ilustraciones.",
+ "hashtags": ["#gta6", "#gtavi", "#primerapersona", "#gta6trucos", "#gta6tips", "#rockstargames", "#shorts"],
+ "tags": ["gta 6 primera persona", "gta 6 first person", "como poner primera persona gta 6", "gta 6 camara", "gta 6 trucos", "gta 6 ps5", "gtavi"],
+ "pinned": "¿Lo conseguiste? Dime qué método te funcionó 👇 Si Rockstar lo parchea, te aviso.",
+ "credit": "Imágenes: Rockstar Games · Animaciones: ilustración",
+ "cover": ("derived_fp_scope", .5, .2917, 1.0, ["PRIMERA", "PERSONA"], "GTA 6 · 4 TRUCOS"),
+ "scenes": [
+  {"asset": "Jason_Duval_16", "move": "zin", "head": "¿PRIMERA PERSONA EN GTA 6?",
+   "say": "¿Se puede jugar GTA 6 en primera persona? No del todo. Pero hay cuatro trucos para conseguirlo."},
+  {"asset": "Jason_and_Lucia_11", "move": "pan_r", "head": "NO HAY MODO COMPLETO", "chip": "NI EN LOS AJUSTES",
+   "say": "No hay un modo completo, ni una opción en los ajustes de cámara. Así que vamos con los trucos."},
+  {"asset": "Vice_City_10", "pad": [["L2", 0.4, 5.6, "MANTÉN L2"], ["RS", 1.2, 2.0, "PULSA R3"], ["RS", 3.0, 3.8, "PULSA R3"]],
+   "head": "1. QUIETO: L2 + R3", "chip": "XBOX: LT + STICK DERECHO",
+   "say": "Uno: quieto de pie, mantén L2 y pulsa R3. En Xbox, LT y stick derecho. Si sueltas o te mueves, vuelve la cámara normal."},
+  {"asset": "Jason_Duval_05", "scope": True, "move": "zin", "head": "2. APUNTANDO CON MIRA",
+   "say": "Dos: con un arma con mira, apunta con L2, pulsa R3, y apuntas en primera persona."},
+  {"asset": "Jason_Duval_19", "pad": [["UP", 0.6, 1.4, "CRUCETA ARRIBA"], ["UP", 2.4, 3.2, "CRUCETA ARRIBA"]],
+   "head": "3. CONDUCIENDO: SACA EL MÓVIL",
+   "say": "Tres: conduciendo, saca el móvil con la cruceta arriba. Según las guías, la cámara pasa al asiento del conductor."},
+  {"asset": "Vice_City_11", "menu": True, "head": "4. EL TRUCO VIRAL", "chip": "NO OFICIAL",
+   "say": "Y cuatro, el truco viral: en Ajustes, Mando, cambia el botón del panel táctil, o Vista en Xbox, de Mapa a Cámara."},
+  {"asset": "Lucia_Caminos_08", "pad": [["CIR", 0.8, 1.3, "CIERRA EL MÓVIL"], ["PAD", 1.35, 2.0, "¡Y YA!"], ["CIR", 3.0, 3.5, "CIERRA EL MÓVIL"], ["PAD", 3.55, 4.2, "¡Y YA!"]],
+   "head": "CIERRA EL MÓVIL + CÁMARA", "chip": "XBOX: B + VISTA",
+   "say": "Abre el móvil, y justo al cerrarlo, pulsa rápido ese botón. Si te sale, te quedas en primera persona."},
+  {"asset": "Jason_and_Lucia_03", "move": "zout", "head": "OJO CON ESTE TRUCO", "sticker": "sticker_manatee",
+   "say": "Ojo: es un fallo. Para volver, carga la partida, y Rockstar lo puede quitar en cualquier parche."},
+ ]})
+SOURCES["short_06"] = [
+  ("No full first-person mode; no camera-settings option", "credible reporting (multiple guides)", "https://www.gamesradar.com/games/grand-theft-auto/gta-6-first-person-mode-explained/"),
+  ("Standing still: hold L2 + press R3 (Xbox LT + RS); exits on release/move", "credible reporting (guides)", "https://dotesports.com/gta/guides/gta-6-first-person-view"),
+  ("Scoped weapons: L2 + R3 for first-person aiming", "credible reporting (guides)", "https://game8.co/games/GTA-6/archives/638527"),
+  ("Driving: phone out (D-pad up) switches to driver-seat view; one source calls footage unverified", "credible reporting, partly disputed (stated 'según las guías')", "https://www.gtabase.com/gta-6/articles/how-to-go-first-person-in-gta-6"),
+  ("Phone glitch: set Touchpad/View button to Camera, press while closing the phone; reload save to exit; lose map shortcut", "community discovery reported by outlets", "https://www.videogameschronicle.com/guide/gta-6-first-person-mode-glitch-grand-theft-auto/"),
+  ("Xbox button naming (View vs Back) differs between sources", "conflicting - we say 'Vista'", "https://www.g2a.com/news/gta-6-news/gta-6-first-person-mode/"),
+]
+
 # --------------------------------------------------------------------------------------------- voice
 _k = _vm = None
 def kokoro():
@@ -404,7 +444,8 @@ FOCUS = {"Jason_and_Lucia_03": (.45, .28), "Jason_and_Lucia_01": (.32, .27), "Lu
          "Grassrivers_05": (.5, .45), "Jason_and_Lucia_12": (.65, .3), "Jason_Duval_03": (.14, .26), "Vice_City_10": (.42, .42),
          "Jason_Duval_08": (.48, .26), "Jason_and_Lucia_04": (.2, .17), "Vice_City_11": (.3, .45), "Jason_and_Lucia_09": (.62, .2),
          "Brian_Heder_01": (.53, .26), "Leonida_Keys_06": (.72, .25), "Lucia_Caminos_05": (.57, .14), "Lucia_Caminos_01": (.57, .3),
-         "Lucia_Caminos_03": (.3, .26), "Lucia_Caminos_07": (.62, .27), "Jason_and_Lucia_11": (.55, .34), "Jason_and_Lucia_08": (.5, .42)}
+         "Lucia_Caminos_03": (.3, .26), "Lucia_Caminos_07": (.62, .27), "Jason_and_Lucia_11": (.55, .34), "Jason_and_Lucia_08": (.5, .42),
+         "Jason_Duval_16": (.53, .24), "Jason_Duval_05": (.22, .3), "Jason_Duval_19": (.82, .28), "Lucia_Caminos_08": (.6, .4)}
 FACE_Y = 640   # where the subject should sit in the 1920px frame (below the headline, above the subtitles)
 
 def asset_image(name):
@@ -516,6 +557,9 @@ def build(spec, order):
             assets_used.append(f"clip:{os.path.basename(path)}@{t0}")
         else:
             e["bg"], e["focus"] = asset_image(e["s"]["asset"]); assets_used.append(e["s"]["asset"])
+            if e["s"].get("pad") or e["s"].get("menu"):   # tutorial scenes: dimmed, blurred backdrop
+                b = e["bg"].filter(ImageFilter.GaussianBlur(14))
+                e["bg"] = Image.blend(b, Image.new("RGB", b.size, (12, 6, 28)), 0.45)
         if e["s"].get("sticker"):
             e["stk"] = sticker_frames(e["s"]["sticker"]); assets_used.append(e["s"]["sticker"])
     ov = S.overlay()
@@ -537,7 +581,15 @@ def build(spec, order):
             frame = e["reader"].next().convert("RGBA")
         else:
             frame = camera(e["bg"], e["s"].get("move", "zin"), sp, lt, e["focus"]).convert("RGBA")
+        if e["s"].get("scope"):
+            M.scope_overlay(frame, lt)
         frame.alpha_composite(ov)
+        if e["s"].get("pad"):
+            pf = M.pad_frame(lt, e["s"]["pad"])
+            S.paste(frame, pf, (W - pf.size[0]) // 2, 610, lt, 0.15, "up", 0.35)
+        if e["s"].get("menu"):
+            mf = M.menu_frame(lt)
+            S.paste(frame, mf, (W - mf.size[0]) // 2, 640, lt, 0.15, "up", 0.35)
         for (img, x, y, t0, anim) in e["L"]:
             S.paste(frame, img, x, y, lt, t0, anim)
         if e.get("stk"):
