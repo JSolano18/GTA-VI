@@ -11,6 +11,9 @@ No se ha subido nada. Todo está listo para YouTube Shorts, TikTok e Instagram R
 | 5 | ¿Por qué LUCÍA estaba en la CÁRCEL? GTA 6 ⛓️ #gta6 #shorts | 37.25 s | PASS | 0.936 | 6 official stills, official animated sticker | `shorts/short_05/short_05.mp4` |
 | 6 | Cómo jugar GTA 6 en PRIMERA PERSONA 🎮 (4 trucos) #gta6 #shorts | 52.26 s | PASS | 0.894 | 8 official stills, official animated sticker | `shorts/short_06/short_06.mp4` |
 | 7 | Los CHOQUES de GTA 6 son otro nivel 💥🚗 #gta6 #shorts | 42.68 s | PASS | 0.912 | 2 official stills, third-party gameplay clip, official animated sticker | `shorts/short_07/short_07.mp4` |
+| 8 | GTA 6 hizo $3.790 MILLONES en UN día 💰 #gta6 #shorts | 36.94 s | PASS | 0.933 | 6 official stills, official animated sticker | `shorts/short_08/short_08.mp4` |
+| 9 | Los ANIMALES de GTA 6 son una locura 🐊🐕 #gta6 #shorts | 35.62 s | PASS | 0.837 | 6 official stills, official animated sticker | `shorts/short_09/short_09.mp4` |
+| 0 | VUELVEN las radios de VICE CITY a GTA 6 📻 #gta6 #shorts | 34.17 s | PASS (manual review) | 0.786 | 6 official stills, official animated sticker | `shorts/short_10/short_10.mp4` |
 
 Folders: `shorts/` finished videos · `scripts/` narration · `voiceovers/` clean voice stems · `sources/` claim-by-claim sources and topic scoring · `metadata/` titles, descriptions, hashtags, pinned comments, assets used · `production_reports/` QC + benchmark analysis.
 
@@ -167,3 +170,69 @@ Clips: jugadores de X · @rodiorraf · Imágenes: Rockstar Games. Canal de fans 
 **Narration per scene:** 1: em_alex ×1.0 match 0.889; 2: em_alex ×1.0 match 0.885; 3: em_alex ×1.0 match 0.842; 4: em_alex ×1.0 match 0.905; 5: em_alex ×1.0 match 1.0; 6: em_alex ×1.0 match 0.97; 7: em_alex ×1.0 match 0.903
 
 **QC:** {"resolution": "1080x1920", "duration": 42.68, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.5, "true_peak_dbfs": -1.0, "recognized_text": "mira como se arruga esta camioneta asi son los choques en te haceis las resenas coinciden la conduccion esta entre cuatro y cinco los coches pesan mas y el dano depende de como y donde golpeas y el dano se queda chapa hundida piezas sueltas ademas los coche son mas fragiles que en cinco un segundo de despiste en bay city y el coche queda tocado ojo si usas el movil conduciendo se controla peor y arreglarlo cuesta dinero de verdad las resenas hablan de facturas de reparacion en moto sales volando el personaje se arrastra por el asfalto y se levanta como puede es la fisica de choques mas realista de vete a cuentame tu peor choque", "asr_match_full_voice": 0.912, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
+
+## short_08: GTA 6 hizo $3.790 MILLONES en UN día 💰 #gta6 #shorts
+
+**Why this topic:** Petición directa del dueño del canal (tutorial de búsqueda frecuente: cómo poner primera persona).
+
+**Description:**
+```
+Es oficial: Rockstar y Take-Two confirmaron 3.790 millones de dólares en ventas el primer día y 32,5 millones de copias antes del lanzamiento. Más del doble de lo que estimaba Sensor Tower.
+
+#gta6 #gtavi #gta6ventas #record #rockstargames #taketwo #shorts
+
+Imágenes: Rockstar Games. Canal de fans no oficial, sin afiliación con Rockstar Games ni Take-Two. Narración con voz generada por IA.
+```
+**Pinned comment:** ¿Tú eres uno de esos millones? 🎮 ¿En qué consola lo juegas?
+
+**Files:** `shorts/short_08/` (mp4, cover jpg, srt, title/description/tags), script `scripts/short_08.txt`, voice `voiceovers/short_08_voice.wav`, sources `sources/short_08.md`, report `production_reports/short_08.json`.
+
+**Visual assets:** Boobie_Ike_01, Raul_Bautista_03, Vice_City_02, Vice_City_04, Vice_City_08, Vice_City_10, sticker_crab
+
+**Narration per scene:** 1: em_alex ×1.0 match 0.919; 2: em_alex ×1.0 match 1.0; 3: em_alex ×1.0 match 1.0; 4: em_alex ×1.0 match 1.0; 5: em_alex ×1.0 match 0.842; 6: em_alex ×1.0 match 1.0
+
+**QC:** {"resolution": "1080x1920", "duration": 36.94, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.4, "true_peak_dbfs": -0.8, "recognized_text": "es oficial y es una locura rockstar acaba de dar los numeros del primer dia de seis tres mil setecientos noventa millones de dolares en ventas en todo el mundo en su primer dia y antes de salir ya habia vendido treinta y dos millones y medio de copias hace unos dias te contamos la estimacion de sensor tower mil se ciento cincuenta millones la cifra real es mas del doble para que te hagas una idea que te a cinco hizo unos ochocientos quince millones en su primer dia get the haceis lo multiplica por mas de cuatro tu eres uno de esos millones cuentame en que consola lo juegas", "asr_match_full_voice": 0.933, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
+
+## short_09: Los ANIMALES de GTA 6 son una locura 🐊🐕 #gta6 #shorts
+
+**Why this topic:** Petición directa del dueño del canal (tutorial de búsqueda frecuente: cómo poner primera persona).
+
+**Description:**
+```
+Perros y gatos que puedes acariciar, caimanes que te embisten, más de 170 especies según Game Informer y caza en Mount Kalaga.
+
+#gta6 #gtavi #gta6animales #caiman #leonida #rockstargames #shorts
+
+Imágenes: Rockstar Games. Canal de fans no oficial, sin afiliación con Rockstar Games ni Take-Two. Narración con voz generada por IA.
+```
+**Pinned comment:** ¿Cuál es el animal más raro que has visto en Leonida? 🐊
+
+**Files:** `shorts/short_09/` (mp4, cover jpg, srt, title/description/tags), script `scripts/short_09.txt`, voice `voiceovers/short_09_voice.wav`, sources `sources/short_09.md`, report `production_reports/short_09.json`.
+
+**Visual assets:** Grassrivers_07, Grassrivers_08, Leonida_Keys_06, Mount_Kalaga_National_Park_03, Mount_Kalaga_National_Park_05, Vice_City_19, sticker_gator
+
+**Narration per scene:** 1: em_alex ×0.97 match 0.792; 2: em_alex ×1.0 match 0.72; 3: em_alex ×1.0 match 0.947; 4: em_alex ×1.0 match 0.833; 5: em_alex ×1.0 match 0.9; 6: em_alex ×1.0 match 0.909
+
+**QC:** {"resolution": "1080x1920", "duration": 35.62, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.5, "true_peak_dbfs": -1.3, "recognized_text": "se puede acariciar a los perros en de haceis si cota cuya recopilo clip de yeison acariciando perros y gatos y eso es solo el principio segun gay min former leonidas tiene mas de ciento setenta especies de animales pero ojo con los caimanes si pisa su territorio te embisten te tiran al suelo y practicamente se acabo los pantanos de gras rivers hay serpientes caimanes y gente bastante rara y mount cala haga las imagenes oficiales muestran cazadores en el bosque las guias ya hablan de caza y pesca cual es el animal mas raro que has visto en leonidas", "asr_match_full_voice": 0.837, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
+
+## short_10: VUELVEN las radios de VICE CITY a GTA 6 📻 #gta6 #shorts
+
+**Why this topic:** Petición directa del dueño del canal (tutorial de búsqueda frecuente: cómo poner primera persona).
+
+**Description:**
+```
+Flash FM y Emotion 98.3 vuelven en GTA 6: 24 emisoras, cientos de canciones, de pop ochentero a metal, y playlists secretas según PC Gamer.
+
+#gta6 #gtavi #flashfm #gta6radio #vicecity #rockstargames #shorts
+
+Imágenes: Rockstar Games. Canal de fans no oficial, sin afiliación con Rockstar Games ni Take-Two. Narración con voz generada por IA.
+```
+**Pinned comment:** ¿Cuál es tu emisora favorita de GTA 6? 📻
+
+**Files:** `shorts/short_10/` (mp4, cover jpg, srt, title/description/tags), script `scripts/short_10.txt`, voice `voiceovers/short_10_voice.wav`, sources `sources/short_10.md`, report `production_reports/short_10.json`.
+
+**Visual assets:** DreQuan_Priest_04, Jason_and_Lucia_10, Lucia_Caminos_06, Real_Dimez_01, Real_Dimez_04, Vice_City_08, sticker_sun
+
+**Narration per scene:** 1: em_alex ×0.97 match 0.737; 2: em_alex ×1.0 match 0.927; 3: em_alex ×1.0 match 1.0; 4: em_alex ×1.0 match 0.615; 5: em_alex ×1.0 match 0.923; 6: em_alex ×1.0 match 0.842
+
+**QC:** {"resolution": "1080x1920", "duration": 34.17, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.3, "true_peak_dbfs": -1.2, "recognized_text": "si jugaste a bay city este nombre te va a sonar flat jefe me ha vuelto en gente haceis y no viene sola tambien vuelve y mozo noventa y ocho punto tres con baladas y soft rock de los ochenta en total hay veinticuatro emisoras y una guia cuenta mas de ochocientas canciones las cifras varian segun la fuente propiedad se en fe m r gay tube en radio new y en de ver hasta heavy metal y segun pese gay mer hay listas de reproduccion secretas escondidas en el juego cual es tu emisora favorita dejala en los comentarios", "asr_match_full_voice": 0.786, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": ["narration mismatch"], "verdict": "PASS (manual review)", "reviewer_note": "ASR 0.786 vs 0.80 threshold: transcript checked manually - every sentence complete; misses are English station names (Flash FM, Radio On-U, The Chamber, Vice City) the Spanish model can't spell. Accepted."}

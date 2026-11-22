@@ -100,9 +100,12 @@
   "tags": [
    "boobie"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-ventas-oficiales"
+  ],
+  "times_used": 1,
+  "last_used": "es-ventas-oficiales",
+  "last_order": 1008
  },
  "Boobie_Ike_02": {
   "id": "Boobie_Ike_02",
@@ -331,9 +334,12 @@
   "tags": [
    "drequan"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-radio"
+  ],
+  "times_used": 1,
+  "last_used": "es-radio",
+  "last_order": 1010
  },
  "Grassrivers_01": {
   "id": "Grassrivers_01",
@@ -439,9 +445,12 @@
   "tags": [
    "grassrivers"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-animales"
+  ],
+  "times_used": 1,
+  "last_used": "es-animales",
+  "last_order": 1009
  },
  "Grassrivers_08": {
   "id": "Grassrivers_08",
@@ -455,11 +464,12 @@
    "grassrivers"
   ],
   "used_in": [
-   "s11-secretos"
+   "s11-secretos",
+   "es-animales"
   ],
-  "times_used": 1,
-  "last_used": "s11-secretos",
-  "last_order": 10
+  "times_used": 2,
+  "last_used": "es-animales",
+  "last_order": 1009
  },
  "Hero_BG": {
   "id": "Hero_BG",
@@ -986,9 +996,12 @@
    "jason",
    "lucia"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-radio"
+  ],
+  "times_used": 1,
+  "last_used": "es-radio",
+  "last_order": 1010
  },
  "Jason_and_Lucia_11": {
   "id": "Jason_and_Lucia_11",
@@ -1273,11 +1286,12 @@
    "leonida_keys"
   ],
   "used_in": [
-   "es-decision-mandy"
+   "es-decision-mandy",
+   "es-animales"
   ],
-  "times_used": 1,
-  "last_used": "es-decision-mandy",
-  "last_order": 1004
+  "times_used": 2,
+  "last_used": "es-animales",
+  "last_order": 1009
  },
  "Leonida_Keys_07": {
   "id": "Leonida_Keys_07",
@@ -1396,9 +1410,12 @@
   "tags": [
    "lucia"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-radio"
+  ],
+  "times_used": 1,
+  "last_used": "es-radio",
+  "last_order": 1010
  },
  "Lucia_Caminos_07": {
   "id": "Lucia_Caminos_07",
@@ -1595,9 +1612,12 @@
   "tags": [
    "mount_kalaga"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-animales"
+  ],
+  "times_used": 1,
+  "last_used": "es-animales",
+  "last_order": 1009
  },
  "Mount_Kalaga_National_Park_04": {
   "id": "Mount_Kalaga_National_Park_04",
@@ -1625,9 +1645,12 @@
   "tags": [
    "mount_kalaga"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-animales"
+  ],
+  "times_used": 1,
+  "last_used": "es-animales",
+  "last_order": 1009
  },
  "Mount_Kalaga_National_Park_06": {
   "id": "Mount_Kalaga_National_Park_06",
@@ -1790,9 +1813,12 @@
   "tags": [
    "raul"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-ventas-oficiales"
+  ],
+  "times_used": 1,
+  "last_used": "es-ventas-oficiales",
+  "last_order": 1008
  },
  "Raul_Bautista_04": {
   "id": "Raul_Bautista_04",
@@ -1820,9 +1846,12 @@
   "tags": [
    "real_dimez"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-radio"
+  ],
+  "times_used": 1,
+  "last_used": "es-radio",
+  "last_order": 1010
  },
  "Real_Dimez_02": {
   "id": "Real_Dimez_02",
@@ -1865,9 +1894,12 @@
   "tags": [
    "real_dimez"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-radio"
+  ],
+  "times_used": 1,
+  "last_used": "es-radio",
+  "last_order": 1010
  },
  "ULTIMATE_EDITION_01": {
   "id": "ULTIMATE_EDITION_01",
@@ -2701,9 +2733,12 @@
   "tags": [
    "vice_city"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-ventas-oficiales"
+  ],
+  "times_used": 1,
+  "last_used": "es-ventas-oficiales",
+  "last_order": 1008
  },
  "Vice_City_03": {
   "id": "Vice_City_03",
@@ -2734,9 +2769,12 @@
   "tags": [
    "vice_city"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-ventas-oficiales"
+  ],
+  "times_used": 1,
+  "last_used": "es-ventas-oficiales",
+  "last_order": 1008
  },
  "Vice_City_05": {
   "id": "Vice_City_05",
@@ -2797,9 +2835,13 @@
   "tags": [
    "vice_city"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-ventas-oficiales",
+   "es-radio"
+  ],
+  "times_used": 2,
+  "last_used": "es-radio",
+  "last_order": 1010
  },
  "Vice_City_09": {
   "id": "Vice_City_09",
@@ -2829,11 +2871,12 @@
   ],
   "used_in": [
    "es-japon-censura",
-   "es-primera-persona"
+   "es-primera-persona",
+   "es-ventas-oficiales"
   ],
-  "times_used": 2,
-  "last_used": "es-primera-persona",
-  "last_order": 1006
+  "times_used": 3,
+  "last_used": "es-ventas-oficiales",
+  "last_order": 1008
  },
  "Vice_City_11": {
   "id": "Vice_City_11",
@@ -2983,11 +3026,12 @@
    "vice_city"
   ],
   "used_in": [
-   "s16-robar-coches"
+   "s16-robar-coches",
+   "es-animales"
   ],
-  "times_used": 1,
-  "last_used": "s16-robar-coches",
-  "last_order": 15
+  "times_used": 2,
+  "last_used": "es-animales",
+  "last_order": 1009
  },
  "Vice_City_20": {
   "id": "Vice_City_20",
@@ -3273,11 +3317,12 @@
    "sticker"
   ],
   "used_in": [
-   "es-japon-censura"
+   "es-japon-censura",
+   "es-radio"
   ],
-  "times_used": 1,
-  "last_used": "es-japon-censura",
-  "last_order": 1003
+  "times_used": 2,
+  "last_used": "es-radio",
+  "last_order": 1010
  },
  "sticker_flamingo": {
   "id": "sticker_flamingo",
@@ -3309,11 +3354,12 @@
    "sticker"
   ],
   "used_in": [
-   "es-sistema-cuerpo"
+   "es-sistema-cuerpo",
+   "es-animales"
   ],
-  "times_used": 1,
-  "last_used": "es-sistema-cuerpo",
-  "last_order": 1002
+  "times_used": 2,
+  "last_used": "es-animales",
+  "last_order": 1009
  },
  "sticker_palm": {
   "id": "sticker_palm",
@@ -3363,64 +3409,11 @@
    "sticker"
   ],
   "used_in": [
-   "es-decision-mandy"
+   "es-decision-mandy",
+   "es-ventas-oficiales"
   ],
-  "times_used": 1,
-  "last_used": "es-decision-mandy",
-  "last_order": 1004
- },
- "clip:crash_pickup.mp4": {
-  "id": "clip:crash_pickup.mp4",
-  "file": "assets/clips/crash_pickup.mp4",
-  "kind": "video",
-  "origin": "third-party",
-  "source": "Gameplay clip from X (author unknown), supplied by channel owner",
-  "license": "unclear - not licensed; credited",
-  "description": "Pickup slow-motion crashes + construction-site crash",
-  "tags": [
-   "vehicle",
-   "crash"
-  ],
-  "used_in": [
-   "short_07"
-  ],
-  "times_used": 1,
-  "last_used": "short_07"
- },
- "clip:crash_sedan.mp4": {
-  "id": "clip:crash_sedan.mp4",
-  "file": "assets/clips/crash_sedan.mp4",
-  "kind": "video",
-  "origin": "third-party",
-  "source": "Gameplay clip from X (author unknown), supplied by channel owner",
-  "license": "unclear - not licensed; credited",
-  "description": "Sedan crash into pole, Vice City",
-  "tags": [
-   "vehicle",
-   "crash"
-  ],
-  "used_in": [
-   "short_07"
-  ],
-  "times_used": 1,
-  "last_used": "short_07"
- },
- "clip:crash_moto_rodiorraf.mov": {
-  "id": "clip:crash_moto_rodiorraf.mov",
-  "file": "assets/clips/crash_moto_rodiorraf.mov",
-  "kind": "video",
-  "origin": "third-party",
-  "source": "Gameplay clip by @rodiorraf (watermark), supplied by channel owner",
-  "license": "unclear - not licensed; credited",
-  "description": "Night motorcycle crash, rider ragdoll",
-  "tags": [
-   "vehicle",
-   "crash"
-  ],
-  "used_in": [
-   "short_07"
-  ],
-  "times_used": 1,
-  "last_used": "short_07"
+  "times_used": 2,
+  "last_used": "es-ventas-oficiales",
+  "last_order": 1008
  }
 }

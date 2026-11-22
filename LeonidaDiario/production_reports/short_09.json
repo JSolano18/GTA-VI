@@ -1,0 +1,88 @@
+{
+ "id": "short_09",
+ "slug": "es-animales",
+ "title": "Los ANIMALES de GTA 6 son una locura 🐊🐕 #gta6 #shorts",
+ "scenes": [
+  {
+   "voice": "em_alex",
+   "speed": 0.97,
+   "asr_match": 0.792,
+   "long_gaps": [],
+   "recognized": "se puede acariciar a los perros en seis si cota cuya recopilo clip de yeison acariciando perros y gatos y eso es solo el principio",
+   "duration": 8.38,
+   "ok": false,
+   "note": "main voice kept (ASR below 0.88 is recognizer error on uncommon words; manually checked text)"
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.72,
+   "long_gaps": [],
+   "recognized": "segun gay min former unida tiene mas de ciento setenta especies de animales",
+   "duration": 4.57,
+   "ok": false
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.947,
+   "long_gaps": [],
+   "recognized": "pero ojo con los caimanes si pisa su territorio te embisten te tiran al suelo y practicamente se acabo",
+   "duration": 6.33,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.833,
+   "long_gaps": [],
+   "recognized": "los pantanos de grass rivers hay serpientes caimanes y gente bastante rara",
+   "duration": 4.57,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.9,
+   "long_gaps": [],
+   "recognized": "en mount cal haga las imagenes oficiales muestran cazadores en el bosque las guias ya hablan de caza y pesca",
+   "duration": 6.57,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.909,
+   "long_gaps": [],
+   "recognized": "cual es el animal mas raro que has visto en leonidas",
+   "duration": 2.92,
+   "ok": true
+  }
+ ],
+ "duration": 35.62,
+ "assets_used": [
+  "Vice_City_19",
+  "Mount_Kalaga_National_Park_05",
+  "Grassrivers_08",
+  "Grassrivers_07",
+  "Mount_Kalaga_National_Park_03",
+  "Leonida_Keys_06",
+  "sticker_gator"
+ ],
+ "qc": {
+  "resolution": "1080x1920",
+  "duration": 35.62,
+  "has_audio": true,
+  "black_segments": 0,
+  "silences_over_0.8s": 0,
+  "loudness_lufs": -15.5,
+  "true_peak_dbfs": -1.3,
+  "recognized_text": "se puede acariciar a los perros en de haceis si cota cuya recopilo clip de yeison acariciando perros y gatos y eso es solo el principio segun gay min former leonidas tiene mas de ciento setenta especies de animales pero ojo con los caimanes si pisa su territorio te embisten te tiran al suelo y practicamente se acabo los pantanos de gras rivers hay serpientes caimanes y gente bastante rara y mount cala haga las imagenes oficiales muestran cazadores en el bosque las guias ya hablan de caza y pesca cual es el animal mas raro que has visto en leonidas",
+  "asr_match_full_voice": 0.837,
+  "repeated_word_events": 0,
+  "clipping_samples": 0,
+  "subtitles_match_script": true,
+  "problems": [],
+  "verdict": "PASS"
+ }
+}

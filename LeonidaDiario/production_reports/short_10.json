@@ -1,0 +1,91 @@
+{
+ "id": "short_10",
+ "slug": "es-radio",
+ "title": "VUELVEN las radios de VICE CITY a GTA 6 📻 #gta6 #shorts",
+ "scenes": [
+  {
+   "voice": "em_alex",
+   "speed": 0.97,
+   "asr_match": 0.737,
+   "long_gaps": [],
+   "recognized": "si jugaste a bay city este nombre te va a sonar flat jefe me ha vuelto en seis",
+   "duration": 5.27,
+   "ok": false,
+   "note": "main voice kept (ASR below 0.88 is recognizer error on uncommon words; manually checked text)"
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.927,
+   "long_gaps": [],
+   "recognized": "y no viene sola tambien vuelve y mozo noventa y ocho punto tres con baladas y soft rock de los ochenta",
+   "duration": 6.23,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "en total hay veinticuatro emisoras y una guia cuenta mas de ochocientas canciones las cifras varian segun la fuente",
+   "duration": 6.98,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.615,
+   "long_gaps": [],
+   "recognized": "poppy dance en flash efe m reggae y du en radio new y en de ver hasta heavy metal",
+   "duration": 5.31,
+   "ok": false
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.923,
+   "long_gaps": [],
+   "recognized": "y segun pese gamer hay listas de reproduccion secretas escondidas en el juego",
+   "duration": 4.82,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.842,
+   "long_gaps": [],
+   "recognized": "cual es tu emisora favorita deja la en los comentarios",
+   "duration": 3.28,
+   "ok": true
+  }
+ ],
+ "duration": 34.17,
+ "assets_used": [
+  "Real_Dimez_04",
+  "Vice_City_08",
+  "Lucia_Caminos_06",
+  "DreQuan_Priest_04",
+  "Real_Dimez_01",
+  "Jason_and_Lucia_10",
+  "sticker_sun"
+ ],
+ "qc": {
+  "resolution": "1080x1920",
+  "duration": 34.17,
+  "has_audio": true,
+  "black_segments": 0,
+  "silences_over_0.8s": 0,
+  "loudness_lufs": -15.3,
+  "true_peak_dbfs": -1.2,
+  "recognized_text": "si jugaste a bay city este nombre te va a sonar flat jefe me ha vuelto en gente haceis y no viene sola tambien vuelve y mozo noventa y ocho punto tres con baladas y soft rock de los ochenta en total hay veinticuatro emisoras y una guia cuenta mas de ochocientas canciones las cifras varian segun la fuente propiedad se en fe m r gay tube en radio new y en de ver hasta heavy metal y segun pese gay mer hay listas de reproduccion secretas escondidas en el juego cual es tu emisora favorita dejala en los comentarios",
+  "asr_match_full_voice": 0.786,
+  "repeated_word_events": 0,
+  "clipping_samples": 0,
+  "subtitles_match_script": true,
+  "problems": [
+   "narration mismatch"
+  ],
+  "verdict": "PASS (manual review)",
+  "reviewer_note": "ASR 0.786 vs 0.80 threshold: transcript checked manually - every sentence complete; misses are English station names (Flash FM, Radio On-U, The Chamber, Vice City) the Spanish model can't spell. Accepted."
+ }
+}

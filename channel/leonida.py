@@ -423,7 +423,7 @@ SHORTS += [
    "say": "En total hay veinticuatro emisoras, y una guía cuenta más de ochocientas canciones. Las cifras varían según la fuente."},
   {"asset": "DreQuan_Priest_04", "move": "pan_l", "head": "PARA TODOS LOS GUSTOS",
    "rows": [["FLASH FM", "POP"], ["EMOTION 98.3", "80s"], ["RADIO ON-U", "REGGAE"], ["THE CHAMBER", "METAL"]],
-   "say": "Pop y dance en Flash FM, reggae y dub en Radio On-U, y hasta metal en The Chamber."},
+   "say": "Pop y dance en Flash FM, reggae y dub en Radio On-U, y en The Chamber, hasta heavy metal."},
   {"asset": "Real_Dimez_01", "move": "zin", "head": "Y PLAYLISTS SECRETAS",
    "say": "Y según PC Gamer, hay listas de reproducción secretas escondidas en el juego."},
   {"asset": "Jason_and_Lucia_10", "move": "zout", "head": "¿CUÁL ESCUCHAS TÚ?", "sticker": "sticker_sun",
