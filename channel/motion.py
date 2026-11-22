@@ -131,3 +131,34 @@ def scope_overlay(frame, lt, cx=W // 2, cy=820):
         d.line([(cx - r, cy), (cx - 30, cy)], fill=(0, 0, 0, a), width=4); d.line([(cx + 30, cy), (cx + r, cy)], fill=(0, 0, 0, a), width=4)
         d.line([(cx, cy - r), (cx, cy - 30)], fill=(0, 0, 0, a), width=4); d.line([(cx, cy + 30), (cx, cy + r)], fill=(0, 0, 0, a), width=4)
         d.ellipse([cx - 5, cy - 5, cx + 5, cy + 5], fill=(255, 40, 40, a))
+
+
+def car_damage_frame(lt):
+    """Illustrated damage-zone diagram: generic car side view, zones flash in sequence."""
+    cw, ch = 960, 620
+    im = Image.new("RGBA", (cw, ch), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    body = [(80, 330), (150, 250), (300, 230), (390, 150), (620, 145), (720, 230), (860, 250), (900, 330), (900, 400), (80, 400)]
+    zones = [("FRONTAL", [(720, 230), (860, 250), (900, 330), (900, 400), (760, 400), (760, 235)], 0.4),
+             ("LATERAL", [(300, 230), (390, 150), (620, 145), (720, 230), (760, 235), (760, 400), (300, 400)], 1.6),
+             ("TRASERA", [(80, 330), (150, 250), (300, 230), (300, 400), (80, 400)], 2.8)]
+    d.polygon(body, fill=(40, 34, 64, 255), outline=(150, 140, 200, 255))
+    d.polygon([(410, 165), (600, 162), (690, 232), (400, 236)], fill=(80, 150, 190, 200))
+    for x in (230, 750):
+        d.ellipse([x - 70, 340, x + 70, 480], fill=(15, 12, 25, 255), outline=(150, 140, 200, 255), width=6)
+        d.ellipse([x - 30, 380, x + 30, 440], fill=(90, 84, 120, 255))
+    glow = Image.new("RGBA", (cw, ch), (0, 0, 0, 0)); g = ImageDraw.Draw(glow)
+    for name, poly, t0 in zones:
+        if lt < t0: continue
+        a = min(1.0, (lt - t0) / 0.3); pulse = 0.6 + 0.4 * math.sin((lt - t0) * 7)
+        g.polygon(poly, fill=(255, 40, 60, int(200 * a)))
+        ov = Image.new("RGBA", (cw, ch), (0, 0, 0, 0)); ImageDraw.Draw(ov).polygon(poly, fill=(255, 50, 70, int(150 * a * pulse)))
+        im.alpha_composite(ov)
+        cx = sum(p[0] for p in poly) // len(poly)
+        for k in range(3):  # crack lines
+            ImageDraw.Draw(im).line([(cx - 40 + k * 30, 260 + k * 25), (cx - 10 + k * 25, 300 + k * 20), (cx + 20 + k * 10, 290 + k * 30)], fill=(255, 230, 230, int(255 * a)), width=4)
+        t = text_img(name, font("black", 38), fill=WHITE, stroke=5, stroke_fill=(150, 0, 20), pad=8)
+        im.alpha_composite(t, (min(cw - t.size[0], max(0, cx - t.size[0] // 2)), 500 if name != "LATERAL" else 70))
+    out = Image.new("RGBA", (cw, ch), (0, 0, 0, 0)); out.alpha_composite(glow.filter(ImageFilter.GaussianBlur(22))); out.alpha_composite(im)
+    tag = text_img("ILUSTRACIÓN", font("semi", 24), fill=(220, 220, 230), stroke=2, pad=6)
+    out.alpha_composite(tag, (cw - tag.size[0] - 10, ch - tag.size[1] - 4))
+    return out

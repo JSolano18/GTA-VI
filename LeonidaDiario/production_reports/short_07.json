@@ -1,0 +1,97 @@
+{
+ "id": "short_07",
+ "slug": "es-fisica-choques",
+ "title": "Los CHOQUES de GTA 6 son otro nivel 💥🚗 #gta6 #shorts",
+ "scenes": [
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.889,
+   "long_gaps": [],
+   "recognized": "mira como se arruga esta camioneta asi son los choques en seis",
+   "duration": 4.25,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.885,
+   "long_gaps": [],
+   "recognized": "las resenas coinciden la conduccion esta entre cuatro y cinco los coches pesan mas y el dano depende de como y donde golpeas",
+   "duration": 8.7,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.842,
+   "long_gaps": [],
+   "recognized": "el dano se queda chapa hundida piezas sueltas ademas los coche son mas fragiles que en cinco",
+   "duration": 6.12,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.905,
+   "long_gaps": [],
+   "recognized": "en segundo de despiste en bay city y el coche queda tocado ojo si usas el movil conduciendo se controla peor",
+   "duration": 6.83,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "y arreglarlo cuesta dinero de verdad las resenas hablan de facturas de reparacion",
+   "duration": 4.8,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.97,
+   "long_gaps": [],
+   "recognized": "en moto sales volando el personaje se arrastra por el asfalto y se levanta como puede",
+   "duration": 5.18,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.903,
+   "long_gaps": [],
+   "recognized": "es la fisica de choques mas realista de un vete a cuentame tu peor choque",
+   "duration": 4.14,
+   "ok": true
+  }
+ ],
+ "duration": 42.68,
+ "assets_used": [
+  "clip:crash_pickup.mp4@1.0",
+  "clip:crash_pickup.mp4@4.3",
+  "clip:crash_pickup.mp4@8.3",
+  "clip:crash_sedan.mp4@2.4",
+  "Vice_City_24",
+  "clip:crash_moto_rodiorraf.mov@0.3",
+  "Jason_and_Lucia_09",
+  "sticker_lowrider"
+ ],
+ "qc": {
+  "resolution": "1080x1920",
+  "duration": 42.68,
+  "has_audio": true,
+  "black_segments": 0,
+  "silences_over_0.8s": 0,
+  "loudness_lufs": -15.5,
+  "true_peak_dbfs": -1.0,
+  "recognized_text": "mira como se arruga esta camioneta asi son los choques en te haceis las resenas coinciden la conduccion esta entre cuatro y cinco los coches pesan mas y el dano depende de como y donde golpeas y el dano se queda chapa hundida piezas sueltas ademas los coche son mas fragiles que en cinco un segundo de despiste en bay city y el coche queda tocado ojo si usas el movil conduciendo se controla peor y arreglarlo cuesta dinero de verdad las resenas hablan de facturas de reparacion en moto sales volando el personaje se arrastra por el asfalto y se levanta como puede es la fisica de choques mas realista de vete a cuentame tu peor choque",
+  "asr_match_full_voice": 0.912,
+  "repeated_word_events": 0,
+  "clipping_samples": 0,
+  "subtitles_match_script": true,
+  "problems": [],
+  "verdict": "PASS"
+ }
+}

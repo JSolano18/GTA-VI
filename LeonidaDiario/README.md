@@ -10,6 +10,7 @@ No se ha subido nada. Todo está listo para YouTube Shorts, TikTok e Instagram R
 | 4 | La DECISIÓN de MANDY que casi nadie pensó 🔧 #gta6 #shorts | 41.0 s | PASS | 0.91 | 2 official stills, third-party gameplay clip, official animated sticker | `shorts/short_04/short_04.mp4` |
 | 5 | ¿Por qué LUCÍA estaba en la CÁRCEL? GTA 6 ⛓️ #gta6 #shorts | 37.25 s | PASS | 0.936 | 6 official stills, official animated sticker | `shorts/short_05/short_05.mp4` |
 | 6 | Cómo jugar GTA 6 en PRIMERA PERSONA 🎮 (4 trucos) #gta6 #shorts | 52.26 s | PASS | 0.894 | 8 official stills, official animated sticker | `shorts/short_06/short_06.mp4` |
+| 7 | Los CHOQUES de GTA 6 son otro nivel 💥🚗 #gta6 #shorts | 42.68 s | PASS | 0.912 | 2 official stills, third-party gameplay clip, official animated sticker | `shorts/short_07/short_07.mp4` |
 
 Folders: `shorts/` finished videos · `scripts/` narration · `voiceovers/` clean voice stems · `sources/` claim-by-claim sources and topic scoring · `metadata/` titles, descriptions, hashtags, pinned comments, assets used · `production_reports/` QC + benchmark analysis.
 
@@ -144,3 +145,25 @@ Imágenes: Rockstar Games · Animaciones: ilustración. Canal de fans no oficial
 **Narration per scene:** 1: em_alex ×1.0 match 0.919; 2: em_alex ×1.0 match 1.0; 3: em_alex ×1.0 match 0.706; 4: em_alex ×0.97 match 0.788; 5: em_alex ×1.0 match 0.923; 6: em_alex ×1.0 match 0.884; 7: em_alex ×1.0 match 1.0; 8: em_alex ×1.0 match 1.0
 
 **QC:** {"resolution": "1080x1920", "duration": 52.26, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.4, "true_peak_dbfs": -1.0, "recognized_text": "se puede jugar seis en primera persona no del todo pero hay cuatro trucos para conseguirlo no hay un modo completo ni una opcion en los ajustes de camara asi que vamos con los trucos uno quieto de pie mantenerle dos y pulsar tres en equis box el y stick derecho si sueltas o te mueves vuelve la camara normal dos con un arma con mira apunta con ele dos pulse re tres y apuntas en primera persona tres conduciendo saca el movil con la cruz eta arriba segun las guias la camara pasa al asiento del conductor y cuatro el truco viral en ajustes mando cambia el boton del panel tactil o vista en equis box de mapa camara av el movil y justo al cerrarlo pulsa rapido ese boton si te sale te quedas en primera persona ojo es un fallo para volver carga la partida y rockstar lo puede quitar en cualquier parche", "asr_match_full_voice": 0.894, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
+
+## short_07: Los CHOQUES de GTA 6 son otro nivel 💥🚗 #gta6 #shorts
+
+**Why this topic:** Petición directa del dueño del canal (tutorial de búsqueda frecuente: cómo poner primera persona).
+
+**Description:**
+```
+Así se ven los choques en GTA 6: más peso, daño que se queda, coches más frágiles y facturas de taller. Y en moto, sales volando. Clips de jugadores; el diagrama de daños es una ilustración.
+
+#gta6 #gtavi #gta6fisica #choques #crashphysics #rockstargames #shorts
+
+Clips: jugadores de X · @rodiorraf · Imágenes: Rockstar Games. Canal de fans no oficial, sin afiliación con Rockstar Games ni Take-Two. Narración con voz generada por IA.
+```
+**Pinned comment:** ¿Es la física de choques más realista de un GTA? 💥 ¿Cuál ha sido tu peor choque?
+
+**Files:** `shorts/short_07/` (mp4, cover jpg, srt, title/description/tags), script `scripts/short_07.txt`, voice `voiceovers/short_07_voice.wav`, sources `sources/short_07.md`, report `production_reports/short_07.json`.
+
+**Visual assets:** Jason_and_Lucia_09, Vice_City_24, clip:crash_moto_rodiorraf.mov, clip:crash_pickup.mp4, clip:crash_sedan.mp4, sticker_lowrider
+
+**Narration per scene:** 1: em_alex ×1.0 match 0.889; 2: em_alex ×1.0 match 0.885; 3: em_alex ×1.0 match 0.842; 4: em_alex ×1.0 match 0.905; 5: em_alex ×1.0 match 1.0; 6: em_alex ×1.0 match 0.97; 7: em_alex ×1.0 match 0.903
+
+**QC:** {"resolution": "1080x1920", "duration": 42.68, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.5, "true_peak_dbfs": -1.0, "recognized_text": "mira como se arruga esta camioneta asi son los choques en te haceis las resenas coinciden la conduccion esta entre cuatro y cinco los coches pesan mas y el dano depende de como y donde golpeas y el dano se queda chapa hundida piezas sueltas ademas los coche son mas fragiles que en cinco un segundo de despiste en bay city y el coche queda tocado ojo si usas el movil conduciendo se controla peor y arreglarlo cuesta dinero de verdad las resenas hablan de facturas de reparacion en moto sales volando el personaje se arrastra por el asfalto y se levanta como puede es la fisica de choques mas realista de vete a cuentame tu peor choque", "asr_match_full_voice": 0.912, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}

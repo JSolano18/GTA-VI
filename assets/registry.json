@@ -967,11 +967,12 @@
    "lucia"
   ],
   "used_in": [
-   "es-japon-censura"
+   "es-japon-censura",
+   "es-fisica-choques"
   ],
-  "times_used": 1,
-  "last_used": "es-japon-censura",
-  "last_order": 1003
+  "times_used": 2,
+  "last_used": "es-fisica-choques",
+  "last_order": 1007
  },
  "Jason_and_Lucia_10": {
   "id": "Jason_and_Lucia_10",
@@ -3067,11 +3068,12 @@
   "used_in": [
    "s10-ventas",
    "s13-consejos",
-   "s16-robar-coches"
+   "s16-robar-coches",
+   "es-fisica-choques"
   ],
-  "times_used": 3,
-  "last_used": "s16-robar-coches",
-  "last_order": 15
+  "times_used": 4,
+  "last_used": "es-fisica-choques",
+  "last_order": 1007
  },
  "Vice_City_25": {
   "id": "Vice_City_25",
@@ -3131,6 +3133,19 @@
   "times_used": 4,
   "last_used": "s17-rompio-twitch",
   "last_order": 16
+ },
+ "derived_crash_cover": {
+  "id": "derived_crash_cover",
+  "file": "assets/oficial/shorts/derived_crash_cover.jpg",
+  "kind": "image",
+  "origin": "official",
+  "source": "Rockstar Games official site / press screenshot pack (rockstargames.com/VI)",
+  "license": "Official promotional material offered for download and sharing; not a formal license. Credit 'Rockstar Games'.",
+  "description": "derived crash cover",
+  "tags": [],
+  "used_in": [],
+  "times_used": 0,
+  "last_used": null
  },
  "derived_fp_scope": {
   "id": "derived_fp_scope",
@@ -3239,9 +3254,12 @@
   "tags": [
    "sticker"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-fisica-choques"
+  ],
+  "times_used": 1,
+  "last_used": "es-fisica-choques",
+  "last_order": 1007
  },
  "sticker_sun": {
   "id": "sticker_sun",
@@ -3350,5 +3368,59 @@
   "times_used": 1,
   "last_used": "es-decision-mandy",
   "last_order": 1004
+ },
+ "clip:crash_pickup.mp4": {
+  "id": "clip:crash_pickup.mp4",
+  "file": "assets/clips/crash_pickup.mp4",
+  "kind": "video",
+  "origin": "third-party",
+  "source": "Gameplay clip from X (author unknown), supplied by channel owner",
+  "license": "unclear - not licensed; credited",
+  "description": "Pickup slow-motion crashes + construction-site crash",
+  "tags": [
+   "vehicle",
+   "crash"
+  ],
+  "used_in": [
+   "short_07"
+  ],
+  "times_used": 1,
+  "last_used": "short_07"
+ },
+ "clip:crash_sedan.mp4": {
+  "id": "clip:crash_sedan.mp4",
+  "file": "assets/clips/crash_sedan.mp4",
+  "kind": "video",
+  "origin": "third-party",
+  "source": "Gameplay clip from X (author unknown), supplied by channel owner",
+  "license": "unclear - not licensed; credited",
+  "description": "Sedan crash into pole, Vice City",
+  "tags": [
+   "vehicle",
+   "crash"
+  ],
+  "used_in": [
+   "short_07"
+  ],
+  "times_used": 1,
+  "last_used": "short_07"
+ },
+ "clip:crash_moto_rodiorraf.mov": {
+  "id": "clip:crash_moto_rodiorraf.mov",
+  "file": "assets/clips/crash_moto_rodiorraf.mov",
+  "kind": "video",
+  "origin": "third-party",
+  "source": "Gameplay clip by @rodiorraf (watermark), supplied by channel owner",
+  "license": "unclear - not licensed; credited",
+  "description": "Night motorcycle crash, rider ragdoll",
+  "tags": [
+   "vehicle",
+   "crash"
+  ],
+  "used_in": [
+   "short_07"
+  ],
+  "times_used": 1,
+  "last_used": "short_07"
  }
 }

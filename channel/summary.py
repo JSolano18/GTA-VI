@@ -23,7 +23,7 @@ for spec in LD.SHORTS:
             (", official animated sticker" if any(a.startswith("sticker") for a in vis) else "")
     L.append(f"| {sid[-1]} | {spec['title']} | {r['duration']} s | {r['qc']['verdict']} | {r['qc']['asr_match_full_voice']} | {vdesc} | `shorts/{sid}/{sid}.mp4` |")
     details += [f"## {sid}: {spec['title']}", "",
-                f"**Why this topic:** {why.get(spec["topic"], "Petición directa del dueño del canal (tutorial de búsqueda frecuente: cómo poner primera persona).")}", "",
+                f"**Why this topic:** {why.get(spec["topic"], ) if False else why.get(spec["topic"], "Petición directa del dueño del canal (tutorial de búsqueda frecuente: cómo poner primera persona).")}", "",
                 f"**Description:**\n```\n{m['description']}\n```", f"**Pinned comment:** {spec['pinned']}", "",
                 f"**Files:** `shorts/{sid}/` (mp4, cover jpg, srt, title/description/tags), script `scripts/{sid}.txt`, voice `voiceovers/{sid}_voice.wav`, sources `sources/{sid}.md`, report `production_reports/{sid}.json`.", "",
                 f"**Visual assets:** {', '.join(vis)}", "",

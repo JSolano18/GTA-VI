@@ -330,6 +330,39 @@ SOURCES["short_06"] = [
   ("Xbox button naming (View vs Back) differs between sources", "conflicting - we say 'Vista'", "https://www.g2a.com/news/gta-6-news/gta-6-first-person-mode/"),
 ]
 
+SHORTS.append(
+{"id": "short_07", "slug": "es-fisica-choques", "topic": "crash_physics", "seed": 77,
+ "title": "Los CHOQUES de GTA 6 son otro nivel 💥🚗 #gta6 #shorts",
+ "description": "Así se ven los choques en GTA 6: más peso, daño que se queda, coches más frágiles y facturas de taller. Y en moto, sales volando. Clips de jugadores; el diagrama de daños es una ilustración.",
+ "hashtags": ["#gta6", "#gtavi", "#gta6fisica", "#choques", "#crashphysics", "#rockstargames", "#shorts"],
+ "tags": ["gta 6 fisica", "gta 6 choques", "gta 6 crash physics", "gta 6 daño coches", "gta 6 conduccion", "gta 6 moto", "gtavi"],
+ "pinned": "¿Es la física de choques más realista de un GTA? 💥 ¿Cuál ha sido tu peor choque?",
+ "credit": "Clips: jugadores de X · @rodiorraf · Imágenes: Rockstar Games",
+ "cover": ("derived_crash_cover", .5, .2917, 1.0, ["CHOQUES", "BRUTALES"], "FÍSICA DE GTA 6"),
+ "scenes": [
+  {"clip": ("assets/clips/crash_pickup.mp4", 1.0, "fill", .5, (1.4, .47)), "head": "MIRA ESTE CHOQUE",
+   "say": "Mira cómo se arruga esta camioneta. Así son los choques en GTA 6."},
+  {"clip": ("assets/clips/crash_pickup.mp4", 4.3, "fill", .5), "head": "MÁS PESO, MÁS DAÑO", "chip": "ENTRE GTA IV Y GTA V",
+   "say": "Las reseñas coinciden: la conducción está entre GTA cuatro y GTA cinco. Los coches pesan más, y el daño depende de cómo y dónde golpeas."},
+  {"clip": ("assets/clips/crash_pickup.mp4", 8.3, "fill", .72), "head": "EL DAÑO SE QUEDA",
+   "say": "Y el daño se queda: chapa hundida, piezas sueltas. Además, los coches son más frágiles que en GTA cinco."},
+  {"clip": ("assets/clips/crash_sedan.mp4", 2.4, "fill", .5), "head": "UN SEGUNDO DE DESPISTE",
+   "say": "Un segundo de despiste en Vice City, y el coche queda tocado. Ojo: si usas el móvil conduciendo, se controla peor."},
+  {"asset": "Vice_City_24", "damage": True, "head": "Y SALE CARO", "chip": "FACTURAS DE TALLER",
+   "say": "Y arreglarlo cuesta dinero de verdad. Las reseñas hablan de facturas de reparación."},
+  {"clip": ("assets/clips/crash_moto_rodiorraf.mov", 0.3, "fit"), "head": "¿Y EN MOTO?",
+   "say": "¿Y en moto? Sales volando, el personaje se arrastra por el asfalto, y se levanta como puede."},
+  {"asset": "Jason_and_Lucia_09", "move": "zout", "head": "¿REALISTA O EXAGERADO?", "sticker": "sticker_lowrider",
+   "say": "¿Es la física de choques más realista de un GTA? Cuéntame tu peor choque."},
+ ]})
+SOURCES["short_07"] = [
+  ("Driving between GTA IV and GTA V; more vehicle weight, physics and damage", "credible reporting (reviews)", "https://wccftech.com/review/grand-theft-auto-vi-review-ps5pro/"),
+  ("Cars more fragile, repair bills, learning curve vs GTA V", "credible reporting (review roundup)", "https://outputlag.com/featured-slider/gta-6-review-roundup/"),
+  ("Phone use while driving makes control harder", "credible reporting (launch live blog)", "https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/"),
+  ("Damage depends on impact (shown in player clips)", "community footage", "player clips supplied by channel owner (X; @rodiorraf)"),
+  ("Motorcycle crash: rider thrown, crawls, gets up", "community footage", "@rodiorraf clip"),
+]
+
 # --------------------------------------------------------------------------------------------- voice
 _k = _vm = None
 def kokoro():
@@ -445,7 +478,7 @@ FOCUS = {"Jason_and_Lucia_03": (.45, .28), "Jason_and_Lucia_01": (.32, .27), "Lu
          "Jason_Duval_08": (.48, .26), "Jason_and_Lucia_04": (.2, .17), "Vice_City_11": (.3, .45), "Jason_and_Lucia_09": (.62, .2),
          "Brian_Heder_01": (.53, .26), "Leonida_Keys_06": (.72, .25), "Lucia_Caminos_05": (.57, .14), "Lucia_Caminos_01": (.57, .3),
          "Lucia_Caminos_03": (.3, .26), "Lucia_Caminos_07": (.62, .27), "Jason_and_Lucia_11": (.55, .34), "Jason_and_Lucia_08": (.5, .42),
-         "Jason_Duval_16": (.53, .24), "Jason_Duval_05": (.22, .3), "Jason_Duval_19": (.82, .28), "Lucia_Caminos_08": (.6, .4)}
+         "Jason_Duval_16": (.53, .24), "Jason_Duval_05": (.22, .3), "Jason_Duval_19": (.82, .28), "Lucia_Caminos_08": (.6, .4), "Vice_City_24": (.4, .45)}
 FACE_Y = 640   # where the subject should sit in the 1920px frame (below the headline, above the subtitles)
 
 def asset_image(name):
@@ -493,6 +526,27 @@ def sticker_frames(name, width=330):
         rgba = rgba.crop(bb); s = width / rgba.size[0]
         frames.append(rgba.resize((width, max(1, int(rgba.size[1] * s))), Image.LANCZOS))
     return frames
+
+def extract_any(path, t0, dur, out, mode="fit", fx=0.5, zf=(1.0, 0.5)):
+    """Local clip -> 1080x1920. 'fit' = whole frame over blurred copy; 'fill' = crop to fill around fx.
+    If the clip has less footage left than the scene needs, it is slowed down (max 1.7x) instead of freezing."""
+    src_d = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path],
+                                 capture_output=True, text=True).stdout)
+    avail = max(0.5, src_d - t0 - 0.05)
+    slow = min(1.7, max(1.0, (dur + 0.3) / avail))
+    pts = f"setpts={slow:.3f}*PTS,"
+    if mode == "fill":
+        z, fy = zf
+        vf = (f"[0:v]{pts}fps={FPS},scale=-2:{int(H * z)}:flags=lanczos,crop={W}:{H}:max(0\\,min(iw-{W}\\,iw*{fx}-{W/2})):"
+              f"max(0\\,min(ih-{H}\\,ih*{fy}-{H/2})),"
+              "eq=saturation=1.06:contrast=1.03[v]")
+    else:
+        vf = (f"[0:v]{pts}fps={FPS},split[a][b];[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},"
+              f"boxblur=24:2,eq=brightness=-0.12[bg];[b]scale={W}:-2:flags=lanczos[fg];[bg][fg]overlay=0:(H-h)/2-40[v]")
+    subprocess.run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-ss", str(t0), "-i", path, "-t", f"{avail:.2f}",
+                    "-an", "-filter_complex", vf, "-map", "[v]", "-t", f"{dur + 0.3:.2f}", "-c:v", "libx264", "-crf", "16",
+                    "-preset", "fast", out], check=True, stdin=subprocess.DEVNULL, timeout=600)
+    return slow
 
 # --------------------------------------------------------------------------------------------- build
 def build(spec, order):
@@ -551,13 +605,16 @@ def build(spec, order):
     for i, e in enumerate(tl):
         e["L"] = S.scene_layers(e["s"])
         if "clip" in e["s"]:
-            path, t0 = e["s"]["clip"]; cp = os.path.join(wk, f"clip_{i:02}.mp4")
+            path, t0 = e["s"]["clip"][:2]; mode = e["s"]["clip"][2] if len(e["s"]["clip"]) > 2 else "fit"
+            fx = e["s"]["clip"][3] if len(e["s"]["clip"]) > 3 else 0.5
+            zf = e["s"]["clip"][4] if len(e["s"]["clip"]) > 4 else (1.0, 0.5)
+            cp = os.path.join(wk, f"clip_{i:02}.mp4")
             if os.path.exists(cp): os.remove(cp)
-            S.extract_local(os.path.join(ROOT, path), t0, e["dur"], cp); e["clip"] = cp; e["reader"] = None
+            extract_any(os.path.join(ROOT, path), t0, e["dur"], cp, mode, fx, zf); e["clip"] = cp; e["reader"] = None
             assets_used.append(f"clip:{os.path.basename(path)}@{t0}")
         else:
             e["bg"], e["focus"] = asset_image(e["s"]["asset"]); assets_used.append(e["s"]["asset"])
-            if e["s"].get("pad") or e["s"].get("menu"):   # tutorial scenes: dimmed, blurred backdrop
+            if e["s"].get("pad") or e["s"].get("menu") or e["s"].get("damage"):   # tutorial scenes: dimmed, blurred backdrop
                 b = e["bg"].filter(ImageFilter.GaussianBlur(14))
                 e["bg"] = Image.blend(b, Image.new("RGB", b.size, (12, 6, 28)), 0.45)
         if e["s"].get("sticker"):
@@ -587,6 +644,9 @@ def build(spec, order):
         if e["s"].get("pad"):
             pf = M.pad_frame(lt, e["s"]["pad"])
             S.paste(frame, pf, (W - pf.size[0]) // 2, 610, lt, 0.15, "up", 0.35)
+        if e["s"].get("damage"):
+            dfm = M.car_damage_frame(lt)
+            S.paste(frame, dfm, (W - dfm.size[0]) // 2, 640, lt, 0.15, "up", 0.35)
         if e["s"].get("menu"):
             mf = M.menu_frame(lt)
             S.paste(frame, mf, (W - mf.size[0]) // 2, 640, lt, 0.15, "up", 0.35)
