@@ -35,6 +35,8 @@ PRON = [
     (r"\bEdge\b", "Edch"), (r"\bAaron Garbut\b", "Éron Gárbut"), (r"\bArthur Morgan\b", "Ártur Mórgan"), (r"\bCERO Z\b", "Sero Zeta"),
     (r"\bTrue Fat\b", "Tru Fat"), (r"\bBrian\b", "Bráian"), (r"\bstrip club\b", "estríp club"), (r"\bgym\b", "yim"),
     (r"\bLT\b", "ele te"), (r"\bL2\b", "ele dos"), (r"\bR3\b", "erre tres"), (r"\bstick\b", "estic"),
+    (r"\bFlash FM\b", "Flash efe eme"), (r"\bEmotion\b", "Imóshon"), (r"\bRadio On-U\b", "Radio On Iú"), (r"\bThe Chamber\b", "De Chéimber"),
+    (r"\bGame Informer\b", "Guéim Infórmer"), (r"\bPC Gamer\b", "pe ce Guéimer"), (r"\bKotaku\b", "Kotáku"),
     (r"\bonline\b", "onláin"), (r"\bspoilers?\b", "espóiler"), (r"\bPro\b", "Pro"), (r"\bOceanía\b", "Oceanía"),
 ]
 

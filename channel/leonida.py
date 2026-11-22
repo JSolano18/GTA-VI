@@ -363,6 +363,84 @@ SOURCES["short_07"] = [
   ("Motorcycle crash: rider thrown, crawls, gets up", "community footage", "@rodiorraf clip"),
 ]
 
+SHORTS += [
+{"id": "short_08", "slug": "es-ventas-oficiales", "topic": "official_sales", "seed": 78,
+ "title": "GTA 6 hizo $3.790 MILLONES en UN día 💰 #gta6 #shorts",
+ "description": "Es oficial: Rockstar y Take-Two confirmaron 3.790 millones de dólares en ventas el primer día y 32,5 millones de copias antes del lanzamiento. Más del doble de lo que estimaba Sensor Tower.",
+ "hashtags": ["#gta6", "#gtavi", "#gta6ventas", "#record", "#rockstargames", "#taketwo", "#shorts"],
+ "tags": ["gta 6 ventas", "gta 6 record", "gta 6 3790 millones", "gta 6 copias vendidas", "take two", "gta 6 vs gta 5", "gtavi"],
+ "pinned": "¿Tú eres uno de esos millones? 🎮 ¿En qué consola lo juegas?",
+ "cover": ("Boobie_Ike_01", .45, .22, 1.45, ["$3.790", "MILLONES"], "EN 1 DÍA · OFICIAL"),
+ "scenes": [
+  {"asset": "Boobie_Ike_01", "move": "zin", "head": "ES OFICIAL",
+   "say": "Es oficial, y es una locura. Rockstar acaba de dar los números del primer día de GTA 6."},
+  {"asset": "Vice_City_08", "move": "pan_r", "head": "EN UN SOLO DÍA", "big": "$3.790 M", "label": "VENTAS EL PRIMER DÍA",
+   "say": "Tres mil setecientos noventa millones de dólares en ventas en todo el mundo, en su primer día."},
+  {"asset": "Raul_Bautista_03", "move": "zout", "head": "ANTES DE SALIR", "big": "32,5 M", "label": "COPIAS VENDIDAS",
+   "say": "Y antes de salir, ya había vendido treinta y dos millones y medio de copias."},
+  {"asset": "Vice_City_10", "move": "pan_l", "head": "MÁS DEL DOBLE",
+   "rows": [["ESTIMACIÓN SENSOR TOWER", "$1.650 M"], ["CIFRA OFICIAL", "$3.790 M"]],
+   "say": "Hace unos días te contamos la estimación de Sensor Tower: mil seiscientos cincuenta millones. La cifra real es más del doble."},
+  {"asset": "Vice_City_02", "move": "zin", "head": "¿Y GTA 5?", "chip": "x4,6",
+   "say": "Para que te hagas una idea: GTA cinco hizo unos ochocientos quince millones en su primer día. GTA 6 lo multiplica por más de cuatro."},
+  {"asset": "Vice_City_04", "move": "zout", "head": "¿LO COMPRASTE?", "sticker": "sticker_crab",
+   "say": "¿Tú eres uno de esos millones? Cuéntame en qué consola lo juegas."},
+ ]},
+{"id": "short_09", "slug": "es-animales", "topic": "animals", "seed": 79,
+ "title": "Los ANIMALES de GTA 6 son una locura 🐊🐕 #gta6 #shorts",
+ "description": "Perros y gatos que puedes acariciar, caimanes que te embisten, más de 170 especies según Game Informer y caza en Mount Kalaga.",
+ "hashtags": ["#gta6", "#gtavi", "#gta6animales", "#caiman", "#leonida", "#rockstargames", "#shorts"],
+ "tags": ["gta 6 animales", "gta 6 perros", "gta 6 caiman", "gta 6 mascotas", "gta 6 caza", "gta 6 fauna", "gtavi"],
+ "pinned": "¿Cuál es el animal más raro que has visto en Leonida? 🐊",
+ "cover": ("Vice_City_19", .2, .42, 1.45, ["NO TOQUES", "ESE PERRO"], "ANIMALES DE GTA 6"),
+ "scenes": [
+  {"asset": "Vice_City_19", "move": "zin", "head": "¿PUEDES ACARICIAR AL PERRO?",
+   "say": "¿Se puede acariciar a los perros en GTA 6? Sí. Kotaku ya recopiló clips de Jason acariciando perros y gatos. Y eso es solo el principio."},
+  {"asset": "Mount_Kalaga_National_Park_05", "move": "pan_r", "head": "MÁS DE 170 ESPECIES", "chip": "SEGÚN GAME INFORMER",
+   "say": "Según Game Informer, Leonida tiene más de ciento setenta especies de animales."},
+  {"asset": "Grassrivers_08", "move": "zin", "head": "CUIDADO CON LOS CAIMANES",
+   "say": "Pero ojo con los caimanes. Si pisas su territorio, te embisten, te tiran al suelo, y prácticamente se acabó."},
+  {"asset": "Grassrivers_07", "move": "pan_l", "head": "LA VIDA EN GRASSRIVERS",
+   "say": "En los pantanos de Grassrivers hay serpientes, caimanes, y gente bastante rara."},
+  {"asset": "Mount_Kalaga_National_Park_03", "move": "zout", "head": "CAZA EN KALAGA",
+   "say": "Y en Mount Kalaga, las imágenes oficiales muestran cazadores en el bosque. Las guías ya hablan de caza y pesca."},
+  {"asset": "Leonida_Keys_06", "move": "zin", "head": "¿CUÁL ES TU FAVORITO?", "sticker": "sticker_gator",
+   "say": "¿Cuál es el animal más raro que has visto en Leonida?"},
+ ]},
+{"id": "short_10", "slug": "es-radio", "topic": "radio", "seed": 80,
+ "title": "VUELVEN las radios de VICE CITY a GTA 6 📻 #gta6 #shorts",
+ "description": "Flash FM y Emotion 98.3 vuelven en GTA 6: 24 emisoras, cientos de canciones, de pop ochentero a metal, y playlists secretas según PC Gamer.",
+ "hashtags": ["#gta6", "#gtavi", "#flashfm", "#gta6radio", "#vicecity", "#rockstargames", "#shorts"],
+ "tags": ["gta 6 radio", "gta 6 canciones", "gta 6 soundtrack", "flash fm gta 6", "emotion 98.3", "gta 6 emisoras", "gtavi"],
+ "pinned": "¿Cuál es tu emisora favorita de GTA 6? 📻",
+ "cover": ("Real_Dimez_04", .45, .25, 1.45, ["VUELVE", "FLASH FM"], "RADIOS DE GTA 6"),
+ "scenes": [
+  {"asset": "Real_Dimez_04", "move": "zin", "head": "¿TE ACUERDAS DE FLASH FM?",
+   "say": "Si jugaste a Vice City, este nombre te va a sonar: Flash FM ha vuelto en GTA 6."},
+  {"asset": "Vice_City_08", "move": "pan_r", "head": "Y EMOTION 98.3",
+   "say": "Y no viene sola. También vuelve Emotion noventa y ocho punto tres, con baladas y soft rock de los ochenta."},
+  {"asset": "Lucia_Caminos_06", "move": "zout", "head": "UNA BARBARIDAD DE MÚSICA", "big": "24", "label": "EMISORAS",
+   "say": "En total hay veinticuatro emisoras, y una guía cuenta más de ochocientas canciones. Las cifras varían según la fuente."},
+  {"asset": "DreQuan_Priest_04", "move": "pan_l", "head": "PARA TODOS LOS GUSTOS",
+   "rows": [["FLASH FM", "POP"], ["EMOTION 98.3", "80s"], ["RADIO ON-U", "REGGAE"], ["THE CHAMBER", "METAL"]],
+   "say": "Pop y dance en Flash FM, reggae y dub en Radio On-U, y hasta metal en The Chamber."},
+  {"asset": "Real_Dimez_01", "move": "zin", "head": "Y PLAYLISTS SECRETAS",
+   "say": "Y según PC Gamer, hay listas de reproducción secretas escondidas en el juego."},
+  {"asset": "Jason_and_Lucia_10", "move": "zout", "head": "¿CUÁL ESCUCHAS TÚ?", "sticker": "sticker_sun",
+   "say": "¿Cuál es tu emisora favorita? Déjala en los comentarios."},
+ ]},
+]
+SOURCES["short_08"] = [("$3.79B day-one retail sales; 32.5M units pre-release", "official (Rockstar press release, Take-Two SEC 8-K)", "https://www.sec.gov/Archives/edgar/data/0000946581/000162828026075217/exhibit9918k.htm"),
+  ("Sensor Tower earlier estimate (we reported ~$1.65B)", "third-party estimate", "https://gamerant.com/gta-6-copies-sold-billion-dollar-sales-hour/"),
+  ("GTA V day one ~$815.7M", "official record (Guinness)", "https://videocardz.com/newz/gta-6-generates-3-79-billion-in-first-day-sales-with-32-5-million-copies-sold-before-launch")]
+SOURCES["short_09"] = [("Jason petting dogs and cats (clips)", "credible reporting (Kotaku)", "https://kotaku.com/grand-theft-auto-6-gta6-cats-dogs-snake-pet-alligator-2000758120"),
+  ("170+ species", "credible reporting (Game Informer via Red Bull/GTA Intel)", "https://www.redbull.com/int-en/gta-6-wildlife"),
+  ("Alligators charge and knock Jason down", "credible reporting (Vice/Kotaku clips)", "https://www.vice.com/en/article/6-wild-animal-encounters-in-gta-6-that-you-have-to-see-to-believe/"),
+  ("Hunters in Mount Kalaga official screenshots; hunting & fishing activities in guides", "official image + guides", "https://driffle.com/blog/gta-6-activities-side-missions-everything-confirmed-so-far/")]
+SOURCES["short_10"] = [("Flash FM and Emotion 98.3 return; 24 stations; Radio On-U reggae/dub; The Chamber metal", "credible reporting", "https://consequence.net/2026/11/gta-6-radio-stations-songs-soundtrack/"),
+  ("800+ tracks (counts vary)", "credible reporting, conflicting counts (stated)", "https://musicexp.substack.com/p/a-complete-list-of-every-track-in"),
+  ("Secret unique playlists", "credible reporting (PC Gamer)", "https://www.pcgamer.com/games/grand-theft-auto/gta-6-radio-songs/")]
+
 # --------------------------------------------------------------------------------------------- voice
 _k = _vm = None
 def kokoro():
@@ -478,7 +556,11 @@ FOCUS = {"Jason_and_Lucia_03": (.45, .28), "Jason_and_Lucia_01": (.32, .27), "Lu
          "Jason_Duval_08": (.48, .26), "Jason_and_Lucia_04": (.2, .17), "Vice_City_11": (.3, .45), "Jason_and_Lucia_09": (.62, .2),
          "Brian_Heder_01": (.53, .26), "Leonida_Keys_06": (.72, .25), "Lucia_Caminos_05": (.57, .14), "Lucia_Caminos_01": (.57, .3),
          "Lucia_Caminos_03": (.3, .26), "Lucia_Caminos_07": (.62, .27), "Jason_and_Lucia_11": (.55, .34), "Jason_and_Lucia_08": (.5, .42),
-         "Jason_Duval_16": (.53, .24), "Jason_Duval_05": (.22, .3), "Jason_Duval_19": (.82, .28), "Lucia_Caminos_08": (.6, .4), "Vice_City_24": (.4, .45)}
+         "Jason_Duval_16": (.53, .24), "Jason_Duval_05": (.22, .3), "Jason_Duval_19": (.82, .28), "Lucia_Caminos_08": (.6, .4), "Vice_City_24": (.4, .45),
+         "Boobie_Ike_01": (.45, .22), "Raul_Bautista_03": (.6, .12), "Vice_City_02": (.75, .38), "Vice_City_04": (.5, .2),
+         "Vice_City_08": (.45, .42), "Mount_Kalaga_National_Park_05": (.45, .55), "Mount_Kalaga_National_Park_03": (.26, .55),
+         "Grassrivers_07": (.31, .22), "Vice_City_19": (.2, .42), "Real_Dimez_04": (.45, .25), "Real_Dimez_01": (.55, .2),
+         "DreQuan_Priest_04": (.25, .15), "Lucia_Caminos_06": (.55, .3), "Jason_and_Lucia_10": (.35, .4), "Grassrivers_08": (.5, .6)}
 FACE_Y = 640   # where the subject should sit in the 1920px frame (below the headline, above the subtitles)
 
 def asset_image(name):

@@ -1,0 +1,87 @@
+{
+ "id": "short_08",
+ "slug": "es-ventas-oficiales",
+ "title": "GTA 6 hizo $3.790 MILLONES en UN día 💰 #gta6 #shorts",
+ "scenes": [
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.919,
+   "long_gaps": [],
+   "recognized": "es oficial y es una locura rockstar acaba de dar los numeros del primer dia de seis",
+   "duration": 5.21,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "tres mil setecientos noventa millones de dolares en ventas en todo el mundo en su primer dia",
+   "duration": 5.55,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "y antes de salir ya habia vendido treinta y dos millones y medio de copias",
+   "duration": 4.48,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "hace unos dias te contamos la estimacion de sensor tower mil seiscientos cincuenta millones la cifra real es mas del doble",
+   "duration": 7.53,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.842,
+   "long_gaps": [],
+   "recognized": "para que te hagas una idea que te a cinco hizo unos ochocientos quince millones en su primer dia get the haceis lo multiplica por mas de cuatro",
+   "duration": 8.26,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "tu eres uno de esos millones cuentame en que consola lo juegas",
+   "duration": 3.64,
+   "ok": true
+  }
+ ],
+ "duration": 36.94,
+ "assets_used": [
+  "Boobie_Ike_01",
+  "Vice_City_08",
+  "Raul_Bautista_03",
+  "Vice_City_10",
+  "Vice_City_02",
+  "Vice_City_04",
+  "sticker_crab"
+ ],
+ "qc": {
+  "resolution": "1080x1920",
+  "duration": 36.94,
+  "has_audio": true,
+  "black_segments": 0,
+  "silences_over_0.8s": 0,
+  "loudness_lufs": -15.4,
+  "true_peak_dbfs": -0.8,
+  "recognized_text": "es oficial y es una locura rockstar acaba de dar los numeros del primer dia de seis tres mil setecientos noventa millones de dolares en ventas en todo el mundo en su primer dia y antes de salir ya habia vendido treinta y dos millones y medio de copias hace unos dias te contamos la estimacion de sensor tower mil se ciento cincuenta millones la cifra real es mas del doble para que te hagas una idea que te a cinco hizo unos ochocientos quince millones en su primer dia get the haceis lo multiplica por mas de cuatro tu eres uno de esos millones cuentame en que consola lo juegas",
+  "asr_match_full_voice": 0.933,
+  "repeated_word_events": 0,
+  "clipping_samples": 0,
+  "subtitles_match_script": true,
+  "problems": [],
+  "verdict": "PASS"
+ }
+}
