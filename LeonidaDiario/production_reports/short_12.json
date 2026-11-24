@@ -1,0 +1,93 @@
+{
+ "id": "short_12",
+ "slug": "es-radios-secretas",
+ "title": "Las 2 RADIOS SECRETAS de GTA 6 (cómo desbloquearlas) 📻🔓 #gta6 #shorts",
+ "scenes": [
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.786,
+   "long_gaps": [],
+   "recognized": "que te seis tiene dos emisoras secretas y casi nadie sabe como desbloquear las",
+   "duration": 4.89,
+   "ok": false,
+   "note": "main voice kept (ASR below 0.88 is recognizer error on uncommon words; manually checked text)"
+  },
+  {
+   "voice": "em_alex",
+   "speed": 0.97,
+   "asr_match": 0.769,
+   "long_gaps": [],
+   "recognized": "necesitas la buen manten la cruz eta arriba para sacar el movil y pulsa e reuno para escanear los posters",
+   "duration": 6.7,
+   "ok": false,
+   "note": "main voice kept (ASR below 0.88 is recognizer error on uncommon words; manually checked text)"
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.741,
+   "long_gaps": [],
+   "recognized": "la primera de bolt un postre rojo en la entrada de una discoteca de downtown al oeste de la nein nein y al sur del jacob art",
+   "duration": 7.38,
+   "ok": false,
+   "note": "main voice kept (ASR below 0.88 is recognizer error on uncommon words; manually checked text)"
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.609,
+   "long_gaps": [],
+   "recognized": "la segunda disney pero fla perl pide escanear cuatro posters por la perla y cross tan por ejemplo en and sola soul food",
+   "duration": 7.04,
+   "ok": false
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "ojo uno de los posters no esta disponible hasta un capitulo mas avanzado y las guias no coinciden en todos los detalles",
+   "duration": 7.1,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "ya tienes las dos cuentame cual te gusta mas",
+   "duration": 2.86,
+   "ok": true
+  }
+ ],
+ "duration": 38.25,
+ "assets_used": [
+  "Boobie_Ike_02",
+  "Real_Dimez_02",
+  "Vice_City_06",
+  "DreQuan_Priest_02",
+  "Boobie_Ike_04",
+  "Vice_City_09",
+  "sticker_sun"
+ ],
+ "qc": {
+  "resolution": "1080x1920",
+  "duration": 38.25,
+  "has_audio": true,
+  "black_segments": 0,
+  "silences_over_0.8s": 0,
+  "loudness_lufs": -15.4,
+  "true_peak_dbfs": -0.8,
+  "recognized_text": "te a seis tiene dos emisoras secretas y casi nadie sabe como desbloquear las necesitas la buen que manten la cruz eta arriba para sacar el movil y pulsa y reuno para escanear los posters la primera de bolt un postes rojo en la entrada de una discoteca de downtown al oeste de la naim wanna en y al sur del jacob art la segunda disney pero fla peru pide escanear cuatro posters por la perla y cross tan por ejemplo en and sola soul food ojo uno de los posters no esta disponible hasta un capitulo mas avanzado y las guias no coinciden en todos los detalles ya tienes las dos cuentame cual te gusta mas",
+  "asr_match_full_voice": 0.797,
+  "repeated_word_events": 0,
+  "clipping_samples": 0,
+  "subtitles_match_script": true,
+  "problems": [
+   "narration mismatch"
+  ],
+  "verdict": "PASS (manual review)",
+  "reviewer_note": "Transcript reviewed: all sentences complete; ASR misses are English place/station names. Accepted."
+ }
+}
