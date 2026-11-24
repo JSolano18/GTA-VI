@@ -25,9 +25,12 @@
   "tags": [
    "ambrosia"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-portal-vice-city"
+  ],
+  "times_used": 1,
+  "last_used": "es-portal-vice-city",
+  "last_order": 1011
  },
  "Ambrosia_03": {
   "id": "Ambrosia_03",
@@ -55,9 +58,12 @@
   "tags": [
    "ambrosia"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-portal-vice-city"
+  ],
+  "times_used": 1,
+  "last_used": "es-portal-vice-city",
+  "last_order": 1011
  },
  "Ambrosia_05": {
   "id": "Ambrosia_05",
@@ -118,9 +124,12 @@
   "tags": [
    "boobie"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-radios-secretas"
+  ],
+  "times_used": 1,
+  "last_used": "es-radios-secretas",
+  "last_order": 1012
  },
  "Boobie_Ike_03": {
   "id": "Boobie_Ike_03",
@@ -148,9 +157,12 @@
   "tags": [
    "boobie"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-radios-secretas"
+  ],
+  "times_used": 1,
+  "last_used": "es-radios-secretas",
+  "last_order": 1012
  },
  "Brian_Heder_01": {
   "id": "Brian_Heder_01",
@@ -304,9 +316,12 @@
   "tags": [
    "drequan"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-radios-secretas"
+  ],
+  "times_used": 1,
+  "last_used": "es-radios-secretas",
+  "last_order": 1012
  },
  "DreQuan_Priest_03": {
   "id": "DreQuan_Priest_03",
@@ -600,9 +615,12 @@
   "tags": [
    "jason"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-robar-cajero"
+  ],
+  "times_used": 1,
+  "last_used": "es-robar-cajero",
+  "last_order": 1013
  },
  "Jason_Duval_08": {
   "id": "Jason_Duval_08",
@@ -648,9 +666,12 @@
   "tags": [
    "jason"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-robar-cajero"
+  ],
+  "times_used": 1,
+  "last_used": "es-robar-cajero",
+  "last_order": 1013
  },
  "Jason_Duval_11": {
   "id": "Jason_Duval_11",
@@ -1204,9 +1225,12 @@
   "tags": [
    "leonida_keys"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-portal-vice-city"
+  ],
+  "times_used": 1,
+  "last_used": "es-portal-vice-city",
+  "last_order": 1011
  },
  "Leonida_Keys_02": {
   "id": "Leonida_Keys_02",
@@ -1270,9 +1294,12 @@
   "tags": [
    "leonida_keys"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-portal-vice-city"
+  ],
+  "times_used": 1,
+  "last_used": "es-portal-vice-city",
+  "last_order": 1011
  },
  "Leonida_Keys_06": {
   "id": "Leonida_Keys_06",
@@ -1864,9 +1891,12 @@
   "tags": [
    "real_dimez"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-radios-secretas"
+  ],
+  "times_used": 1,
+  "last_used": "es-radios-secretas",
+  "last_order": 1012
  },
  "Real_Dimez_03": {
   "id": "Real_Dimez_03",
@@ -2088,9 +2118,12 @@
   "license": "Official promotional material offered for download and sharing; not a formal license. Credit 'Rockstar Games'.",
   "description": "ULTIMATE EDITION ONE EYED WILLIE 01",
   "tags": [],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-robar-cajero"
+  ],
+  "times_used": 1,
+  "last_used": "es-robar-cajero",
+  "last_order": 1013
  },
  "ULTIMATE_EDITION_ONE_EYED_WILLIE_02": {
   "id": "ULTIMATE_EDITION_ONE_EYED_WILLIE_02",
@@ -2156,9 +2189,12 @@
   "license": "Official promotional material offered for download and sharing; not a formal license. Credit 'Rockstar Games'.",
   "description": "ULTIMATE EDITION RIDEOUT CUSTOMS 02",
   "tags": [],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-robar-cajero"
+  ],
+  "times_used": 1,
+  "last_used": "es-robar-cajero",
+  "last_order": 1013
  },
  "ULTIMATE_EDITION_RIDEOUT_CUSTOMS_03": {
   "id": "ULTIMATE_EDITION_RIDEOUT_CUSTOMS_03",
@@ -2367,9 +2403,12 @@
   "license": "Official promotional material offered for download and sharing; not a formal license. Credit 'Rockstar Games'.",
   "description": "ULTIMATE EDITION VAPID GANADO RETRO BUILD 01",
   "tags": [],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-robar-cajero"
+  ],
+  "times_used": 1,
+  "last_used": "es-robar-cajero",
+  "last_order": 1013
  },
  "ULTIMATE_EDITION_VICE_CITY_STYLE_01": {
   "id": "ULTIMATE_EDITION_VICE_CITY_STYLE_01",
@@ -2619,9 +2658,12 @@
   "license": "Official promotional material offered for download and sharing; not a formal license. Credit 'Rockstar Games'.",
   "description": "VINTAGE VICE CITY PACK EXCLUSIVE LOOKS 04",
   "tags": [],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-portal-vice-city"
+  ],
+  "times_used": 1,
+  "last_used": "es-portal-vice-city",
+  "last_order": 1011
  },
  "VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_05": {
   "id": "VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_05",
@@ -2632,9 +2674,12 @@
   "license": "Official promotional material offered for download and sharing; not a formal license. Credit 'Rockstar Games'.",
   "description": "VINTAGE VICE CITY PACK EXCLUSIVE LOOKS 05",
   "tags": [],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-portal-vice-city"
+  ],
+  "times_used": 1,
+  "last_used": "es-portal-vice-city",
+  "last_order": 1011
  },
  "VINTAGE_VICE_CITY_PACK_VAPID_STANIER_01": {
   "id": "VINTAGE_VICE_CITY_PACK_VAPID_STANIER_01",
@@ -2805,9 +2850,13 @@
   "tags": [
    "vice_city"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-portal-vice-city",
+   "es-radios-secretas"
+  ],
+  "times_used": 2,
+  "last_used": "es-radios-secretas",
+  "last_order": 1012
  },
  "Vice_City_07": {
   "id": "Vice_City_07",
@@ -2854,9 +2903,13 @@
   "tags": [
    "vice_city"
   ],
-  "used_in": [],
-  "times_used": 0,
-  "last_used": null
+  "used_in": [
+   "es-radios-secretas",
+   "es-robar-cajero"
+  ],
+  "times_used": 2,
+  "last_used": "es-robar-cajero",
+  "last_order": 1013
  },
  "Vice_City_10": {
   "id": "Vice_City_10",
@@ -3299,11 +3352,12 @@
    "sticker"
   ],
   "used_in": [
-   "es-fisica-choques"
+   "es-fisica-choques",
+   "es-robar-cajero"
   ],
-  "times_used": 1,
-  "last_used": "es-fisica-choques",
-  "last_order": 1007
+  "times_used": 2,
+  "last_used": "es-robar-cajero",
+  "last_order": 1013
  },
  "sticker_sun": {
   "id": "sticker_sun",
@@ -3318,11 +3372,12 @@
   ],
   "used_in": [
    "es-japon-censura",
-   "es-radio"
+   "es-radio",
+   "es-radios-secretas"
   ],
-  "times_used": 2,
-  "last_used": "es-radio",
-  "last_order": 1010
+  "times_used": 3,
+  "last_used": "es-radios-secretas",
+  "last_order": 1012
  },
  "sticker_flamingo": {
   "id": "sticker_flamingo",
@@ -3373,11 +3428,12 @@
    "sticker"
   ],
   "used_in": [
-   "es-lucia-prision"
+   "es-lucia-prision",
+   "es-portal-vice-city"
   ],
-  "times_used": 1,
-  "last_used": "es-lucia-prision",
-  "last_order": 1005
+  "times_used": 2,
+  "last_used": "es-portal-vice-city",
+  "last_order": 1011
  },
  "sticker_manatee": {
   "id": "sticker_manatee",

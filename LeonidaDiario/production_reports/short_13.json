@@ -1,0 +1,87 @@
+{
+ "id": "short_13",
+ "slug": "es-robar-cajero",
+ "title": "Así se ROBA un CAJERO ENTERO en GTA 6 🏧🪝 #gta6 #shorts",
+ "scenes": [
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.839,
+   "long_gaps": [],
+   "recognized": "y gente a seis puedes arrancar un cajero entero de la pared con una grua",
+   "duration": 4.16,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "primero en un taller ponle un cabrestante con gancho a tu vehiculo una guia dice que cuesta mil quinientos noventa y cinco dolares",
+   "duration": 7.57,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.909,
+   "long_gaps": [],
+   "recognized": "despues da marcha atras hasta un cajero exterior engancha lo y acelera para arrancarlo de la pared",
+   "duration": 5.65,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "ojo no todos los cajeros se pueden arrancar si uno no engancha prueba con otro",
+   "duration": 4.71,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.938,
+   "long_gaps": [],
+   "recognized": "luego arrastrarlo hasta que se rompa o abrelo con un explosivo y el dinero es tuyo",
+   "duration": 4.65,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.909,
+   "long_gaps": [],
+   "recognized": "eso si con la policia de seis mejor que nadie te vea ya lo probaste",
+   "duration": 4.59,
+   "ok": true
+  }
+ ],
+ "duration": 33.62,
+ "assets_used": [
+  "Jason_Duval_10",
+  "ULTIMATE_EDITION_RIDEOUT_CUSTOMS_02",
+  "Vice_City_09",
+  "ULTIMATE_EDITION_VAPID_GANADO_RETRO_BUILD_01",
+  "ULTIMATE_EDITION_ONE_EYED_WILLIE_01",
+  "Jason_Duval_07",
+  "sticker_lowrider"
+ ],
+ "qc": {
+  "resolution": "1080x1920",
+  "duration": 33.62,
+  "has_audio": true,
+  "black_segments": 0,
+  "silences_over_0.8s": 0,
+  "loudness_lufs": -15.2,
+  "true_peak_dbfs": -0.9,
+  "recognized_text": "a seis puedes arrancar un cajero entero de la pared con una grua primero en un taller ponle un cabrestante con gancho a tu vehiculo una guia dice que cuesta mil quinientos noventa y cinco dolares despues da marcha atras hasta un cajero exterior engancha lo y acelera para arrancarlo de la pared ojo no todos los cajeros se pueden arrancar si uno no engancha prueba con otro luego arrastrarlo hasta que se rompa o abrelo con un explosivo y el dinero es tuyo eso si con la policia de seis mejor que nadie te vea ya lo probaste",
+  "asr_match_full_voice": 0.946,
+  "repeated_word_events": 0,
+  "clipping_samples": 0,
+  "subtitles_match_script": true,
+  "problems": [],
+  "verdict": "PASS"
+ }
+}

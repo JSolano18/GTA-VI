@@ -14,6 +14,9 @@ No se ha subido nada. Todo está listo para YouTube Shorts, TikTok e Instagram R
 | 8 | GTA 6 hizo $3.790 MILLONES en UN día 💰 #gta6 #shorts | 36.94 s | PASS | 0.933 | 6 official stills, official animated sticker | `shorts/short_08/short_08.mp4` |
 | 9 | Los ANIMALES de GTA 6 son una locura 🐊🐕 #gta6 #shorts | 35.62 s | PASS | 0.837 | 6 official stills, official animated sticker | `shorts/short_09/short_09.mp4` |
 | 0 | VUELVEN las radios de VICE CITY a GTA 6 📻 #gta6 #shorts | 34.17 s | PASS (manual review) | 0.786 | 6 official stills, official animated sticker | `shorts/short_10/short_10.mp4` |
+| 1 | Hay un PORTAL SECRETO a VICE CITY 2002 en GTA 6 🌀 #gta6 #shorts | 46.84 s | PASS | 0.9 | 7 official stills, official animated sticker | `shorts/short_11/short_11.mp4` |
+| 2 | Las 2 RADIOS SECRETAS de GTA 6 (cómo desbloquearlas) 📻🔓 #gta6 #shorts | 38.25 s | PASS (manual review) | 0.797 | 6 official stills, official animated sticker | `shorts/short_12/short_12.mp4` |
+| 3 | Así se ROBA un CAJERO ENTERO en GTA 6 🏧🪝 #gta6 #shorts | 33.62 s | PASS | 0.946 | 6 official stills, official animated sticker | `shorts/short_13/short_13.mp4` |
 
 Folders: `shorts/` finished videos · `scripts/` narration · `voiceovers/` clean voice stems · `sources/` claim-by-claim sources and topic scoring · `metadata/` titles, descriptions, hashtags, pinned comments, assets used · `production_reports/` QC + benchmark analysis.
 
@@ -236,3 +239,69 @@ Imágenes: Rockstar Games. Canal de fans no oficial, sin afiliación con Rocksta
 **Narration per scene:** 1: em_alex ×0.97 match 0.737; 2: em_alex ×1.0 match 0.927; 3: em_alex ×1.0 match 1.0; 4: em_alex ×1.0 match 0.615; 5: em_alex ×1.0 match 0.923; 6: em_alex ×1.0 match 0.842
 
 **QC:** {"resolution": "1080x1920", "duration": 34.17, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.3, "true_peak_dbfs": -1.2, "recognized_text": "si jugaste a bay city este nombre te va a sonar flat jefe me ha vuelto en gente haceis y no viene sola tambien vuelve y mozo noventa y ocho punto tres con baladas y soft rock de los ochenta en total hay veinticuatro emisoras y una guia cuenta mas de ochocientas canciones las cifras varian segun la fuente propiedad se en fe m r gay tube en radio new y en de ver hasta heavy metal y segun pese gay mer hay listas de reproduccion secretas escondidas en el juego cual es tu emisora favorita dejala en los comentarios", "asr_match_full_voice": 0.786, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": ["narration mismatch"], "verdict": "PASS (manual review)", "reviewer_note": "ASR 0.786 vs 0.80 threshold: transcript checked manually - every sentence complete; misses are English station names (Flash FM, Radio On-U, The Chamber, Vice City) the Spanish model can't spell. Accepted."}
+
+## short_11: Hay un PORTAL SECRETO a VICE CITY 2002 en GTA 6 🌀 #gta6 #shorts
+
+**Why this topic:** Petición directa del dueño del canal (tutorial de búsqueda frecuente: cómo poner primera persona).
+
+**Description:**
+```
+Un easter egg de GTA 6 te lleva al Club Malibu del Vice City original de 2002. Lo descubrió el creador Memeio. Así se activa, y qué premio da. Efecto de portal: ilustración.
+
+#gta6 #gtavi #vicecity #tommyvercetti #easteregg #rockstargames #shorts
+
+Imágenes: Rockstar Games · Efecto de portal: ilustración. Canal de fans no oficial, sin afiliación con Rockstar Games ni Take-Two. Narración con voz generada por IA.
+```
+**Pinned comment:** ¿Lo vas a intentar? 🌀 Si te sale, cuéntame cuánto tardaste.
+
+**Files:** `shorts/short_11/` (mp4, cover jpg, srt, title/description/tags), script `scripts/short_11.txt`, voice `voiceovers/short_11_voice.wav`, sources `sources/short_11.md`, report `production_reports/short_11.json`.
+
+**Visual assets:** Ambrosia_02, Ambrosia_04, Leonida_Keys_01, Leonida_Keys_05, VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_04, VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_05, Vice_City_06, sticker_palm
+
+**Narration per scene:** 1: em_alex ×0.97 match 0.842; 2: em_alex ×1.0 match 0.977; 3: em_alex ×1.0 match 0.894; 4: em_alex ×1.0 match 0.75; 5: em_alex ×1.0 match 1.0; 6: em_alex ×1.0 match 0.889; 7: em_alex ×1.0 match 1.0
+
+**QC:** {"resolution": "1080x1920", "duration": 46.84, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.4, "true_peak_dbfs": -1.0, "recognized_text": "a seis hay un portal secreto que te lleva al bay city original de dos mil dos empieza en la torre de radio de lento sube baja la palanca pulsa el boton y la tele marcara club malibu despues recorre doce subestacion es electricas en orden siguiendo letras pintadas en las paredes hazlo con yeison y sin viaje rapido o se reinicia las letras forman life is paz y mi bay uno de los trucos clasicos de bay city al terminar te llega un mensaje y de noche se abre un portal azul que te lleva al club malibu del juego original el premio la camisa hawaiana de tommy ver cati y una moto del juego de dos mil dos lo descubrio el creador me mayo de pues de tres dias ojo necesitas llegar al capitulo tres para tener todo el mapa lo vas a intentar", "asr_match_full_voice": 0.9, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
+
+## short_12: Las 2 RADIOS SECRETAS de GTA 6 (cómo desbloquearlas) 📻🔓 #gta6 #shorts
+
+**Why this topic:** Petición directa del dueño del canal (tutorial de búsqueda frecuente: cómo poner primera persona).
+
+**Description:**
+```
+GTA 6 tiene dos emisoras ocultas, The Vault y The Sniper of La Perle. Se desbloquean escaneando pósters con la app WAiNK. Aquí dónde están.
+
+#gta6 #gtavi #gta6radio #secreto #gta6trucos #rockstargames #shorts
+
+Imágenes: Rockstar Games · Animación de mando: ilustración. Canal de fans no oficial, sin afiliación con Rockstar Games ni Take-Two. Narración con voz generada por IA.
+```
+**Pinned comment:** ¿Ya desbloqueaste las dos? 🔓 ¿Cuál te gusta más?
+
+**Files:** `shorts/short_12/` (mp4, cover jpg, srt, title/description/tags), script `scripts/short_12.txt`, voice `voiceovers/short_12_voice.wav`, sources `sources/short_12.md`, report `production_reports/short_12.json`.
+
+**Visual assets:** Boobie_Ike_02, Boobie_Ike_04, DreQuan_Priest_02, Real_Dimez_02, Vice_City_06, Vice_City_09, sticker_sun
+
+**Narration per scene:** 1: em_alex ×1.0 match 0.786; 2: em_alex ×0.97 match 0.769; 3: em_alex ×1.0 match 0.741; 4: em_alex ×1.0 match 0.609; 5: em_alex ×1.0 match 1.0; 6: em_alex ×1.0 match 1.0
+
+**QC:** {"resolution": "1080x1920", "duration": 38.25, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.4, "true_peak_dbfs": -0.8, "recognized_text": "te a seis tiene dos emisoras secretas y casi nadie sabe como desbloquear las necesitas la buen que manten la cruz eta arriba para sacar el movil y pulsa y reuno para escanear los posters la primera de bolt un postes rojo en la entrada de una discoteca de downtown al oeste de la naim wanna en y al sur del jacob art la segunda disney pero fla peru pide escanear cuatro posters por la perla y cross tan por ejemplo en and sola soul food ojo uno de los posters no esta disponible hasta un capitulo mas avanzado y las guias no coinciden en todos los detalles ya tienes las dos cuentame cual te gusta mas", "asr_match_full_voice": 0.797, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": ["narration mismatch"], "verdict": "PASS (manual review)", "reviewer_note": "Transcript reviewed: all sentences complete; ASR misses are English place/station names. Accepted."}
+
+## short_13: Así se ROBA un CAJERO ENTERO en GTA 6 🏧🪝 #gta6 #shorts
+
+**Why this topic:** Petición directa del dueño del canal (tutorial de búsqueda frecuente: cómo poner primera persona).
+
+**Description:**
+```
+En GTA 6 puedes arrancar un cajero de la pared con el gancho de una grúa. Paso a paso, según las guías y el clip viral de Reddit. Animación del cajero: ilustración.
+
+#gta6 #gtavi #gta6dinero #gta6trucos #cajero #rockstargames #shorts
+
+Imágenes: Rockstar Games · Animación del cajero: ilustración. Canal de fans no oficial, sin afiliación con Rockstar Games ni Take-Two. Narración con voz generada por IA.
+```
+**Pinned comment:** ¿Cuánto sacaste del cajero? 💸 Te leo.
+
+**Files:** `shorts/short_13/` (mp4, cover jpg, srt, title/description/tags), script `scripts/short_13.txt`, voice `voiceovers/short_13_voice.wav`, sources `sources/short_13.md`, report `production_reports/short_13.json`.
+
+**Visual assets:** Jason_Duval_07, Jason_Duval_10, ULTIMATE_EDITION_ONE_EYED_WILLIE_01, ULTIMATE_EDITION_RIDEOUT_CUSTOMS_02, ULTIMATE_EDITION_VAPID_GANADO_RETRO_BUILD_01, Vice_City_09, sticker_lowrider
+
+**Narration per scene:** 1: em_alex ×1.0 match 0.839; 2: em_alex ×1.0 match 1.0; 3: em_alex ×1.0 match 0.909; 4: em_alex ×1.0 match 1.0; 5: em_alex ×1.0 match 0.938; 6: em_alex ×1.0 match 0.909
+
+**QC:** {"resolution": "1080x1920", "duration": 33.62, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.2, "true_peak_dbfs": -0.9, "recognized_text": "a seis puedes arrancar un cajero entero de la pared con una grua primero en un taller ponle un cabrestante con gancho a tu vehiculo una guia dice que cuesta mil quinientos noventa y cinco dolares despues da marcha atras hasta un cajero exterior engancha lo y acelera para arrancarlo de la pared ojo no todos los cajeros se pueden arrancar si uno no engancha prueba con otro luego arrastrarlo hasta que se rompa o abrelo con un explosivo y el dinero es tuyo eso si con la policia de seis mejor que nadie te vea ya lo probaste", "asr_match_full_voice": 0.946, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
