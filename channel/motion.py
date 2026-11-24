@@ -162,3 +162,52 @@ def car_damage_frame(lt):
     tag = text_img("ILUSTRACIÓN", font("semi", 24), fill=(220, 220, 230), stroke=2, pad=6)
     out.alpha_composite(tag, (cw - tag.size[0] - 10, ch - tag.size[1] - 4))
     return out
+
+
+def portal_overlay(frame, lt, cx=540, cy=820, rmax=360):
+    """Illustrated swirling blue portal that grows in (labelled as illustration by the scene credit)."""
+    p = min(1.0, max(0.0, (lt - 0.3) / 0.9)); e = p * p * (3 - 2 * p)
+    r = int(rmax * e)
+    if r < 8: return
+    lay = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+    for k in range(9):
+        rr = int(r * (1 - k * 0.1))
+        a0 = (lt * (120 + k * 25) + k * 40) % 360
+        col = (60 + k * 15, 140 + k * 10, 255, 200 - k * 15)
+        d.arc([cx - rr, cy - int(rr * 1.25), cx + rr, cy + int(rr * 1.25)], a0, a0 + 250, fill=col, width=max(3, 14 - k))
+    d.ellipse([cx - int(r * 0.35), cy - int(r * 0.45), cx + int(r * 0.35), cy + int(r * 0.45)], fill=(200, 235, 255, 180))
+    glow = lay.filter(ImageFilter.GaussianBlur(18))
+    frame.alpha_composite(glow); frame.alpha_composite(lay)
+
+
+def atm_frame(lt):
+    """Illustration: tow hook pulls an ATM off a wall."""
+    cw, ch = 960, 620
+    im = Image.new("RGBA", (cw, ch), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.rectangle([0, 60, 300, 520], fill=(70, 60, 90, 255), outline=(150, 140, 200, 255), width=4)  # wall
+    for y in range(90, 520, 40): d.line([(0, y), (300, y)], fill=(90, 80, 115, 255), width=2)
+    pull = 0.0 if lt < 1.4 else min(1.0, (lt - 1.4) / 1.4)
+    shake = (math.sin(lt * 40) * 6) if 0.9 < lt < 1.4 else 0
+    ax = int(180 + pull * 330 + shake); ay = 240 + int(pull * 140)
+    ang = pull * 18
+    atm = Image.new("RGBA", (170, 240), (0, 0, 0, 0)); a = ImageDraw.Draw(atm)
+    a.rounded_rectangle([0, 0, 169, 239], 14, fill=(40, 120, 90, 255), outline=(200, 255, 220, 255), width=4)
+    a.rectangle([25, 25, 145, 95], fill=(20, 40, 60, 255)); a.text((85, 60), "ATM", font=font("black", 34), fill=(120, 255, 200), anchor="mm")
+    a.rectangle([40, 130, 130, 145], fill=(15, 15, 20, 255))
+    for i in range(3):
+        for j in range(3): a.rectangle([45 + j * 28, 160 + i * 22, 65 + j * 28, 175 + i * 22], fill=(200, 200, 210, 255))
+    atm = atm.rotate(-ang, expand=True, resample=Image.BICUBIC)
+    im.alpha_composite(atm, (ax - atm.size[0] // 2, ay - atm.size[1] // 2))
+    tx = 600 + int(pull * 150)
+    d.rounded_rectangle([tx - 110, 300, tx + 190, 420], 18, fill=(230, 170, 40, 255), outline=(255, 230, 150, 255), width=4)  # truck bed
+    d.rounded_rectangle([tx + 60, 240, tx + 190, 330], 14, fill=(230, 170, 40, 255), outline=(255, 230, 150, 255), width=4)
+    for x in (tx - 60, tx + 130): d.ellipse([x - 42, 390, x + 42, 474], fill=(20, 18, 30, 255), outline=(150, 140, 200, 255), width=5)
+    d.line([(tx - 110, 340), (ax + 60, ay)], fill=(230, 230, 240, 255), width=6)  # cable
+    d.arc([ax + 45, ay - 20, ax + 85, ay + 20], 60, 300, fill=(255, 220, 80, 255), width=7)  # hook
+    if pull >= 1.0:
+        for k in range(6):
+            bx = ax - 60 + k * 25; by = ay + 120 + int(math.sin(lt * 5 + k) * 10)
+            d.rectangle([bx, by, bx + 30, by + 14], fill=(110, 200, 110, 255), outline=(40, 90, 40, 255), width=2)
+    tag = text_img("ILUSTRACIÓN", font("semi", 24), fill=(220, 220, 230), stroke=2, pad=6)
+    im.alpha_composite(tag, (cw - tag.size[0] - 10, ch - tag.size[1] - 4))
+    return im

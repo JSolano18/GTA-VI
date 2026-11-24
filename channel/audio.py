@@ -37,6 +37,10 @@ PRON = [
     (r"\bLT\b", "ele te"), (r"\bL2\b", "ele dos"), (r"\bR3\b", "erre tres"), (r"\bstick\b", "estic"),
     (r"\bFlash FM\b", "Flash efe eme"), (r"\bEmotion\b", "Imóshon"), (r"\bRadio On-U\b", "Radio On Iú"), (r"\bThe Chamber\b", "De Chéimber"),
     (r"\bGame Informer\b", "Guéim Infórmer"), (r"\bPC Gamer\b", "pe ce Guéimer"), (r"\bKotaku\b", "Kotáku"),
+    (r"\bKey Lento\b", "Ki Lento"), (r"\bLIFE IS PASSING ME BY\b", "Láif is pásing mi bái"), (r"\bMemeio\b", "Meméio"),
+    (r"\bThe Vault\b", "De Volt"), (r"\bThe Sniper of La Perle\b", "De Snáiper of La Perl"), (r"\bNINE1NINE\b", "Náin Uán Náin"),
+    (r"\bJack of Hearts\b", "Yak of Jarts"), (r"\bDowntown\b", "Dáuntaun"), (r"\bCrosstown\b", "Króstaun"),
+    (r"\bAunt Zola's Soul Food\b", "Ant Zólas Soul Fud"), (r"\bR1\b", "erre uno"),
     (r"\bonline\b", "onláin"), (r"\bspoilers?\b", "espóiler"), (r"\bPro\b", "Pro"), (r"\bOceanía\b", "Oceanía"),
 ]
 

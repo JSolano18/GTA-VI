@@ -1,0 +1,98 @@
+{
+ "id": "short_11",
+ "slug": "es-portal-vice-city",
+ "title": "Hay un PORTAL SECRETO a VICE CITY 2002 en GTA 6 🌀 #gta6 #shorts",
+ "scenes": [
+  {
+   "voice": "em_alex",
+   "speed": 0.97,
+   "asr_match": 0.842,
+   "long_gaps": [],
+   "recognized": "dirigete a seis hay un portal secreto que te lleva al bay city original de dos mil dos",
+   "duration": 5.21,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.977,
+   "long_gaps": [],
+   "recognized": "empieza en la torre de radio de lento sube baja la palanca pulsa el boton y la tele marcara club malibu",
+   "duration": 6.27,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.894,
+   "long_gaps": [],
+   "recognized": "despues recorre doce subestacion es electricas en orden siguiendo letras pintadas en las paredes hazlo con yeison y sin viaje rapido o se reinicia",
+   "duration": 8.94,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.75,
+   "long_gaps": [],
+   "recognized": "las letras forman life is y mi bay uno de los trucos clasicos de bay city",
+   "duration": 4.65,
+   "ok": false,
+   "note": "main voice kept (ASR below 0.88 is recognizer error on uncommon words; manually checked text)"
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "al terminar te llega un mensaje y de noche se abre un portal azul que te lleva al club malibu del juego original",
+   "duration": 6.44,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.889,
+   "long_gaps": [],
+   "recognized": "el premio la camisa hawaiana de tommy ver cati y una moto del juego de dos mil dos lo descubrio el creador me mayo despues de tres dias",
+   "duration": 7.81,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "ojo necesitas llegar al capitulo tres para tener todo el mapa lo vas a intentar",
+   "duration": 4.86,
+   "ok": true
+  }
+ ],
+ "duration": 46.84,
+ "assets_used": [
+  "VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_05",
+  "Leonida_Keys_01",
+  "Ambrosia_04",
+  "Ambrosia_02",
+  "Vice_City_06",
+  "VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_04",
+  "Leonida_Keys_05",
+  "sticker_palm"
+ ],
+ "qc": {
+  "resolution": "1080x1920",
+  "duration": 46.84,
+  "has_audio": true,
+  "black_segments": 0,
+  "silences_over_0.8s": 0,
+  "loudness_lufs": -15.4,
+  "true_peak_dbfs": -1.0,
+  "recognized_text": "a seis hay un portal secreto que te lleva al bay city original de dos mil dos empieza en la torre de radio de lento sube baja la palanca pulsa el boton y la tele marcara club malibu despues recorre doce subestacion es electricas en orden siguiendo letras pintadas en las paredes hazlo con yeison y sin viaje rapido o se reinicia las letras forman life is paz y mi bay uno de los trucos clasicos de bay city al terminar te llega un mensaje y de noche se abre un portal azul que te lleva al club malibu del juego original el premio la camisa hawaiana de tommy ver cati y una moto del juego de dos mil dos lo descubrio el creador me mayo de pues de tres dias ojo necesitas llegar al capitulo tres para tener todo el mapa lo vas a intentar",
+  "asr_match_full_voice": 0.9,
+  "repeated_word_events": 0,
+  "clipping_samples": 0,
+  "subtitles_match_script": true,
+  "problems": [],
+  "verdict": "PASS"
+ }
+}

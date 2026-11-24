@@ -441,6 +441,87 @@ SOURCES["short_10"] = [("Flash FM and Emotion 98.3 return; 24 stations; Radio On
   ("800+ tracks (counts vary)", "credible reporting, conflicting counts (stated)", "https://musicexp.substack.com/p/a-complete-list-of-every-track-in"),
   ("Secret unique playlists", "credible reporting (PC Gamer)", "https://www.pcgamer.com/games/grand-theft-auto/gta-6-radio-songs/")]
 
+SHORTS += [
+{"id": "short_11", "slug": "es-portal-vice-city", "topic": "vice_city_portal", "seed": 81,
+ "title": "Hay un PORTAL SECRETO a VICE CITY 2002 en GTA 6 🌀 #gta6 #shorts",
+ "description": "Un easter egg de GTA 6 te lleva al Club Malibu del Vice City original de 2002. Lo descubrió el creador Memeio. Así se activa, y qué premio da. Efecto de portal: ilustración.",
+ "hashtags": ["#gta6", "#gtavi", "#vicecity", "#tommyvercetti", "#easteregg", "#rockstargames", "#shorts"],
+ "tags": ["gta 6 portal vice city", "gta 6 easter egg", "gta 6 secreto", "tommy vercetti gta 6", "club malibu gta 6", "gta 6 vice city 2002", "gtavi"],
+ "pinned": "¿Lo vas a intentar? 🌀 Si te sale, cuéntame cuánto tardaste.",
+ "credit": "Imágenes: Rockstar Games · Efecto de portal: ilustración",
+ "cover": ("VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_05", .52, .45, 1.3, ["PORTAL A", "VICE CITY"], "SECRETO DE GTA 6"),
+ "scenes": [
+  {"asset": "VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_05", "move": "zin", "portal": True, "head": "UN PORTAL AL PASADO",
+   "say": "En GTA 6 hay un portal secreto que te lleva al Vice City original de dos mil dos."},
+  {"asset": "Leonida_Keys_01", "move": "pan_r", "head": "1. LA TORRE DE KEY LENTO",
+   "say": "Empieza en la torre de radio de Key Lento: sube, baja la palanca, pulsa el botón, y la tele marcará Club Malibu."},
+  {"asset": "Ambrosia_04", "move": "zout", "head": "2. 12 SUBESTACIONES", "chip": "SOLO CON JASON · SIN VIAJE RÁPIDO",
+   "say": "Después, recorre doce subestaciones eléctricas en orden, siguiendo letras pintadas en las paredes. Hazlo con Jason y sin viaje rápido, o se reinicia."},
+  {"asset": "Ambrosia_02", "move": "pan_l", "head": "LA FRASE SECRETA", "chip": "LIFE IS PASSING ME BY",
+   "say": "Las letras forman LIFE IS PASSING ME BY, uno de los trucos clásicos de Vice City."},
+  {"asset": "Vice_City_06", "move": "zin", "portal": True, "head": "3. EL PORTAL", "chip": "DE 19:00 A 6:00",
+   "say": "Al terminar te llega un mensaje, y de noche se abre un portal azul que te lleva al Club Malibu del juego original."},
+  {"asset": "VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_04", "move": "pan_r", "head": "EL PREMIO",
+   "say": "El premio: la camisa hawaiana de Tommy Vercetti, y una moto del juego de dos mil dos. Lo descubrió el creador Memeio, después de tres días."},
+  {"asset": "Leonida_Keys_05", "move": "zout", "head": "¿LO VAS A INTENTAR?", "chip": "NECESITAS EL CAPÍTULO 3", "sticker": "sticker_palm",
+   "say": "Ojo: necesitas llegar al capítulo tres para tener todo el mapa. ¿Lo vas a intentar?"},
+ ]},
+{"id": "short_12", "slug": "es-radios-secretas", "topic": "secret_radios", "seed": 82,
+ "title": "Las 2 RADIOS SECRETAS de GTA 6 (cómo desbloquearlas) 📻🔓 #gta6 #shorts",
+ "description": "GTA 6 tiene dos emisoras ocultas, The Vault y The Sniper of La Perle. Se desbloquean escaneando pósters con la app WAiNK. Aquí dónde están.",
+ "hashtags": ["#gta6", "#gtavi", "#gta6radio", "#secreto", "#gta6trucos", "#rockstargames", "#shorts"],
+ "tags": ["gta 6 radios secretas", "the vault gta 6", "sniper of la perle", "gta 6 wainK posters", "gta 6 secretos", "gta 6 emisoras", "gtavi"],
+ "pinned": "¿Ya desbloqueaste las dos? 🔓 ¿Cuál te gusta más?",
+ "credit": "Imágenes: Rockstar Games · Animación de mando: ilustración",
+ "cover": ("Boobie_Ike_02", .25, .22, 1.45, ["RADIOS", "SECRETAS"], "CÓMO DESBLOQUEARLAS"),
+ "scenes": [
+  {"asset": "Boobie_Ike_02", "move": "zin", "head": "2 EMISORAS OCULTAS",
+   "say": "GTA 6 tiene dos emisoras secretas, y casi nadie sabe cómo desbloquearlas."},
+  {"asset": "Real_Dimez_02", "pad": [["UP", 0.5, 2.6, "MANTÉN ARRIBA"], ["R1", 3.2, 3.9, "R1: ESCANEAR"], ["R1", 4.6, 5.3, "R1: ESCANEAR"]],
+   "head": "SACA EL MÓVIL Y ESCANEA", "chip": "APP WAiNK",
+   "say": "Necesitas la app WAiNK. Mantén la cruceta arriba para sacar el móvil, y pulsa R1 para escanear los pósters."},
+  {"asset": "Vice_City_06", "move": "pan_r", "head": "1. THE VAULT", "chip": "1 PÓSTER ROJO",
+   "say": "La primera, The Vault: un póster rojo en la entrada de una discoteca de Downtown, al oeste de la NINE1NINE y al sur del Jack of Hearts."},
+  {"asset": "DreQuan_Priest_02", "move": "zout", "head": "2. THE SNIPER OF LA PERLE", "chip": "4 PÓSTERS",
+   "say": "La segunda, The Sniper of La Perle, pide escanear cuatro pósters por La Perle y Crosstown, por ejemplo en Aunt Zola's Soul Food."},
+  {"asset": "Boobie_Ike_04", "move": "pan_l", "head": "OJO", "chip": "UNO SE DESBLOQUEA MÁS TARDE",
+   "say": "Ojo: uno de los pósters no está disponible hasta un capítulo más avanzado, y las guías no coinciden en todos los detalles."},
+  {"asset": "Vice_City_09", "move": "zin", "head": "¿YA LAS TIENES?", "sticker": "sticker_sun",
+   "say": "¿Ya tienes las dos? Cuéntame cuál te gusta más."},
+ ]},
+{"id": "short_13", "slug": "es-robar-cajero", "topic": "atm_tow", "seed": 83,
+ "title": "Así se ROBA un CAJERO ENTERO en GTA 6 🏧🪝 #gta6 #shorts",
+ "description": "En GTA 6 puedes arrancar un cajero de la pared con el gancho de una grúa. Paso a paso, según las guías y el clip viral de Reddit. Animación del cajero: ilustración.",
+ "hashtags": ["#gta6", "#gtavi", "#gta6dinero", "#gta6trucos", "#cajero", "#rockstargames", "#shorts"],
+ "tags": ["gta 6 robar cajero", "gta 6 atm", "gta 6 dinero facil", "gta 6 grua", "gta 6 trucos", "gta 6 dinero", "gtavi"],
+ "pinned": "¿Cuánto sacaste del cajero? 💸 Te leo.",
+ "credit": "Imágenes: Rockstar Games · Animación del cajero: ilustración",
+ "cover": ("Jason_Duval_10", .5, .33, 1.4, ["ROBA EL", "CAJERO"], "TRUCO DE GTA 6"),
+ "scenes": [
+  {"asset": "Jason_Duval_10", "move": "zin", "head": "ROBA UN CAJERO ENTERO",
+   "say": "En GTA 6 puedes arrancar un cajero entero de la pared. Con una grúa."},
+  {"asset": "ULTIMATE_EDITION_RIDEOUT_CUSTOMS_02", "move": "pan_r", "head": "1. PONLE UN GANCHO", "chip": "EN EL TALLER",
+   "say": "Primero, en un taller, ponle un cabrestante con gancho a tu vehículo. Una guía dice que cuesta mil quinientos noventa y cinco dólares."},
+  {"asset": "Vice_City_09", "atm": True, "head": "2. ENGANCHA Y ACELERA",
+   "say": "Después, da marcha atrás hasta un cajero exterior, engánchalo, y acelera para arrancarlo de la pared."},
+  {"asset": "ULTIMATE_EDITION_VAPID_GANADO_RETRO_BUILD_01", "move": "zout", "head": "NO TODOS SIRVEN",
+   "say": "Ojo: no todos los cajeros se pueden arrancar. Si uno no engancha, prueba con otro."},
+  {"asset": "ULTIMATE_EDITION_ONE_EYED_WILLIE_01", "move": "pan_l", "head": "3. ÁBRELO",
+   "say": "Luego arrástralo hasta que se rompa, o ábrelo con un explosivo, y el dinero es tuyo."},
+  {"asset": "Jason_Duval_07", "move": "zin", "head": "Y QUE NO TE VEAN", "sticker": "sticker_lowrider",
+   "say": "Eso sí: con la policía de GTA 6, mejor que nadie te vea. ¿Ya lo probaste?"},
+ ]},
+]
+SOURCES["short_11"] = [("Secret portal to 2002 Vice City's Malibu Club, found by Memeio (~3 days)", "community discovery reported by outlets", "https://videocardz.com/newz/gta-vi-has-a-secret-portal-that-takes-players-back-to-vice-city-from-2002"),
+  ("Key Lento radio tower lever/button; TV shows CLUB MALIBU; 12 substations; stay as Jason, no fast travel", "community guides", "https://gameriv.com/gta-6-how-to-unlock-the-secret-vice-city-portal/"),
+  ("Phrase LIFE IS PASSING ME BY (Vice City cheat); portal 7PM-6AM; rewards Tommy shirt + motorbike; Chapter 3 needed", "community guides (details vary)", "https://press-start.com.au/news/playstation/2026/11/24/gta-6-has-an-og-vice-city-portal-thats-super-hard-to-find/")]
+SOURCES["short_12"] = [("Two hidden stations: The Vault (1 red poster, Downtown club W of NINE1NINE, S of Jack of Hearts) and The Sniper of La Perle (4 posters, La Perle/Crosstown, e.g. Aunt Zola's)", "credible reporting (guides)", "https://www.pushsquare.com/guides/gta-6-unique-playlist-locations"),
+  ("Scan with WAiNK; phone via D-pad up; R1/RB", "credible reporting (guides)", "https://www.gamingbible.com/news/gta-6-how-to-unlock-secret-radio-stations-790145-20261122"),
+  ("One poster locked until later chapter; details conflict", "credible reporting, conflicting (stated)", "https://mixed-news.com/en/gta-6-hidden-playlists-poster-locations-waink-it/")]
+SOURCES["short_13"] = [("Tow hook/winch can rip ATMs off walls (Reddit clip)", "community discovery reported by outlets", "https://journalarta.com/en/2026/11/23/gta-6-players-tow-truck-atm-money-trick/"),
+  ("Winch fitted at a mod shop, $1,595 (one guide)", "guide (single source, stated as such)", "https://www.altchar.com/guides/grand-theft-auto-6-how-to-rob-atms-by-ripping-them-out-of-the-wall-a4oUP6r4ZR5m"),
+  ("Only some ATMs towable; drag until it breaks or use explosives", "guides", "https://games.gg/grand-theft-auto-vi/guides/gta-6-how-to-open-a-stolen-atm-and-rob-atms-with-a-winch/")]
+
 # --------------------------------------------------------------------------------------------- voice
 _k = _vm = None
 def kokoro():
@@ -560,7 +641,12 @@ FOCUS = {"Jason_and_Lucia_03": (.45, .28), "Jason_and_Lucia_01": (.32, .27), "Lu
          "Boobie_Ike_01": (.45, .22), "Raul_Bautista_03": (.6, .12), "Vice_City_02": (.75, .38), "Vice_City_04": (.5, .2),
          "Vice_City_08": (.45, .42), "Mount_Kalaga_National_Park_05": (.45, .55), "Mount_Kalaga_National_Park_03": (.26, .55),
          "Grassrivers_07": (.31, .22), "Vice_City_19": (.2, .42), "Real_Dimez_04": (.45, .25), "Real_Dimez_01": (.55, .2),
-         "DreQuan_Priest_04": (.25, .15), "Lucia_Caminos_06": (.55, .3), "Jason_and_Lucia_10": (.35, .4), "Grassrivers_08": (.5, .6)}
+         "DreQuan_Priest_04": (.25, .15), "Lucia_Caminos_06": (.55, .3), "Jason_and_Lucia_10": (.35, .4), "Grassrivers_08": (.5, .6),
+         "VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_05": (.52, .45), "Leonida_Keys_01": (.5, .4), "Ambrosia_04": (.3, .5), "Ambrosia_02": (.5, .5),
+         "Vice_City_06": (.5, .4), "VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_04": (.65, .22), "Leonida_Keys_05": (.6, .35),
+         "Boobie_Ike_02": (.25, .22), "Real_Dimez_02": (.5, .35), "DreQuan_Priest_02": (.83, .17), "Boobie_Ike_04": (.4, .3),
+         "Vice_City_09": (.5, .5), "Jason_Duval_10": (.5, .33), "ULTIMATE_EDITION_RIDEOUT_CUSTOMS_02": (.5, .5),
+         "ULTIMATE_EDITION_VAPID_GANADO_RETRO_BUILD_01": (.4, .5), "ULTIMATE_EDITION_ONE_EYED_WILLIE_01": (.5, .5), "Jason_Duval_07": (.5, .4)}
 FACE_Y = 640   # where the subject should sit in the 1920px frame (below the headline, above the subtitles)
 
 def asset_image(name):
@@ -696,7 +782,7 @@ def build(spec, order):
             assets_used.append(f"clip:{os.path.basename(path)}@{t0}")
         else:
             e["bg"], e["focus"] = asset_image(e["s"]["asset"]); assets_used.append(e["s"]["asset"])
-            if e["s"].get("pad") or e["s"].get("menu") or e["s"].get("damage"):   # tutorial scenes: dimmed, blurred backdrop
+            if e["s"].get("pad") or e["s"].get("menu") or e["s"].get("damage") or e["s"].get("atm"):   # tutorial scenes: dimmed, blurred backdrop
                 b = e["bg"].filter(ImageFilter.GaussianBlur(14))
                 e["bg"] = Image.blend(b, Image.new("RGB", b.size, (12, 6, 28)), 0.45)
         if e["s"].get("sticker"):
@@ -726,6 +812,11 @@ def build(spec, order):
         if e["s"].get("pad"):
             pf = M.pad_frame(lt, e["s"]["pad"])
             S.paste(frame, pf, (W - pf.size[0]) // 2, 610, lt, 0.15, "up", 0.35)
+        if e["s"].get("portal"):
+            M.portal_overlay(frame, lt)
+        if e["s"].get("atm"):
+            af = M.atm_frame(lt)
+            S.paste(frame, af, (W - af.size[0]) // 2, 640, lt, 0.15, "up", 0.35)
         if e["s"].get("damage"):
             dfm = M.car_damage_frame(lt)
             S.paste(frame, dfm, (W - dfm.size[0]) // 2, 640, lt, 0.15, "up", 0.35)
