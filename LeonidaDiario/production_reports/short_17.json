@@ -1,0 +1,88 @@
+{
+ "id": "short_17",
+ "slug": "es-skunk-ape",
+ "title": "Cómo encontrar al BIGFOOT de GTA 6 (Skunk Ape) 🦍 #gta6 #shorts",
+ "scenes": [
+  {
+   "voice": "em_alex",
+   "speed": 1.04,
+   "asr_match": 0.684,
+   "long_gaps": [],
+   "recognized": "los pantanos de seis vive el chancay el big foot de leonidas y tiene su propia mision",
+   "duration": 5.5,
+   "ok": false
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.783,
+   "long_gaps": [],
+   "recognized": "primero busca el panfleto en el bars quiteria en hamlet una guia dice que tambien hay en el rasta anchos de qui lento",
+   "duration": 6.53,
+   "ok": false,
+   "note": "main voice kept (ASR below 0.88 is recognizer error on uncommon words; manually checked text)"
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.973,
+   "long_gaps": [],
+   "recognized": "leerlo kirk se guarda en tus contactos llamalo y te marca el punto de encuentro en el mapa",
+   "duration": 5.44,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.962,
+   "long_gaps": [],
+   "recognized": "solo se puede hacer de noche desde el capitulo uno con yeison o con lucia si es de dia duerme en casa para pasar el tiempo",
+   "duration": 7.32,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "tiene varios finales y en la mayoria te llevas mil dolares una guia habla de mas dinero en uno de ellos pero no esta confirmado",
+   "duration": 7.27,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.824,
+   "long_gaps": [],
+   "recognized": "ya conociste al chancay cuentame que final elegiste",
+   "duration": 3.22,
+   "ok": true
+  }
+ ],
+ "duration": 37.57,
+ "assets_used": [
+  "Grassrivers_06",
+  "Grassrivers_02",
+  "Grassrivers_03",
+  "Grassrivers_04",
+  "Mount_Kalaga_National_Park_06",
+  "Mount_Kalaga_National_Park_02",
+  "sticker_gator"
+ ],
+ "qc": {
+  "resolution": "1080x1920",
+  "duration": 37.56,
+  "has_audio": true,
+  "black_segments": 0,
+  "silences_over_0.8s": 0,
+  "loudness_lufs": -15.4,
+  "true_peak_dbfs": -1.2,
+  "recognized_text": "los pantanos de seis vive el chancay el big foot de leon y tiene su propia mision primero busca el panfleto en el bars quiteria en hamlet una guia dice que tambien hay en el rasta corte qui lento leerlo kirk se guarda en tus contactos llamalo y te marca el punto de encuentro en el mapa solo se puede hacer de noche desde el capitulo uno con yeison o con lucia si es de dia duerme en casa para pasar el tiempo tiene varios finales y en la mayoria te llevas mil dolares una guia habla de mas dinero en uno de ellos pero no esta confirmado ya conociste al chancay cuentame que final elegiste",
+  "asr_match_full_voice": 0.879,
+  "repeated_word_events": 0,
+  "clipping_samples": 0,
+  "subtitles_match_script": true,
+  "problems": [],
+  "verdict": "PASS"
+ }
+}

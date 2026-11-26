@@ -1,0 +1,87 @@
+{
+ "id": "short_15",
+ "slug": "es-gta6-online",
+ "title": "¿Cuándo sale GTA 6 ONLINE? Lo que se sabe de verdad 🌐 #gta6 #shorts",
+ "scenes": [
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.857,
+   "long_gaps": [],
+   "recognized": "cuando sale de haceis online es de lo mas buscado ahora mismo esto es lo que se sabe de verdad",
+   "duration": 5.67,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.87,
+   "long_gaps": [],
+   "recognized": "rockstar presento ojete haceis como un juego para un jugador y todavia no ha anunciado ningun modo online ni fecha ni nombre",
+   "duration": 7.21,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.816,
+   "long_gaps": [],
+   "recognized": "y ahi son slayer de bloomberg in formo en octubre que el multijugador se espera para dos mil veintisiete pero no es un anuncio de rockstar",
+   "duration": 7.89,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "y ojo la imagen viral que dice que sale en marzo de dos mil veintisiete con pinta de comunicado de rockstar es falsa",
+   "duration": 6.83,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.857,
+   "long_gaps": [],
+   "recognized": "mientras tanto de tu dice que seguira apoyando el de a online actual y no se ha anunciado que tu progreso pase al nuevo",
+   "duration": 7.1,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.923,
+   "long_gaps": [],
+   "recognized": "vas a esperar al online o te quedas con la historia de leo",
+   "duration": 3.35,
+   "ok": true
+  }
+ ],
+ "duration": 40.34,
+ "assets_used": [
+  "Mount_Kalaga_National_Park_01",
+  "Cal_Hampton_04",
+  "Vice_City_14",
+  "Vice_City_20",
+  "Ambrosia_01",
+  "Port_Gellhorn_01",
+  "sticker_lowrider"
+ ],
+ "qc": {
+  "resolution": "1080x1920",
+  "duration": 40.34,
+  "has_audio": true,
+  "black_segments": 0,
+  "silences_over_0.8s": 0,
+  "loudness_lufs": -15.2,
+  "true_peak_dbfs": -0.9,
+  "recognized_text": "cuando sale te seis online es de lo mas buscado ahora mismo esto es lo que se sabe de verdad rockstar presento ojete haceis como un juego para un jugador y todavia no ha anunciado ningun modo online ni fecha ni nombre yeison slayer de bloomberg in formo en octubre que el multijugador se espera para dos mil veintisiete pero no no es un anuncio de rockstar piojo la imagen viral que dice que sale en marzo de dos mil veintisiete con pinta de comunicado de rockstar es falsa mientras tanto de tu dice que seguira apoyando el te a online actual y no se ha anunciado que tu progreso pase al nuevo vas a esperar al online o te quedas con la historia de leo",
+  "asr_match_full_voice": 0.898,
+  "repeated_word_events": 0,
+  "clipping_samples": 0,
+  "subtitles_match_script": true,
+  "problems": [],
+  "verdict": "PASS"
+ }
+}

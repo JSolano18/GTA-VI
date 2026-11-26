@@ -1,0 +1,87 @@
+{
+ "id": "short_16",
+ "slug": "es-primer-parche",
+ "title": "ACTUALIZA GTA 6 YA: el primer parche arregla ESTO 🔧 #gta6 #shorts",
+ "scenes": [
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.909,
+   "long_gaps": [],
+   "recognized": "si tu partida de seis no se guardaba bien actualiza ya salio el primer parche",
+   "duration": 5.1,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "es la primera actualizacion desde el lanzamiento y empezo a llegar el veintitres de noviembre por fases",
+   "duration": 5.8,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.8,
+   "long_gaps": [],
+   "recognized": "la regla del auto guardado que podia hacerte perder progreso algunos cierres del juego y el clima que dejaba de cambiar",
+   "duration": 6.66,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.962,
+   "long_gaps": [],
+   "recognized": "y tambien las llamadas que no activan misiones un fallo al quitarte el nivel de busqueda y el peso muerto del gimnasio siete arreglos en total",
+   "duration": 8.26,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 0.97,
+   "asr_match": 0.821,
+   "long_gaps": [],
+   "recognized": "pesa unos seiscientos megas empece cinco y uno coma seis gigas en equis box no trae misiones ni contenido nuevo",
+   "duration": 7.16,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.941,
+   "long_gaps": [],
+   "recognized": "ojos rockstar no ha dicho si se puede recuperar lo perdido a ti te paso te leo",
+   "duration": 4.71,
+   "ok": true
+  }
+ ],
+ "duration": 39.97,
+ "assets_used": [
+  "Jason_Duval_09",
+  "Brian_Heder_02",
+  "Lucia_Caminos_04",
+  "Raul_Bautista_02",
+  "Vice_City_21",
+  "Cal_Hampton_01",
+  "sticker_crab"
+ ],
+ "qc": {
+  "resolution": "1080x1920",
+  "duration": 39.97,
+  "has_audio": true,
+  "black_segments": 0,
+  "silences_over_0.8s": 0,
+  "loudness_lufs": -15.4,
+  "true_peak_dbfs": -1.1,
+  "recognized_text": "si tu partida de seis no se guardaba bien actualiza ya salio el primer parche es la primera actualizacion desde el lanzamiento y empezo a llegar el veintitres de noviembre por fases regla el auto guardado que podia hacerte perder progreso algunos cierres del juego y el clima que dejaba de cambiar y tambien las llamadas que no activan misiones un fallo al quitarte el nivel de busqueda y el peso muerto del gimnasio siete arreglos en total pesa unos seiscientos megas empece cinco y uno coma seis gigas en equis box no trae misiones ni contenido nuevo ojos rockstar no ha dicho si se puede recuperar lo perdido a ti te paso te leo",
+  "asr_match_full_voice": 0.918,
+  "repeated_word_events": 0,
+  "clipping_samples": 0,
+  "subtitles_match_script": true,
+  "problems": [],
+  "verdict": "PASS"
+ }
+}

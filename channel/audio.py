@@ -41,6 +41,8 @@ PRON = [
     (r"\bThe Vault\b", "De Volt"), (r"\bThe Sniper of La Perle\b", "De Snáiper of La Perl"), (r"\bNINE1NINE\b", "Náin Uán Náin"),
     (r"\bJack of Hearts\b", "Yak of Jarts"), (r"\bDowntown\b", "Dáuntaun"), (r"\bCrosstown\b", "Króstaun"),
     (r"\bAunt Zola's Soul Food\b", "Ant Zólas Soul Fud"), (r"\bR1\b", "erre uno"),
+    (r"\bGameSpot\b", "Guéim Spot"), (r"\bSchreier\b", "Shráier"), (r"\bSkunk Ape\b", "Skank Eip"), (r"\bSkeeter's\b", "Skíters"),
+    (r"\bRusty Anchor\b", "Rasti Ánkor"), (r"\bHamlet\b", "Jámlet"), (r"\bONLINE\b", "onláin"), (r"\bOnline\b", "Onláin"), (r"\bport\b", "port"),
     (r"\bonline\b", "onláin"), (r"\bspoilers?\b", "espóiler"), (r"\bPro\b", "Pro"), (r"\bOceanía\b", "Oceanía"),
 ]
 

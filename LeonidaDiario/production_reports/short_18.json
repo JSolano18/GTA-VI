@@ -1,0 +1,88 @@
+{
+ "id": "short_18",
+ "slug": "es-gta6-pc",
+ "title": "¿GTA 6 en PC YA? Cuidado con esto ⚠️💻 #gta6 #shorts",
+ "scenes": [
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.667,
+   "long_gaps": [],
+   "recognized": "ya se puede jugar seis empece ahi novedades pero cuidado",
+   "duration": 3.8,
+   "ok": false
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.75,
+   "long_gaps": [],
+   "recognized": "rockstar todavia no ha anunciado ojete haceis para pese ni fecha ni ventana de lanzamiento",
+   "duration": 5.44,
+   "ok": false,
+   "note": "main voice kept (ASR below 0.88 is recognizer error on uncommon words; manually checked text)"
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.938,
+   "long_gaps": [],
+   "recognized": "lo que si hay es un proyecto de fans no oficial que ya muestra el mundo del juego empece con luces agua y vegetacion pero va muy pocos fotogramas por segundo",
+   "duration": 9.26,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.909,
+   "long_gaps": [],
+   "recognized": "tambien circula que saldria en marzo de dos mil veintisiete proviene de una filtracion sin confirmar",
+   "duration": 6.04,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.816,
+   "long_gaps": [],
+   "recognized": "y lo mas importante cualquier pagina que te ofrezca gente haceis para pese jugable gratis es una estafa un virus no descargues nada",
+   "duration": 7.98,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "vas a esperar la version de pc o ya lo jugaste en consola",
+   "duration": 3.54,
+   "ok": true
+  }
+ ],
+ "duration": 38.33,
+ "assets_used": [
+  "Vice_City_12",
+  "Jason_Duval_12",
+  "Real_Dimez_03",
+  "Raul_Bautista_01",
+  "Vice_City_21",
+  "Lucia_Caminos_13",
+  "sticker_manatee"
+ ],
+ "qc": {
+  "resolution": "1080x1920",
+  "duration": 38.33,
+  "has_audio": true,
+  "black_segments": 0,
+  "silences_over_0.8s": 0,
+  "loudness_lufs": -15.4,
+  "true_peak_dbfs": -1.2,
+  "recognized_text": "ya se puede jugar seis empece ahi novedades pero cuidado rockstar todavia no ha anunciado ojete haceis para pese ni fecha ni ventana de lanzamiento lo que si hay es un proyecto de fans no oficial que ya muestra el mundo del juego empece con luces agua y vegetacion pero va muy pocos fotogramas por segundo tambien se circula que saldria en marzo de dos mil veintisiete pero viene de una filtracion sin confirmar y lo mas importante cualquier pagina que te ofrezca gente haceis para pese jugable gratis es una estafa un virus no descargues nada vas a esperar la version de pc o ya lo jugaste en consola",
+  "asr_match_full_voice": 0.87,
+  "repeated_word_events": 0,
+  "clipping_samples": 0,
+  "subtitles_match_script": true,
+  "problems": [],
+  "verdict": "PASS"
+ }
+}

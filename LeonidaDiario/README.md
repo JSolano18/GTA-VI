@@ -17,6 +17,11 @@ No se ha subido nada. Todo está listo para YouTube Shorts, TikTok e Instagram R
 | 1 | Hay un PORTAL SECRETO a VICE CITY 2002 en GTA 6 🌀 #gta6 #shorts | 46.84 s | PASS | 0.9 | 7 official stills, official animated sticker | `shorts/short_11/short_11.mp4` |
 | 2 | Las 2 RADIOS SECRETAS de GTA 6 (cómo desbloquearlas) 📻🔓 #gta6 #shorts | 38.25 s | PASS (manual review) | 0.797 | 6 official stills, official animated sticker | `shorts/short_12/short_12.mp4` |
 | 3 | Así se ROBA un CAJERO ENTERO en GTA 6 🏧🪝 #gta6 #shorts | 33.62 s | PASS | 0.946 | 6 official stills, official animated sticker | `shorts/short_13/short_13.mp4` |
+| 4 | GTA 6 tiene VARIOS FINALES (y de qué dependen) 🎬 #gta6 #shorts | 39.44 s | PASS | 0.954 | 6 official stills, official animated sticker | `shorts/short_14/short_14.mp4` |
+| 5 | ¿Cuándo sale GTA 6 ONLINE? Lo que se sabe de verdad 🌐 #gta6 #shorts | 40.34 s | PASS | 0.898 | 6 official stills, official animated sticker | `shorts/short_15/short_15.mp4` |
+| 6 | ACTUALIZA GTA 6 YA: el primer parche arregla ESTO 🔧 #gta6 #shorts | 39.97 s | PASS | 0.918 | 6 official stills, official animated sticker | `shorts/short_16/short_16.mp4` |
+| 7 | Cómo encontrar al BIGFOOT de GTA 6 (Skunk Ape) 🦍 #gta6 #shorts | 37.57 s | PASS | 0.879 | 6 official stills, official animated sticker | `shorts/short_17/short_17.mp4` |
+| 8 | ¿GTA 6 en PC YA? Cuidado con esto ⚠️💻 #gta6 #shorts | 38.33 s | PASS | 0.87 | 6 official stills, official animated sticker | `shorts/short_18/short_18.mp4` |
 
 Folders: `shorts/` finished videos · `scripts/` narration · `voiceovers/` clean voice stems · `sources/` claim-by-claim sources and topic scoring · `metadata/` titles, descriptions, hashtags, pinned comments, assets used · `production_reports/` QC + benchmark analysis.
 
@@ -305,3 +310,113 @@ Imágenes: Rockstar Games · Animación del cajero: ilustración. Canal de fans 
 **Narration per scene:** 1: em_alex ×1.0 match 0.839; 2: em_alex ×1.0 match 1.0; 3: em_alex ×1.0 match 0.909; 4: em_alex ×1.0 match 1.0; 5: em_alex ×1.0 match 0.938; 6: em_alex ×1.0 match 0.909
 
 **QC:** {"resolution": "1080x1920", "duration": 33.62, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.2, "true_peak_dbfs": -0.9, "recognized_text": "a seis puedes arrancar un cajero entero de la pared con una grua primero en un taller ponle un cabrestante con gancho a tu vehiculo una guia dice que cuesta mil quinientos noventa y cinco dolares despues da marcha atras hasta un cajero exterior engancha lo y acelera para arrancarlo de la pared ojo no todos los cajeros se pueden arrancar si uno no engancha prueba con otro luego arrastrarlo hasta que se rompa o abrelo con un explosivo y el dinero es tuyo eso si con la policia de seis mejor que nadie te vea ya lo probaste", "asr_match_full_voice": 0.946, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
+
+## short_14: GTA 6 tiene VARIOS FINALES (y de qué dependen) 🎬 #gta6 #shorts
+
+**Why this topic:** Petición directa del dueño del canal (tutorial de búsqueda frecuente: cómo poner primera persona).
+
+**Description:**
+```
+GTA 6 no tiene un solo final. Qué influye: tu relación con Lucía, el perfil criminal, el dinero ahorrado y la última misión. Sin spoilers.
+
+#gta6 #gtavi #gta6final #finales #jasonylucia #rockstargames #shorts
+
+Imágenes: Rockstar Games. Canal de fans no oficial, sin afiliación con Rockstar Games ni Take-Two. Narración con voz generada por IA.
+```
+**Pinned comment:** ¿Qué final te tocó? 🎬 Sin spoilers en los comentarios, por favor.
+
+**Files:** `shorts/short_14/` (mp4, cover jpg, srt, title/description/tags), script `scripts/short_14.txt`, voice `voiceovers/short_14_voice.wav`, sources `sources/short_14.md`, report `production_reports/short_14.json`.
+
+**Visual assets:** Jason_and_Lucia_02, Jason_and_Lucia_07, Jason_and_Lucia_14, Jason_and_Lucia_19, Lucia_Caminos_14, Vice_City_17, sticker_flamingo
+
+**Narration per scene:** 1: em_alex ×1.0 match 0.828; 2: em_alex ×1.0 match 0.933; 3: em_alex ×1.0 match 0.909; 4: em_alex ×1.0 match 1.0; 5: em_alex ×1.0 match 1.0; 6: em_alex ×1.0 match 1.0
+
+**QC:** {"resolution": "1080x1920", "duration": 39.44, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.5, "true_peak_dbfs": -0.7, "recognized_text": "sabias que te seis no tiene un solo final tranquilo aqui no hay spoiler cain spot habla de al menos cuatro finales y las guias de la comunidad cuentan entre cinco y nueve segun como los cuentes lo primero que fluye es tu relacion con lucia varias guias dicen que con una relacion alta se desbloquear los mejores finales tambien cuenta el perfil criminal de cada uno y cuanto dinero tengan ahorrado en la cuenta familiar y por ultimo tus decisiones en la mision final hay un clip viral de uno de los finales posibles y no termina nada bien si quieres ver otro final las guias recomiendan cargar una partida anterior que final te toco a ti", "asr_match_full_voice": 0.954, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
+
+## short_15: ¿Cuándo sale GTA 6 ONLINE? Lo que se sabe de verdad 🌐 #gta6 #shorts
+
+**Why this topic:** Petición directa del dueño del canal (tutorial de búsqueda frecuente: cómo poner primera persona).
+
+**Description:**
+```
+No hay anuncio oficial de GTA 6 Online. Bloomberg apunta a 2027, la imagen viral de marzo de 2027 es falsa y Take-Two seguirá con el GTA Online actual.
+
+#gta6 #gtavi #gta6online #gtaonline #rockstargames #gaming #shorts
+
+Imágenes: Rockstar Games. Canal de fans no oficial, sin afiliación con Rockstar Games ni Take-Two. Narración con voz generada por IA.
+```
+**Pinned comment:** ¿Esperas al online o te quedas con la historia? 🌐
+
+**Files:** `shorts/short_15/` (mp4, cover jpg, srt, title/description/tags), script `scripts/short_15.txt`, voice `voiceovers/short_15_voice.wav`, sources `sources/short_15.md`, report `production_reports/short_15.json`.
+
+**Visual assets:** Ambrosia_01, Cal_Hampton_04, Mount_Kalaga_National_Park_01, Port_Gellhorn_01, Vice_City_14, Vice_City_20, sticker_lowrider
+
+**Narration per scene:** 1: em_alex ×1.0 match 0.857; 2: em_alex ×1.0 match 0.87; 3: em_alex ×1.0 match 0.816; 4: em_alex ×1.0 match 1.0; 5: em_alex ×1.0 match 0.857; 6: em_alex ×1.0 match 0.923
+
+**QC:** {"resolution": "1080x1920", "duration": 40.34, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.2, "true_peak_dbfs": -0.9, "recognized_text": "cuando sale te seis online es de lo mas buscado ahora mismo esto es lo que se sabe de verdad rockstar presento ojete haceis como un juego para un jugador y todavia no ha anunciado ningun modo online ni fecha ni nombre yeison slayer de bloomberg in formo en octubre que el multijugador se espera para dos mil veintisiete pero no no es un anuncio de rockstar piojo la imagen viral que dice que sale en marzo de dos mil veintisiete con pinta de comunicado de rockstar es falsa mientras tanto de tu dice que seguira apoyando el te a online actual y no se ha anunciado que tu progreso pase al nuevo vas a esperar al online o te quedas con la historia de leo", "asr_match_full_voice": 0.898, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
+
+## short_16: ACTUALIZA GTA 6 YA: el primer parche arregla ESTO 🔧 #gta6 #shorts
+
+**Why this topic:** Petición directa del dueño del canal (tutorial de búsqueda frecuente: cómo poner primera persona).
+
+**Description:**
+```
+La primera actualización de GTA 6 (01.002.002, 23 de noviembre) trae 7 arreglos: autoguardado, cierres, clima atascado, llamadas de misión y más. Sin contenido nuevo.
+
+#gta6 #gtavi #gta6update #parche #gta6bugs #rockstargames #shorts
+
+Imágenes: Rockstar Games. Canal de fans no oficial, sin afiliación con Rockstar Games ni Take-Two. Narración con voz generada por IA.
+```
+**Pinned comment:** ¿Perdiste progreso antes del parche? 😩 Cuéntame.
+
+**Files:** `shorts/short_16/` (mp4, cover jpg, srt, title/description/tags), script `scripts/short_16.txt`, voice `voiceovers/short_16_voice.wav`, sources `sources/short_16.md`, report `production_reports/short_16.json`.
+
+**Visual assets:** Brian_Heder_02, Cal_Hampton_01, Jason_Duval_09, Lucia_Caminos_04, Raul_Bautista_02, Vice_City_21, sticker_crab
+
+**Narration per scene:** 1: em_alex ×1.0 match 0.909; 2: em_alex ×1.0 match 1.0; 3: em_alex ×1.0 match 0.8; 4: em_alex ×1.0 match 0.962; 5: em_alex ×0.97 match 0.821; 6: em_alex ×1.0 match 0.941
+
+**QC:** {"resolution": "1080x1920", "duration": 39.97, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.4, "true_peak_dbfs": -1.1, "recognized_text": "si tu partida de seis no se guardaba bien actualiza ya salio el primer parche es la primera actualizacion desde el lanzamiento y empezo a llegar el veintitres de noviembre por fases regla el auto guardado que podia hacerte perder progreso algunos cierres del juego y el clima que dejaba de cambiar y tambien las llamadas que no activan misiones un fallo al quitarte el nivel de busqueda y el peso muerto del gimnasio siete arreglos en total pesa unos seiscientos megas empece cinco y uno coma seis gigas en equis box no trae misiones ni contenido nuevo ojos rockstar no ha dicho si se puede recuperar lo perdido a ti te paso te leo", "asr_match_full_voice": 0.918, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
+
+## short_17: Cómo encontrar al BIGFOOT de GTA 6 (Skunk Ape) 🦍 #gta6 #shorts
+
+**Why this topic:** Petición directa del dueño del canal (tutorial de búsqueda frecuente: cómo poner primera persona).
+
+**Description:**
+```
+La misión secreta del Skunk Ape, el Bigfoot de Leonida: dónde está el panfleto, cómo llamar a Kirk, cuándo se puede hacer y qué premio da.
+
+#gta6 #gtavi #bigfoot #skunkape #gta6secretos #rockstargames #shorts
+
+Imágenes: Rockstar Games. Canal de fans no oficial, sin afiliación con Rockstar Games ni Take-Two. Narración con voz generada por IA.
+```
+**Pinned comment:** ¿Qué final elegiste con el Skunk Ape? 🦍
+
+**Files:** `shorts/short_17/` (mp4, cover jpg, srt, title/description/tags), script `scripts/short_17.txt`, voice `voiceovers/short_17_voice.wav`, sources `sources/short_17.md`, report `production_reports/short_17.json`.
+
+**Visual assets:** Grassrivers_02, Grassrivers_03, Grassrivers_04, Grassrivers_06, Mount_Kalaga_National_Park_02, Mount_Kalaga_National_Park_06, sticker_gator
+
+**Narration per scene:** 1: em_alex ×1.04 match 0.684; 2: em_alex ×1.0 match 0.783; 3: em_alex ×1.0 match 0.973; 4: em_alex ×1.0 match 0.962; 5: em_alex ×1.0 match 1.0; 6: em_alex ×1.0 match 0.824
+
+**QC:** {"resolution": "1080x1920", "duration": 37.56, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.4, "true_peak_dbfs": -1.2, "recognized_text": "los pantanos de seis vive el chancay el big foot de leon y tiene su propia mision primero busca el panfleto en el bars quiteria en hamlet una guia dice que tambien hay en el rasta corte qui lento leerlo kirk se guarda en tus contactos llamalo y te marca el punto de encuentro en el mapa solo se puede hacer de noche desde el capitulo uno con yeison o con lucia si es de dia duerme en casa para pasar el tiempo tiene varios finales y en la mayoria te llevas mil dolares una guia habla de mas dinero en uno de ellos pero no esta confirmado ya conociste al chancay cuentame que final elegiste", "asr_match_full_voice": 0.879, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}
+
+## short_18: ¿GTA 6 en PC YA? Cuidado con esto ⚠️💻 #gta6 #shorts
+
+**Why this topic:** Petición directa del dueño del canal (tutorial de búsqueda frecuente: cómo poner primera persona).
+
+**Description:**
+```
+Rockstar no ha anunciado GTA 6 para PC. Un port de fans no oficial ya muestra el mundo a muy pocos FPS, el rumor de marzo de 2027 no está confirmado, y las 'descargas gratis' son estafas.
+
+#gta6 #gtavi #gta6pc #pcgaming #estafas #rockstargames #shorts
+
+Imágenes: Rockstar Games. Canal de fans no oficial, sin afiliación con Rockstar Games ni Take-Two. Narración con voz generada por IA.
+```
+**Pinned comment:** ¿Esperas la versión de PC o ya lo jugaste en consola? 💻🎮
+
+**Files:** `shorts/short_18/` (mp4, cover jpg, srt, title/description/tags), script `scripts/short_18.txt`, voice `voiceovers/short_18_voice.wav`, sources `sources/short_18.md`, report `production_reports/short_18.json`.
+
+**Visual assets:** Jason_Duval_12, Lucia_Caminos_13, Raul_Bautista_01, Real_Dimez_03, Vice_City_12, Vice_City_21, sticker_manatee
+
+**Narration per scene:** 1: em_alex ×1.0 match 0.667; 2: em_alex ×1.0 match 0.75; 3: em_alex ×1.0 match 0.938; 4: em_alex ×1.0 match 0.909; 5: em_alex ×1.0 match 0.816; 6: em_alex ×1.0 match 1.0
+
+**QC:** {"resolution": "1080x1920", "duration": 38.33, "has_audio": true, "black_segments": 0, "silences_over_0.8s": 0, "loudness_lufs": -15.4, "true_peak_dbfs": -1.2, "recognized_text": "ya se puede jugar seis empece ahi novedades pero cuidado rockstar todavia no ha anunciado ojete haceis para pese ni fecha ni ventana de lanzamiento lo que si hay es un proyecto de fans no oficial que ya muestra el mundo del juego empece con luces agua y vegetacion pero va muy pocos fotogramas por segundo tambien se circula que saldria en marzo de dos mil veintisiete pero viene de una filtracion sin confirmar y lo mas importante cualquier pagina que te ofrezca gente haceis para pese jugable gratis es una estafa un virus no descargues nada vas a esperar la version de pc o ya lo jugaste en consola", "asr_match_full_voice": 0.87, "repeated_word_events": 0, "clipping_samples": 0, "subtitles_match_script": true, "problems": [], "verdict": "PASS"}

@@ -1,0 +1,87 @@
+{
+ "id": "short_14",
+ "slug": "es-finales",
+ "title": "GTA 6 tiene VARIOS FINALES (y de qué dependen) 🎬 #gta6 #shorts",
+ "scenes": [
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.828,
+   "long_gaps": [],
+   "recognized": "sabias que seis no tiene un solo final tranquilo aqui no hay spoiler",
+   "duration": 4.31,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.933,
+   "long_gaps": [],
+   "recognized": "que spot habla de al menos cuatro finales y las guias de la comunidad cuentan entre cinco y nueve segun como los cuentes",
+   "duration": 6.83,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 0.909,
+   "long_gaps": [],
+   "recognized": "lo primero que fluye es tu relacion con lucia varias guias dicen que con una relacion alta se desbloquear los mejores finales",
+   "duration": 7.77,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "tambien cuenta el perfil criminal de cada uno y cuanto dinero tengan ahorrado en la cuenta familiar",
+   "duration": 5.53,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "y por ultimo tus decisiones en la mision final hay un clip viral de uno de los finales posibles y no termina nada bien",
+   "duration": 6.89,
+   "ok": true
+  },
+  {
+   "voice": "em_alex",
+   "speed": 1.0,
+   "asr_match": 1.0,
+   "long_gaps": [],
+   "recognized": "si quieres ver otro final las guias recomiendan cargar una partida anterior que final te toco a ti",
+   "duration": 5.85,
+   "ok": true
+  }
+ ],
+ "duration": 39.44,
+ "assets_used": [
+  "Jason_and_Lucia_14",
+  "Jason_and_Lucia_07",
+  "Jason_and_Lucia_19",
+  "Jason_and_Lucia_02",
+  "Vice_City_17",
+  "Lucia_Caminos_14",
+  "sticker_flamingo"
+ ],
+ "qc": {
+  "resolution": "1080x1920",
+  "duration": 39.44,
+  "has_audio": true,
+  "black_segments": 0,
+  "silences_over_0.8s": 0,
+  "loudness_lufs": -15.5,
+  "true_peak_dbfs": -0.7,
+  "recognized_text": "sabias que te seis no tiene un solo final tranquilo aqui no hay spoiler cain spot habla de al menos cuatro finales y las guias de la comunidad cuentan entre cinco y nueve segun como los cuentes lo primero que fluye es tu relacion con lucia varias guias dicen que con una relacion alta se desbloquear los mejores finales tambien cuenta el perfil criminal de cada uno y cuanto dinero tengan ahorrado en la cuenta familiar y por ultimo tus decisiones en la mision final hay un clip viral de uno de los finales posibles y no termina nada bien si quieres ver otro final las guias recomiendan cargar una partida anterior que final te toco a ti",
+  "asr_match_full_voice": 0.954,
+  "repeated_word_events": 0,
+  "clipping_samples": 0,
+  "subtitles_match_script": true,
+  "problems": [],
+  "verdict": "PASS"
+ }
+}
